@@ -35,7 +35,7 @@ def main(out):
     chk = json.load(open(f"{out}/Validation/data/selfcheck.json"))
     by_slug = {d["slug"]: d for d in devices.DEVICES}
 
-    L = ["# Makebot assistive devices - print files for the Bambu Lab P1S", ""]
+    L = ["# MakeAble assistive devices - print files for the Bambu Lab P1S", ""]
     L.append("Every file here is set up for a **Bambu Lab P1S, 0.4 nozzle, textured PEI "
              "plate**, saved in Bambu Studio 2.2.2 format. Open one, check the plate, hit "
              "slice. Nothing needs to be re-arranged or re-configured.")

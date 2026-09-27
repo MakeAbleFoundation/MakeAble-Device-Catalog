@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""The Makebot catalogue: which file is the source of truth for each device.
+"""The MakeAble catalogue: which file is the source of truth for each device.
 
 Every MakerWorld `profileId` in the brief was matched against the `DesignProfileId`
 stored inside the local 3mf, so `ref` below is the exact profile that was linked.

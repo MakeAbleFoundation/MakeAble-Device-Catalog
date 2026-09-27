@@ -92,8 +92,8 @@ def main(out_path, previews=None):
 
     today = datetime.date.today().isoformat()
     p3mf.write_project(out_path, placements, cfg, base_ref,
-                       meta_override={"Title": "Makebot assistive devices - one per plate",
-                                      "Designer": "Makebot",
+                       meta_override={"Title": "MakeAble assistive devices - one per plate",
+                                      "Designer": "MakeAble",
                                       "Application": "BambuStudio-" + settings.STUDIO_VERSION,
                                       "ModificationDate": today, "CreationDate": today},
                        plate_names=plate_names, keep_aux=False, strip_design_meta=True)
