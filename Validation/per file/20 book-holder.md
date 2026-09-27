@@ -1,6 +1,7 @@
 # 20 One-Handed Page Holder
 
 - file: `Full Plates/20 One-Handed Page Holder - PLA x23.3mf`
+- source: https://makerworld.com/en/models/1740474-one-handed-page-holder#profileId-1849552
 - reference 3mf: `Other/One_Handed_Book_Holder.3mf`
 - designer: MakeAble
 - material: PLA (Bambu PLA Basic @BBL X1C)

@@ -91,8 +91,8 @@ def slice_refs(out):
 
 
 def slice_catalogue(out):
-    """One Orca run per plate: slicing all 31 at once segfaults the slicer, and this way
-    a problem on one plate doesn't hide the other thirty."""
+    """One Orca run per plate: slicing all 30 at once segfaults the slicer, and this way
+    a problem on one plate doesn't hide the others."""
     path = os.path.join(out, "Catalogue - one device per plate.3mf")
     rows = _try(data_path(out, "catalogue_data.json"), {}).get("rows", [])
     n_plates = len(rows) or len(devices.DEVICES)

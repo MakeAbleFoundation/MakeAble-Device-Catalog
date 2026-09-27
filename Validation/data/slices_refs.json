@@ -415,27 +415,5 @@
         "used_g": 25.7
       }
     }
-  },
-  "toothpaste-squeezer": {
-    "ref": "/Users/justinrui/Desktop/M/Other/Toothpaste+Squeezer+4.0.3mf",
-    "units": {
-      "1": 1
-    },
-    "per_unit_cm3": {
-      "1": 31.9
-    },
-    "ok": true,
-    "plates": {
-      "1": {
-        "model_time": "1h 36m 47s",
-        "total_time": "1h 41m 56s",
-        "layers": "493",
-        "density": "1.26",
-        "max_z": "98.60",
-        "used_mm": 13262.7,
-        "used_cm3": 31.9,
-        "used_g": 40.19
-      }
-    }
   }
 }

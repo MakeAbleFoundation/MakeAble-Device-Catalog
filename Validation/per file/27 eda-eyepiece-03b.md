@@ -1,8 +1,8 @@
-# 31 Eye Drop Assist eyepiece 04 E
+# 27 Eye Drop Assist eyepiece 03 B
 
-- file: `Full Plates/31 Eye Drop Assist eyepiece 04 E - PLA x35.3mf`
+- file: `Full Plates/27 Eye Drop Assist eyepiece 03 B - PLA x35.3mf`
 - source: https://www.printables.com/model/1031668-eye-drop-assist-for-bottles
-- reference 3mf: `Eye Drop Assist (PLA)/eda_eyepiece_04_e.stl`
+- reference 3mf: `Eye Drop Assist (PLA)/EDA_EyePiece_03_B.stl`
 - designer: jhw (Printables)
 - material: PLA (Bambu PLA Basic @BBL X1C)
 - on the plate: 35 copies (35 objects)
@@ -13,8 +13,8 @@
 | 0.20mm Standard @BBL X1C | 0.2 mm | 0.2 mm | 2 | 15% grid | off | auto_brim | 5/3 |
 
 ## Validation
-- Orca slice: passed - 5h 21m 16s, 130.9 g, 103.9 cm3
-- per copie: 2.97 cm3
+- Orca slice: passed - 4h 42m 50s, 113.4 g, 90.0 cm3
+- per copie: 2.57 cm3
 - geometry check: clean
 - clamped for Orca only (the delivered file keeps Bambu's values): tree_support_wall_count, raft_first_layer_expansion
 

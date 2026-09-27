@@ -275,19 +275,6 @@
     },
     {
       "plate": 22,
-      "slug": "toothpaste-squeezer",
-      "title": "Ratcheted Toothpaste Squeezer (kit)",
-      "material": "PLA",
-      "objects": 2,
-      "layer": "0.2",
-      "walls": "2",
-      "infill": "15%",
-      "support": "0",
-      "device_first_layer": "0.2",
-      "device_first_layer_speed": "50"
-    },
-    {
-      "plate": 23,
       "slug": "eda-pliers-bd20",
       "title": "Eye Drop Assist pliers (bottle 20 mm)",
       "material": "PLA",
@@ -300,7 +287,7 @@
       "device_first_layer_speed": "50"
     },
     {
-      "plate": 24,
+      "plate": 23,
       "slug": "eda-pliers-bd22",
       "title": "Eye Drop Assist pliers (bottle 22 mm)",
       "material": "PLA",
@@ -313,7 +300,7 @@
       "device_first_layer_speed": "50"
     },
     {
-      "plate": 25,
+      "plate": 24,
       "slug": "eda-pliers-bd24",
       "title": "Eye Drop Assist pliers (bottle 24 mm)",
       "material": "PLA",
@@ -326,7 +313,7 @@
       "device_first_layer_speed": "50"
     },
     {
-      "plate": 26,
+      "plate": 25,
       "slug": "eda-pliers-bd25",
       "title": "Eye Drop Assist pliers (bottle 25 mm)",
       "material": "PLA",
@@ -339,7 +326,7 @@
       "device_first_layer_speed": "50"
     },
     {
-      "plate": 27,
+      "plate": 26,
       "slug": "eda-eyepiece-03a",
       "title": "Eye Drop Assist eyepiece 03 A",
       "material": "PLA",
@@ -352,7 +339,7 @@
       "device_first_layer_speed": "50"
     },
     {
-      "plate": 28,
+      "plate": 27,
       "slug": "eda-eyepiece-03b",
       "title": "Eye Drop Assist eyepiece 03 B",
       "material": "PLA",
@@ -365,7 +352,7 @@
       "device_first_layer_speed": "50"
     },
     {
-      "plate": 29,
+      "plate": 28,
       "slug": "eda-eyepiece-03c",
       "title": "Eye Drop Assist eyepiece 03 C",
       "material": "PLA",
@@ -378,7 +365,7 @@
       "device_first_layer_speed": "50"
     },
     {
-      "plate": 30,
+      "plate": 29,
       "slug": "eda-eyepiece-04d",
       "title": "Eye Drop Assist eyepiece 04 D",
       "material": "PLA",
@@ -391,7 +378,7 @@
       "device_first_layer_speed": "50"
     },
     {
-      "plate": 31,
+      "plate": 30,
       "slug": "eda-eyepiece-04e",
       "title": "Eye Drop Assist eyepiece 04 E",
       "material": "PLA",

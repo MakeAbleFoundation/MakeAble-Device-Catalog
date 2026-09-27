@@ -1,8 +1,8 @@
-# 23 Eye Drop Assist pliers (bottle 20 mm)
+# 23 Eye Drop Assist pliers (bottle 22 mm)
 
-- file: `Full Plates/23 Eye Drop Assist pliers (bottle 20 mm) - PLA x2.3mf`
+- file: `Full Plates/23 Eye Drop Assist pliers (bottle 22 mm) - PLA x2.3mf`
 - source: https://www.printables.com/model/1031668-eye-drop-assist-for-bottles
-- reference 3mf: `Eye Drop Assist (PLA)/edab_pliers_07_bd20.stl`
+- reference 3mf: `Eye Drop Assist (PLA)/edab_pliers_07_bd22.stl`
 - designer: jhw (Printables)
 - material: PLA (Bambu PLA Basic @BBL X1C)
 - on the plate: 2 copies (2 objects)
@@ -13,8 +13,8 @@
 | 0.20mm Standard @BBL X1C | 0.2 mm | 0.2 mm | 2 | 15% grid | off | auto_brim | 5/3 |
 
 ## Validation
-- Orca slice: passed - 59m 33s, 29.0 g, 23.0 cm3
-- per copie: 11.50 cm3
+- Orca slice: passed - 59m 19s, 28.7 g, 22.8 cm3
+- per copie: 11.40 cm3
 - geometry check: clean
 - clamped for Orca only (the delivered file keeps Bambu's values): tree_support_wall_count, raft_first_layer_expansion
 

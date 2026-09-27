@@ -45,24 +45,23 @@ These files are **not** for the A1, A1 mini, X1C, P2S or H2 series without re-ch
 | 19 | 19 Arthritis Toothbrush Grip - PLA x25.3mf | PLA | 25 copies | 17h 34m 24s | 789.0 g | 0.2 mm | 2 | 15% | no | - |
 | 20 | 20 One-Handed Page Holder - PLA x23.3mf | PLA | 23 copies | 8h 10m 32s | 228.0 g | 0.16 mm | 3 | 15% | no | 100% |
 | 21 | 21 Smartphone Magnification Stand - PLA x12.3mf | PLA | 12 copies | 10h 10m 51s | 312.0 g | 0.16 mm | 2 | 15% | no | 100% |
-| 22 | 22 Ratcheted Toothpaste Squeezer (kit) - PLA x15.3mf | PLA | 15 kits | 21h 46m 24s | 606.0 g | 0.2 mm | 2 | 15% | no | 101% |
-| 23 | 23 Eye Drop Assist pliers (bottle 20 mm) - PLA x2.3mf | PLA | 2 copies | 59m 33s | 29.0 g | 0.2 mm | 2 | 15% | no | - |
-| 24 | 24 Eye Drop Assist pliers (bottle 22 mm) - PLA x2.3mf | PLA | 2 copies | 59m 19s | 29.0 g | 0.2 mm | 2 | 15% | no | - |
-| 25 | 25 Eye Drop Assist pliers (bottle 24 mm) - PLA x2.3mf | PLA | 2 copies | 58m 59s | 29.0 g | 0.2 mm | 2 | 15% | no | - |
-| 26 | 26 Eye Drop Assist pliers (bottle 25 mm) - PLA x2.3mf | PLA | 2 copies | 57m 5s | 28.0 g | 0.2 mm | 2 | 15% | no | - |
-| 27 | 27 Eye Drop Assist eyepiece 03 A - PLA x35.3mf | PLA | 35 copies | 5h 5m 14s | 118.0 g | 0.2 mm | 2 | 15% | no | - |
-| 28 | 28 Eye Drop Assist eyepiece 03 B - PLA x35.3mf | PLA | 35 copies | 4h 42m 50s | 113.0 g | 0.2 mm | 2 | 15% | no | - |
-| 29 | 29 Eye Drop Assist eyepiece 03 C - PLA x35.3mf | PLA | 35 copies | 5h 1m 57s | 122.0 g | 0.2 mm | 2 | 15% | no | - |
-| 30 | 30 Eye Drop Assist eyepiece 04 D - PLA x35.3mf | PLA | 35 copies | 5h 41m 16s | 137.0 g | 0.2 mm | 2 | 15% | no | - |
-| 31 | 31 Eye Drop Assist eyepiece 04 E - PLA x35.3mf | PLA | 35 copies | 5h 21m 16s | 131.0 g | 0.2 mm | 2 | 15% | no | - |
+| 22 | 22 Eye Drop Assist pliers (bottle 20 mm) - PLA x2.3mf | PLA | 2 copies | 59m 33s | 29.0 g | 0.2 mm | 2 | 15% | no | - |
+| 23 | 23 Eye Drop Assist pliers (bottle 22 mm) - PLA x2.3mf | PLA | 2 copies | 59m 19s | 29.0 g | 0.2 mm | 2 | 15% | no | - |
+| 24 | 24 Eye Drop Assist pliers (bottle 24 mm) - PLA x2.3mf | PLA | 2 copies | 58m 59s | 29.0 g | 0.2 mm | 2 | 15% | no | - |
+| 25 | 25 Eye Drop Assist pliers (bottle 25 mm) - PLA x2.3mf | PLA | 2 copies | 57m 5s | 28.0 g | 0.2 mm | 2 | 15% | no | - |
+| 26 | 26 Eye Drop Assist eyepiece 03 A - PLA x35.3mf | PLA | 35 copies | 5h 5m 14s | 118.0 g | 0.2 mm | 2 | 15% | no | - |
+| 27 | 27 Eye Drop Assist eyepiece 03 B - PLA x35.3mf | PLA | 35 copies | 4h 42m 50s | 113.0 g | 0.2 mm | 2 | 15% | no | - |
+| 28 | 28 Eye Drop Assist eyepiece 03 C - PLA x35.3mf | PLA | 35 copies | 5h 1m 57s | 122.0 g | 0.2 mm | 2 | 15% | no | - |
+| 29 | 29 Eye Drop Assist eyepiece 04 D - PLA x35.3mf | PLA | 35 copies | 5h 41m 16s | 137.0 g | 0.2 mm | 2 | 15% | no | - |
+| 30 | 30 Eye Drop Assist eyepiece 04 E - PLA x35.3mf | PLA | 35 copies | 5h 21m 16s | 131.0 g | 0.2 mm | 2 | 15% | no | - |
 
-All 31 plates together: about 5.8 kg of filament.
+All 30 plates together: about 5.2 kg of filament.
 
 The last column is the check that matters: filament per copy on your plate against a slice of the designer's own untouched file. 100% means the part comes out exactly as they set it up. The few at 95-96% are the P1S's elephant-foot compensation shaving the first layer, which their printer profile did not apply. A dash means there is nothing to compare against (loose STLs, or a size variant that shares another file's profile).
 
 ## Catalogue file
 
-`Catalogue - one device per plate.3mf` holds 31 plates, one device each, in the same order as the table above. Each plate keeps its own layer height, wall count, infill and support settings - those are baked onto the objects, so switching the process preset in Studio will not silently wipe them.
+`Catalogue - one device per plate.3mf` holds 30 plates, one device each, in the same order as the table above. Each plate keeps its own layer height, wall count, infill and support settings - those are baked onto the objects, so switching the process preset in Studio will not silently wipe them.
 
 Filament slot 1 is PLA, slot 2 is PETG, and every plate uses one or the other, so you only ever load one spool per plate.
 
@@ -88,7 +87,7 @@ The P1S cannot print in an 18 x 28 mm patch at the front-left corner (Bambu call
 
 For each device, in order:
 
-1. **Machine settings** always come from the P1S system preset. Nothing from the designer's printer (A1 mini, H2S, P2S) is carried over - no start/end gcode, no bed shape, no kinematics.
+1. **Machine settings** always come from the P1S system preset. Nothing from the designer's printer (A1 mini, H2S) is carried over - no start/end gcode, no bed shape, no kinematics.
 2. **Filament** is your own preset: `PETG P1S Tuned` for PETG, `Bambu PLA Basic @BBL X1C` for PLA.
 3. **Speeds, accelerations and elephant-foot compensation** follow the P1S preset, *unless* the designer had deliberately changed that value on their own printer - then their number wins.
 4. **Everything else** - walls, infill, shells, supports, brim, seams, line widths - is the designer's own value from their 3mf.
@@ -104,7 +103,7 @@ Bambu Studio's command-line slicer crashes on macOS (a known upstream bug), so s
 - meshes are byte-identical to the designer's, so painted seams survive;
 - each object carries its settings, and every object is on a plate.
 
-Structural checks: 32 files, 0 problems. All clean.
+Structural checks: 31 files, 0 problems. All clean.
 
 ## Worth knowing (nothing was changed)
 
@@ -118,7 +117,6 @@ Structural checks: 32 files, 0 problems. All clean.
 - **Flipper the Clipper v2 (Thingiverse)**: Flipper the Clipper v2 (Thingiverse): 452 mm2 of steep overhang with air under it (max drop 6.0 mm at z=8 mm) while supports are off in the designer's profile - worth a look at the preview
 - **Eating Utensil Aid (kit)**: Spoon Holder.stl: 610 mm2 of steep overhang with air under it (max drop 21.0 mm at z=23 mm) while supports are off in the designer's profile - worth a look at the preview
 - **Smartphone Magnification Stand**: Smartphone Magnification Stand.stl: 72 mm2 of steep overhang with air under it (max drop 5.0 mm at z=13 mm) while supports are off in the designer's profile - worth a look at the preview
-- **Ratcheted Toothpaste Squeezer (kit)**: Toothpaste Squeezer 4.0.stl: 427 mm2 of steep overhang with air under it (max drop 51.0 mm at z=80 mm) while supports are off in the designer's profile - worth a look at the preview
 - **Eye Drop Assist eyepiece 03 A**: Eye Drop Assist eyepiece 03 A: 130 mm2 of steep overhang with air under it (max drop 25.2 mm at z=25 mm) while supports are off in the designer's profile - worth a look at the preview
 - **Eye Drop Assist eyepiece 03 C**: Eye Drop Assist eyepiece 03 C: 158 mm2 of steep overhang with air under it (max drop 25.2 mm at z=25 mm) while supports are off in the designer's profile - worth a look at the preview
 - **Eye Drop Assist eyepiece 04 D**: Eye Drop Assist eyepiece 04 D: 168 mm2 of steep overhang with air under it (max drop 25.2 mm at z=25 mm) while supports are off in the designer's profile - worth a look at the preview
@@ -145,21 +143,20 @@ Structural checks: 32 files, 0 problems. All clean.
 | 16 | Eating Utensil Aid (kit) | `Eating Utensil Aid (PLA)/Eating+Utensil+Aid.3mf` | [page](https://makerworld.com/en/models/192317-eating-utensil-aid-no-supports-updated-v2-files-in#profileId-212499) |
 | 17 | Quick-Slip Shoe Horn | `Shoe Horn (PETG)/Shoe+Horn+3MF.3mf` | [page](https://makerworld.com/en/models/1024414-quick-slip-shoe-horn#profileId-1006338) |
 | 18 | Tuber Opener | `Tube Opener/Tube_Opener.3mf` | [page](https://makerworld.com/en/models/1737344-tuber-opener#profileId-1845987) |
-| 19 | Arthritis Toothbrush Grip | `Toothbrush Grip (PLA)/6066726cbda58_arthritis-toothbrush-grip/toofbrushgrip.stl` | - |
-| 20 | One-Handed Page Holder | `Other/One_Handed_Book_Holder.3mf` | - |
-| 21 | Smartphone Magnification Stand | `Other/Smartphone+Magnification+Stand.3mf` | - |
-| 22 | Ratcheted Toothpaste Squeezer (kit) | `Other/Toothpaste+Squeezer+4.0.3mf` | - |
-| 23 | Eye Drop Assist pliers (bottle 20 mm) | `Eye Drop Assist (PLA)/edab_pliers_07_bd20.stl` | [page](https://www.printables.com/model/1031668-eye-drop-assist-for-bottles) |
-| 24 | Eye Drop Assist pliers (bottle 22 mm) | `Eye Drop Assist (PLA)/edab_pliers_07_bd22.stl` | [page](https://www.printables.com/model/1031668-eye-drop-assist-for-bottles) |
-| 25 | Eye Drop Assist pliers (bottle 24 mm) | `Eye Drop Assist (PLA)/edab_pliers_07_bd24.stl` | [page](https://www.printables.com/model/1031668-eye-drop-assist-for-bottles) |
-| 26 | Eye Drop Assist pliers (bottle 25 mm) | `Eye Drop Assist (PLA)/EDA_Pliers_Bottle_06Bc_BD25.stl` | [page](https://www.printables.com/model/1031668-eye-drop-assist-for-bottles) |
-| 27 | Eye Drop Assist eyepiece 03 A | `Eye Drop Assist (PLA)/EDA_EyePiece_03_A.stl` | [page](https://www.printables.com/model/1031668-eye-drop-assist-for-bottles) |
-| 28 | Eye Drop Assist eyepiece 03 B | `Eye Drop Assist (PLA)/EDA_EyePiece_03_B.stl` | [page](https://www.printables.com/model/1031668-eye-drop-assist-for-bottles) |
-| 29 | Eye Drop Assist eyepiece 03 C | `Eye Drop Assist (PLA)/EDA_EyePiece_03_C.stl` | [page](https://www.printables.com/model/1031668-eye-drop-assist-for-bottles) |
-| 30 | Eye Drop Assist eyepiece 04 D | `Eye Drop Assist (PLA)/eda_eyepiece_04_d.stl` | [page](https://www.printables.com/model/1031668-eye-drop-assist-for-bottles) |
-| 31 | Eye Drop Assist eyepiece 04 E | `Eye Drop Assist (PLA)/eda_eyepiece_04_e.stl` | [page](https://www.printables.com/model/1031668-eye-drop-assist-for-bottles) |
+| 19 | Arthritis Toothbrush Grip | `Toothbrush Grip (PLA)/6066726cbda58_arthritis-toothbrush-grip/toofbrushgrip.stl` | [page](https://www.myminifactory.com/object/3d-print-arthritis-toothbrush-grip-77601) |
+| 20 | One-Handed Page Holder | `Other/One_Handed_Book_Holder.3mf` | [page](https://makerworld.com/en/models/1740474-one-handed-page-holder#profileId-1849552) |
+| 21 | Smartphone Magnification Stand | `Other/Smartphone+Magnification+Stand.3mf` | [page](https://makerworld.com/en/models/1737380-smartphone-magnification-stand#profileId-1846025) |
+| 22 | Eye Drop Assist pliers (bottle 20 mm) | `Eye Drop Assist (PLA)/edab_pliers_07_bd20.stl` | [page](https://www.printables.com/model/1031668-eye-drop-assist-for-bottles) |
+| 23 | Eye Drop Assist pliers (bottle 22 mm) | `Eye Drop Assist (PLA)/edab_pliers_07_bd22.stl` | [page](https://www.printables.com/model/1031668-eye-drop-assist-for-bottles) |
+| 24 | Eye Drop Assist pliers (bottle 24 mm) | `Eye Drop Assist (PLA)/edab_pliers_07_bd24.stl` | [page](https://www.printables.com/model/1031668-eye-drop-assist-for-bottles) |
+| 25 | Eye Drop Assist pliers (bottle 25 mm) | `Eye Drop Assist (PLA)/EDA_Pliers_Bottle_06Bc_BD25.stl` | [page](https://www.printables.com/model/1031668-eye-drop-assist-for-bottles) |
+| 26 | Eye Drop Assist eyepiece 03 A | `Eye Drop Assist (PLA)/EDA_EyePiece_03_A.stl` | [page](https://www.printables.com/model/1031668-eye-drop-assist-for-bottles) |
+| 27 | Eye Drop Assist eyepiece 03 B | `Eye Drop Assist (PLA)/EDA_EyePiece_03_B.stl` | [page](https://www.printables.com/model/1031668-eye-drop-assist-for-bottles) |
+| 28 | Eye Drop Assist eyepiece 03 C | `Eye Drop Assist (PLA)/EDA_EyePiece_03_C.stl` | [page](https://www.printables.com/model/1031668-eye-drop-assist-for-bottles) |
+| 29 | Eye Drop Assist eyepiece 04 D | `Eye Drop Assist (PLA)/eda_eyepiece_04_d.stl` | [page](https://www.printables.com/model/1031668-eye-drop-assist-for-bottles) |
+| 30 | Eye Drop Assist eyepiece 04 E | `Eye Drop Assist (PLA)/eda_eyepiece_04_e.stl` | [page](https://www.printables.com/model/1031668-eye-drop-assist-for-bottles) |
 
-Each MakerWorld link's profile id was matched against the `DesignProfileId` stored inside the local 3mf, so these are the exact profiles that were linked.
+Each MakerWorld link's profile id was matched against the `DesignProfileId` stored inside the local 3mf, so these are the exact profiles that were linked. The links for 19-21 (Arthritis Toothbrush Grip, One-Handed Page Holder, Smartphone Magnification Stand) were added afterwards from the model pages themselves.
 
 ## Look-alikes that were left out
 
@@ -176,5 +173,5 @@ Each MakerWorld link's profile id was matched against the `DesignProfileId` stor
 
 ## Still open
 
-- **Eye Drop Assist (files 23-31)**: the three Printables pages sit behind a bot check, so the designer's own print settings could not be read. Those files use the P1S 0.20 mm Standard profile in PLA. They also need a decision: whether a pliers and an eyepiece pair up into one device (in which case they should be kit plates) or are alternatives.
+- **Eye Drop Assist (files 22-30)**: the three Printables pages sit behind a bot check, so the designer's own print settings could not be read. Those files use the P1S 0.20 mm Standard profile in PLA. They also need a decision: whether a pliers and an eyepiece pair up into one device (in which case they should be kit plates) or are alternatives.
 

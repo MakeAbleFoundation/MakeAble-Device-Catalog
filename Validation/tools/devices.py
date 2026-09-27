@@ -117,23 +117,20 @@ DEVICES = [
       ref=M+"Tube Opener/Tube_Opener.3mf", indices=[0], material="PLA"),
  dict(id=19, slug="toothbrush-grip", title="Arthritis Toothbrush Grip",
       designer="MyMiniFactory",
+      link="https://www.myminifactory.com/object/3d-print-arthritis-toothbrush-grip-77601",
       stl=[M+"Toothbrush Grip (PLA)/6066726cbda58_arthritis-toothbrush-grip/toofbrushgrip.stl"],
       material="PLA",
       notes=["No designer profile exists; P1S 0.20 mm Standard used.",
              "Heavy part: check the reported filament weight before starting a full plate."]),
  dict(id=20, slug="book-holder", title="One-Handed Page Holder", designer="MakeAble",
+      link="https://makerworld.com/en/models/1740474-one-handed-page-holder#profileId-1849552",
       ref=M+"Other/One_Handed_Book_Holder.3mf", names=["One_Handed_Book_Holder.stl"],
       material="PLA"),
  dict(id=21, slug="phone-magnifier-stand", title="Smartphone Magnification Stand",
-      designer="MakeAble", ref=M+"Other/Smartphone+Magnification+Stand.3mf",
+      designer="MakeAble",
+      link="https://makerworld.com/en/models/1737380-smartphone-magnification-stand#profileId-1846025",
+      ref=M+"Other/Smartphone+Magnification+Stand.3mf",
       names=["Smartphone Magnification Stand.stl"], material="PLA"),
- dict(id=22, slug="toothpaste-squeezer", title="Ratcheted Toothpaste Squeezer (kit)",
-      designer="Andrew3d", ref=M+"Other/Toothpaste+Squeezer+4.0.3mf",
-      names=["Toothpaste Squeezer 4.0.stl", "Part Studio 3 - Part 3.stl"], kit=[1, 1],
-      material="PLA",
-      notes=["One kit = body + handle/shaft; the ratchet prints in place inside the body.",
-             "Profile was saved for a P2S, which this Studio doesn't ship; process values "
-             "kept, machine speeds and accelerations rebased to the P1S."]),
 ]
 
 EYE_DROP = [
@@ -147,7 +144,7 @@ EYE_DROP = [
  ("eda-eyepiece-04d", "Eye Drop Assist eyepiece 04 D", "eda_eyepiece_04_d.stl"),
  ("eda-eyepiece-04e", "Eye Drop Assist eyepiece 04 E", "eda_eyepiece_04_e.stl"),
 ]
-for i, (slug, title, fn) in enumerate(EYE_DROP, start=23):
+for i, (slug, title, fn) in enumerate(EYE_DROP, start=22):
     DEVICES.append(dict(
         id=i, slug=slug, title=title, designer="jhw (Printables)",
         link="https://www.printables.com/model/1031668-eye-drop-assist-for-bottles",

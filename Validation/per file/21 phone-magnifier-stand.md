@@ -1,6 +1,7 @@
 # 21 Smartphone Magnification Stand
 
 - file: `Full Plates/21 Smartphone Magnification Stand - PLA x12.3mf`
+- source: https://makerworld.com/en/models/1737380-smartphone-magnification-stand#profileId-1846025
 - reference 3mf: `Other/Smartphone+Magnification+Stand.3mf`
 - designer: MakeAble
 - material: PLA (Bambu PLA Basic @BBL X1C)

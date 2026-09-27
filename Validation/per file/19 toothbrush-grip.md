@@ -1,6 +1,7 @@
 # 19 Arthritis Toothbrush Grip
 
 - file: `Full Plates/19 Arthritis Toothbrush Grip - PLA x25.3mf`
+- source: https://www.myminifactory.com/object/3d-print-arthritis-toothbrush-grip-77601
 - reference 3mf: `Toothbrush Grip (PLA)/6066726cbda58_arthritis-toothbrush-grip/toofbrushgrip.stl`
 - designer: MyMiniFactory
 - material: PLA (Bambu PLA Basic @BBL X1C)

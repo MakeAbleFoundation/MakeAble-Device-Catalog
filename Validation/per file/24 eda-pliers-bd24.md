@@ -1,11 +1,11 @@
-# 27 Eye Drop Assist eyepiece 03 A
+# 24 Eye Drop Assist pliers (bottle 24 mm)
 
-- file: `Full Plates/27 Eye Drop Assist eyepiece 03 A - PLA x35.3mf`
+- file: `Full Plates/24 Eye Drop Assist pliers (bottle 24 mm) - PLA x2.3mf`
 - source: https://www.printables.com/model/1031668-eye-drop-assist-for-bottles
-- reference 3mf: `Eye Drop Assist (PLA)/EDA_EyePiece_03_A.stl`
+- reference 3mf: `Eye Drop Assist (PLA)/edab_pliers_07_bd24.stl`
 - designer: jhw (Printables)
 - material: PLA (Bambu PLA Basic @BBL X1C)
-- on the plate: 35 copies (35 objects)
+- on the plate: 2 copies (2 objects)
 
 ## Profile
 | preset | layer | first layer | walls | infill | supports | brim | top/bottom |
@@ -13,13 +13,10 @@
 | 0.20mm Standard @BBL X1C | 0.2 mm | 0.2 mm | 2 | 15% grid | off | auto_brim | 5/3 |
 
 ## Validation
-- Orca slice: passed - 5h 5m 14s, 117.7 g, 93.4 cm3
-- per copie: 2.67 cm3
+- Orca slice: passed - 58m 59s, 28.6 g, 22.7 cm3
+- per copie: 11.34 cm3
 - geometry check: clean
 - clamped for Orca only (the delivered file keeps Bambu's values): tree_support_wall_count, raft_first_layer_expansion
-
-## Advisories (nothing changed)
-- Eye Drop Assist eyepiece 03 A: 130 mm2 of steep overhang with air under it (max drop 25.2 mm at z=25 mm) while supports are off in the designer's profile - worth a look at the preview
 
 ## Notes
 - No designer 3mf; P1S 0.20 mm Standard used. The Printables pages are behind a bot check, so the designer's own settings are unverified.

@@ -551,34 +551,6 @@
     "warnings": [],
     "log": ""
   },
-  "toothpaste-squeezer": {
-    "ok": true,
-    "returncode": 0,
-    "clamped": {
-      "tree_support_wall_count": [
-        "-1",
-        "0"
-      ],
-      "raft_first_layer_expansion": [
-        "-1",
-        "2"
-      ]
-    },
-    "plates": {
-      "1": {
-        "model_time": "21h 40m 9s",
-        "total_time": "21h 46m 24s",
-        "layers": "493",
-        "density": "1.26",
-        "max_z": "98.60",
-        "used_mm": 200033.76,
-        "used_cm3": 481.14,
-        "used_g": 606.23
-      }
-    },
-    "warnings": [],
-    "log": ""
-  },
   "eda-pliers-bd20": {
     "ok": true,
     "returncode": 0,

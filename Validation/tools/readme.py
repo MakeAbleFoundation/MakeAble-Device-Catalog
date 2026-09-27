@@ -122,7 +122,7 @@ def main(out):
     L.append("For each device, in order:")
     L.append("")
     L.append("1. **Machine settings** always come from the P1S system preset. Nothing from "
-             "the designer's printer (A1 mini, H2S, P2S) is carried over - no start/end "
+             "the designer's printer (A1 mini, H2S) is carried over - no start/end "
              "gcode, no bed shape, no kinematics.")
     L.append("2. **Filament** is your own preset: `PETG P1S Tuned` for PETG, "
              "`Bambu PLA Basic @BBL X1C` for PLA.")
@@ -172,7 +172,10 @@ def main(out):
         L.append(f"| {r['id']:02d} | {r['title']} | `{src}` | {link} |")
     L.append("")
     L.append("Each MakerWorld link's profile id was matched against the `DesignProfileId` "
-             "stored inside the local 3mf, so these are the exact profiles that were linked.")
+             "stored inside the local 3mf, so these are the exact profiles that were linked. "
+             "The links for 19-21 (Arthritis Toothbrush Grip, One-Handed Page Holder, "
+             "Smartphone Magnification Stand) were added afterwards from the model pages "
+             "themselves.")
     L.append("")
     L.append("## Look-alikes that were left out")
     L.append("")
@@ -181,7 +184,8 @@ def main(out):
     L.append("")
     L.append("## Still open")
     L.append("")
-    L.append("- **Eye Drop Assist (files 23-31)**: the three Printables pages sit behind a "
+    eda = [r["id"] for r in rows if r["slug"].startswith("eda-")]
+    L.append(f"- **Eye Drop Assist (files {min(eda)}-{max(eda)})**: the three Printables pages sit behind a "
              "bot check, so the designer's own print settings could not be read. Those "
              "files use the P1S 0.20 mm Standard profile in PLA. They also need a decision: "
              "whether a pliers and an eyepiece pair up into one device (in which case they "

@@ -211,16 +211,6 @@
       "used_g": 26.11
     },
     "22": {
-      "model_time": "1h 29m 6s",
-      "total_time": "1h 35m 21s",
-      "layers": "493",
-      "density": "1.26,1.25",
-      "max_z": "98.60",
-      "used_mm": 13248.37,
-      "used_cm3": 31.87,
-      "used_g": 40.15
-    },
-    "23": {
       "model_time": "28m 58s",
       "total_time": "35m 12s",
       "layers": "30",
@@ -230,7 +220,7 @@
       "used_cm3": 11.52,
       "used_g": 14.51
     },
-    "24": {
+    "23": {
       "model_time": "28m 58s",
       "total_time": "35m 13s",
       "layers": "30",
@@ -240,7 +230,7 @@
       "used_cm3": 11.45,
       "used_g": 14.43
     },
-    "25": {
+    "24": {
       "model_time": "28m 48s",
       "total_time": "35m 3s",
       "layers": "30",
@@ -250,7 +240,7 @@
       "used_cm3": 11.38,
       "used_g": 14.33
     },
-    "26": {
+    "25": {
       "model_time": "27m 45s",
       "total_time": "34m 0s",
       "layers": "30",
@@ -260,7 +250,7 @@
       "used_cm3": 11.1,
       "used_g": 13.99
     },
-    "27": {
+    "26": {
       "model_time": "12m 21s",
       "total_time": "18m 36s",
       "layers": "145",
@@ -270,7 +260,7 @@
       "used_cm3": 2.74,
       "used_g": 3.45
     },
-    "28": {
+    "27": {
       "model_time": "12m 9s",
       "total_time": "18m 24s",
       "layers": "145",
@@ -280,7 +270,7 @@
       "used_cm3": 2.64,
       "used_g": 3.33
     },
-    "29": {
+    "28": {
       "model_time": "12m 27s",
       "total_time": "18m 41s",
       "layers": "145",
@@ -290,7 +280,7 @@
       "used_cm3": 2.85,
       "used_g": 3.59
     },
-    "30": {
+    "29": {
       "model_time": "14m 0s",
       "total_time": "20m 15s",
       "layers": "165",
@@ -300,7 +290,7 @@
       "used_cm3": 3.17,
       "used_g": 4.0
     },
-    "31": {
+    "30": {
       "model_time": "13m 44s",
       "total_time": "19m 58s",
       "layers": "165",
@@ -429,10 +419,6 @@
       "warnings": []
     },
     "30": {
-      "ok": true,
-      "warnings": []
-    },
-    "31": {
       "ok": true,
       "warnings": []
     }

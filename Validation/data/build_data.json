@@ -2713,438 +2713,12 @@
     }
   },
   {
-    "slug": "toothpaste-squeezer",
-    "id": 22,
-    "title": "Ratcheted Toothpaste Squeezer (kit)",
-    "path": "/Users/justinrui/Desktop/M/Makebot P1S Print Files/Full Plates/22 Ratcheted Toothpaste Squeezer (kit) - PLA x15.3mf",
-    "layout": "kit by kit (10 deg)",
-    "file": "22 Ratcheted Toothpaste Squeezer (kit) - PLA x15.3mf",
-    "material": "PLA",
-    "count": 15,
-    "unit": "kits",
-    "objects": 30,
-    "issues": [],
-    "bbox": {
-      "1": {
-        "count": 30,
-        "bbox": [
-          5.1,
-          7.4,
-          248.9,
-          250.7
-        ]
-      }
-    },
-    "gap": 5.0,
-    "info": {
-      "target_preset": "0.20mm Standard @BBL X1C",
-      "base_preset": "0.20mm Standard @BBL P2S",
-      "base_note": "0.20mm Standard @BBL P2S is not in this Studio's profile set",
-      "from_reference": {
-        "flush_multiplier": [
-          "0.75",
-          "1"
-        ],
-        "overhang_threshold_participating_cooling": [
-          "['95%', '95%']",
-          "95%"
-        ],
-        "pressure_advance": [
-          "['0.02', '0.02']",
-          "0.02"
-        ],
-        "top_solid_infill_flow_ratio": [
-          "1",
-          "1"
-        ]
-      },
-      "kept_p1s": {
-        "bridge_speed": [
-          "50",
-          "50"
-        ],
-        "default_acceleration": [
-          "10000",
-          "10000"
-        ],
-        "enable_height_slowdown": [
-          "0",
-          "0"
-        ],
-        "enable_overhang_speed": [
-          "1",
-          "1"
-        ],
-        "gap_infill_speed": [
-          "250",
-          "250"
-        ],
-        "initial_layer_acceleration": [
-          "500",
-          "500"
-        ],
-        "initial_layer_infill_speed": [
-          "105",
-          "105"
-        ],
-        "initial_layer_speed": [
-          "50",
-          "50"
-        ],
-        "initial_layer_travel_acceleration": [
-          "6000",
-          "6000"
-        ],
-        "inner_wall_acceleration": [
-          "0",
-          "0"
-        ],
-        "inner_wall_speed": [
-          "300",
-          "300"
-        ],
-        "internal_solid_infill_speed": [
-          "250",
-          "250"
-        ],
-        "outer_wall_acceleration": [
-          "6000",
-          "5000"
-        ],
-        "outer_wall_speed": [
-          "200",
-          "200"
-        ],
-        "overhang_1_4_speed": [
-          "0",
-          "0"
-        ],
-        "overhang_2_4_speed": [
-          "50",
-          "50"
-        ],
-        "overhang_3_4_speed": [
-          "30",
-          "30"
-        ],
-        "overhang_4_4_speed": [
-          "10",
-          "10"
-        ],
-        "overhang_totally_speed": [
-          "10",
-          "10"
-        ],
-        "print_extruder_id": [
-          "1",
-          "1"
-        ],
-        "print_extruder_variant": [
-          "Direct Drive Standard",
-          "Direct Drive Standard"
-        ],
-        "slowdown_end_acc": [
-          "100000",
-          "100000"
-        ],
-        "slowdown_end_height": [
-          "400",
-          "400"
-        ],
-        "slowdown_end_speed": [
-          "1000",
-          "1000"
-        ],
-        "slowdown_start_acc": [
-          "100000",
-          "100000"
-        ],
-        "slowdown_start_height": [
-          "0",
-          "0"
-        ],
-        "slowdown_start_speed": [
-          "1000",
-          "1000"
-        ],
-        "small_perimeter_speed": [
-          "50%",
-          "50%"
-        ],
-        "small_perimeter_threshold": [
-          "0",
-          "0"
-        ],
-        "smooth_coefficient": [
-          "4",
-          "150"
-        ],
-        "sparse_infill_acceleration": [
-          "100%",
-          "100%"
-        ],
-        "sparse_infill_speed": [
-          "270",
-          "270"
-        ],
-        "support_interface_speed": [
-          "80",
-          "80"
-        ],
-        "support_speed": [
-          "150",
-          "150"
-        ],
-        "top_surface_acceleration": [
-          "2000",
-          "2000"
-        ],
-        "top_surface_speed": [
-          "200",
-          "200"
-        ],
-        "travel_acceleration": [
-          "10000",
-          "10000"
-        ],
-        "travel_speed": [
-          "600",
-          "500"
-        ],
-        "travel_speed_z": [
-          "0",
-          "0"
-        ],
-        "vertical_shell_speed": [
-          "80%",
-          "80%"
-        ]
-      },
-      "ambiguous": {
-        "bridge_speed": [
-          "50",
-          "50"
-        ],
-        "default_acceleration": [
-          "10000",
-          "10000"
-        ],
-        "enable_height_slowdown": [
-          "0",
-          "0"
-        ],
-        "enable_overhang_speed": [
-          "1",
-          "1"
-        ],
-        "gap_infill_speed": [
-          "250",
-          "250"
-        ],
-        "initial_layer_acceleration": [
-          "500",
-          "500"
-        ],
-        "initial_layer_infill_speed": [
-          "105",
-          "105"
-        ],
-        "initial_layer_speed": [
-          "50",
-          "50"
-        ],
-        "initial_layer_travel_acceleration": [
-          "6000",
-          "6000"
-        ],
-        "inner_wall_acceleration": [
-          "0",
-          "0"
-        ],
-        "inner_wall_speed": [
-          "300",
-          "300"
-        ],
-        "internal_solid_infill_speed": [
-          "250",
-          "250"
-        ],
-        "outer_wall_acceleration": [
-          "6000",
-          "5000"
-        ],
-        "outer_wall_speed": [
-          "200",
-          "200"
-        ],
-        "overhang_1_4_speed": [
-          "0",
-          "0"
-        ],
-        "overhang_2_4_speed": [
-          "50",
-          "50"
-        ],
-        "overhang_3_4_speed": [
-          "30",
-          "30"
-        ],
-        "overhang_4_4_speed": [
-          "10",
-          "10"
-        ],
-        "overhang_totally_speed": [
-          "10",
-          "10"
-        ],
-        "print_extruder_id": [
-          "1",
-          "1"
-        ],
-        "print_extruder_variant": [
-          "Direct Drive Standard",
-          "Direct Drive Standard"
-        ],
-        "slowdown_end_acc": [
-          "100000",
-          "100000"
-        ],
-        "slowdown_end_height": [
-          "400",
-          "400"
-        ],
-        "slowdown_end_speed": [
-          "1000",
-          "1000"
-        ],
-        "slowdown_start_acc": [
-          "100000",
-          "100000"
-        ],
-        "slowdown_start_height": [
-          "0",
-          "0"
-        ],
-        "slowdown_start_speed": [
-          "1000",
-          "1000"
-        ],
-        "small_perimeter_speed": [
-          "50%",
-          "50%"
-        ],
-        "small_perimeter_threshold": [
-          "0",
-          "0"
-        ],
-        "smooth_coefficient": [
-          "4",
-          "150"
-        ],
-        "sparse_infill_acceleration": [
-          "100%",
-          "100%"
-        ],
-        "sparse_infill_speed": [
-          "270",
-          "270"
-        ],
-        "support_interface_speed": [
-          "80",
-          "80"
-        ],
-        "support_speed": [
-          "150",
-          "150"
-        ],
-        "top_surface_acceleration": [
-          "2000",
-          "2000"
-        ],
-        "top_surface_speed": [
-          "200",
-          "200"
-        ],
-        "travel_acceleration": [
-          "10000",
-          "10000"
-        ],
-        "travel_speed": [
-          "600",
-          "500"
-        ],
-        "travel_speed_z": [
-          "0",
-          "0"
-        ],
-        "vertical_shell_speed": [
-          "80%",
-          "80%"
-        ]
-      },
-      "overrides": {}
-    },
-    "filaments": [
-      "Bambu PLA Basic @BBL X1C"
-    ],
-    "advisories": [
-      "Toothpaste Squeezer 4.0.stl: 427 mm2 of steep overhang with air under it (max drop 51.0 mm at z=80 mm) while supports are off in the designer's profile - worth a look at the preview"
-    ],
-    "metrics": {
-      "Toothpaste Squeezer 4.0.stl": {
-        "overhang": {
-          "area": 426.7,
-          "max_gap": 51.0,
-          "faces": 711,
-          "worst_z": 79.9
-        },
-        "footprint": {
-          "contact_mm2": 609.3,
-          "height": 98.6,
-          "min_width": 34.1,
-          "slenderness": 2.89
-        }
-      },
-      "Part Studio 3 - Part 3.stl": {
-        "overhang": {
-          "area": 41.9,
-          "max_gap": 72.4,
-          "faces": 271,
-          "worst_z": 79.0
-        },
-        "footprint": {
-          "contact_mm2": 731.6,
-          "height": 88.0,
-          "min_width": 34.6,
-          "slenderness": 2.54
-        }
-      }
-    },
-    "parts": [
-      "Toothpaste Squeezer 4.0.stl",
-      "Part Studio 3 - Part 3.stl"
-    ],
-    "profile": {
-      "preset": "0.20mm Standard @BBL X1C",
-      "layer": "0.2",
-      "first_layer": "0.2",
-      "walls": "2",
-      "infill": "15%",
-      "pattern": "grid",
-      "support": "0",
-      "support_type": "tree(auto)",
-      "brim": "auto_brim",
-      "top": "5",
-      "bottom": "3"
-    }
-  },
-  {
     "slug": "eda-pliers-bd20",
-    "id": 23,
+    "id": 22,
     "title": "Eye Drop Assist pliers (bottle 20 mm)",
-    "path": "/Users/justinrui/Desktop/M/Makebot P1S Print Files/Full Plates/23 Eye Drop Assist pliers (bottle 20 mm) - PLA x2.3mf",
+    "path": "/Users/justinrui/Desktop/M/Makebot P1S Print Files/Full Plates/22 Eye Drop Assist pliers (bottle 20 mm) - PLA x2.3mf",
     "layout": "pairs at 50deg",
-    "file": "23 Eye Drop Assist pliers (bottle 20 mm) - PLA x2.3mf",
+    "file": "22 Eye Drop Assist pliers (bottle 20 mm) - PLA x2.3mf",
     "material": "PLA",
     "count": 2,
     "unit": "copies",
@@ -3210,11 +2784,11 @@
   },
   {
     "slug": "eda-pliers-bd22",
-    "id": 24,
+    "id": 23,
     "title": "Eye Drop Assist pliers (bottle 22 mm)",
-    "path": "/Users/justinrui/Desktop/M/Makebot P1S Print Files/Full Plates/24 Eye Drop Assist pliers (bottle 22 mm) - PLA x2.3mf",
+    "path": "/Users/justinrui/Desktop/M/Makebot P1S Print Files/Full Plates/23 Eye Drop Assist pliers (bottle 22 mm) - PLA x2.3mf",
     "layout": "pairs at 50deg",
-    "file": "24 Eye Drop Assist pliers (bottle 22 mm) - PLA x2.3mf",
+    "file": "23 Eye Drop Assist pliers (bottle 22 mm) - PLA x2.3mf",
     "material": "PLA",
     "count": 2,
     "unit": "copies",
@@ -3280,11 +2854,11 @@
   },
   {
     "slug": "eda-pliers-bd24",
-    "id": 25,
+    "id": 24,
     "title": "Eye Drop Assist pliers (bottle 24 mm)",
-    "path": "/Users/justinrui/Desktop/M/Makebot P1S Print Files/Full Plates/25 Eye Drop Assist pliers (bottle 24 mm) - PLA x2.3mf",
+    "path": "/Users/justinrui/Desktop/M/Makebot P1S Print Files/Full Plates/24 Eye Drop Assist pliers (bottle 24 mm) - PLA x2.3mf",
     "layout": "pairs at 50deg",
-    "file": "25 Eye Drop Assist pliers (bottle 24 mm) - PLA x2.3mf",
+    "file": "24 Eye Drop Assist pliers (bottle 24 mm) - PLA x2.3mf",
     "material": "PLA",
     "count": 2,
     "unit": "copies",
@@ -3350,11 +2924,11 @@
   },
   {
     "slug": "eda-pliers-bd25",
-    "id": 26,
+    "id": 25,
     "title": "Eye Drop Assist pliers (bottle 25 mm)",
-    "path": "/Users/justinrui/Desktop/M/Makebot P1S Print Files/Full Plates/26 Eye Drop Assist pliers (bottle 25 mm) - PLA x2.3mf",
+    "path": "/Users/justinrui/Desktop/M/Makebot P1S Print Files/Full Plates/25 Eye Drop Assist pliers (bottle 25 mm) - PLA x2.3mf",
     "layout": "pairs at 50deg",
-    "file": "26 Eye Drop Assist pliers (bottle 25 mm) - PLA x2.3mf",
+    "file": "25 Eye Drop Assist pliers (bottle 25 mm) - PLA x2.3mf",
     "material": "PLA",
     "count": 2,
     "unit": "copies",
@@ -3420,11 +2994,11 @@
   },
   {
     "slug": "eda-eyepiece-03a",
-    "id": 27,
+    "id": 26,
     "title": "Eye Drop Assist eyepiece 03 A",
-    "path": "/Users/justinrui/Desktop/M/Makebot P1S Print Files/Full Plates/27 Eye Drop Assist eyepiece 03 A - PLA x35.3mf",
+    "path": "/Users/justinrui/Desktop/M/Makebot P1S Print Files/Full Plates/26 Eye Drop Assist eyepiece 03 A - PLA x35.3mf",
     "layout": "single",
-    "file": "27 Eye Drop Assist eyepiece 03 A - PLA x35.3mf",
+    "file": "26 Eye Drop Assist eyepiece 03 A - PLA x35.3mf",
     "material": "PLA",
     "count": 35,
     "unit": "copies",
@@ -3492,11 +3066,11 @@
   },
   {
     "slug": "eda-eyepiece-03b",
-    "id": 28,
+    "id": 27,
     "title": "Eye Drop Assist eyepiece 03 B",
-    "path": "/Users/justinrui/Desktop/M/Makebot P1S Print Files/Full Plates/28 Eye Drop Assist eyepiece 03 B - PLA x35.3mf",
+    "path": "/Users/justinrui/Desktop/M/Makebot P1S Print Files/Full Plates/27 Eye Drop Assist eyepiece 03 B - PLA x35.3mf",
     "layout": "single",
-    "file": "28 Eye Drop Assist eyepiece 03 B - PLA x35.3mf",
+    "file": "27 Eye Drop Assist eyepiece 03 B - PLA x35.3mf",
     "material": "PLA",
     "count": 35,
     "unit": "copies",
@@ -3562,11 +3136,11 @@
   },
   {
     "slug": "eda-eyepiece-03c",
-    "id": 29,
+    "id": 28,
     "title": "Eye Drop Assist eyepiece 03 C",
-    "path": "/Users/justinrui/Desktop/M/Makebot P1S Print Files/Full Plates/29 Eye Drop Assist eyepiece 03 C - PLA x35.3mf",
+    "path": "/Users/justinrui/Desktop/M/Makebot P1S Print Files/Full Plates/28 Eye Drop Assist eyepiece 03 C - PLA x35.3mf",
     "layout": "single",
-    "file": "29 Eye Drop Assist eyepiece 03 C - PLA x35.3mf",
+    "file": "28 Eye Drop Assist eyepiece 03 C - PLA x35.3mf",
     "material": "PLA",
     "count": 35,
     "unit": "copies",
@@ -3634,11 +3208,11 @@
   },
   {
     "slug": "eda-eyepiece-04d",
-    "id": 30,
+    "id": 29,
     "title": "Eye Drop Assist eyepiece 04 D",
-    "path": "/Users/justinrui/Desktop/M/Makebot P1S Print Files/Full Plates/30 Eye Drop Assist eyepiece 04 D - PLA x35.3mf",
+    "path": "/Users/justinrui/Desktop/M/Makebot P1S Print Files/Full Plates/29 Eye Drop Assist eyepiece 04 D - PLA x35.3mf",
     "layout": "single",
-    "file": "30 Eye Drop Assist eyepiece 04 D - PLA x35.3mf",
+    "file": "29 Eye Drop Assist eyepiece 04 D - PLA x35.3mf",
     "material": "PLA",
     "count": 35,
     "unit": "copies",
@@ -3706,11 +3280,11 @@
   },
   {
     "slug": "eda-eyepiece-04e",
-    "id": 31,
+    "id": 30,
     "title": "Eye Drop Assist eyepiece 04 E",
-    "path": "/Users/justinrui/Desktop/M/Makebot P1S Print Files/Full Plates/31 Eye Drop Assist eyepiece 04 E - PLA x35.3mf",
+    "path": "/Users/justinrui/Desktop/M/Makebot P1S Print Files/Full Plates/30 Eye Drop Assist eyepiece 04 E - PLA x35.3mf",
     "layout": "single",
-    "file": "31 Eye Drop Assist eyepiece 04 E - PLA x35.3mf",
+    "file": "30 Eye Drop Assist eyepiece 04 E - PLA x35.3mf",
     "material": "PLA",
     "count": 35,
     "unit": "copies",

@@ -20,13 +20,12 @@ id,file,device,material,per_plate,objects,print_time,grams,cm3,cm3_per_unit,refe
 19,19 Arthritis Toothbrush Grip - PLA x25.3mf,Arthritis Toothbrush Grip,PLA,25 copies,25,17h 34m 24s,788.5,625.8,25.03,,-,,0.2,2,15%,0,auto_brim,0.20mm Standard @BBL X1C,True,0,0
 20,20 One-Handed Page Holder - PLA x23.3mf,One-Handed Page Holder,PLA,23 copies,23,8h 10m 32s,228.1,181.0,7.87,7.87,100%,,0.16,3,15%,0,auto_brim,0.16mm Optimal @BBL X1C,True,0,0
 21,21 Smartphone Magnification Stand - PLA x12.3mf,Smartphone Magnification Stand,PLA,12 copies,12,10h 10m 51s,312.1,247.7,20.64,20.73,100%,,0.16,2,15%,0,auto_brim,0.16mm Optimal @BBL X1C,True,0,1
-22,22 Ratcheted Toothpaste Squeezer (kit) - PLA x15.3mf,Ratcheted Toothpaste Squeezer (kit),PLA,15 kits,30,21h 46m 24s,606.2,481.1,32.08,31.9,101%,,0.2,2,15%,0,auto_brim,0.20mm Standard @BBL X1C,True,0,1
-23,23 Eye Drop Assist pliers (bottle 20 mm) - PLA x2.3mf,Eye Drop Assist pliers (bottle 20 mm),PLA,2 copies,2,59m 33s,29.0,23.0,11.5,,-,,0.2,2,15%,0,auto_brim,0.20mm Standard @BBL X1C,True,0,0
-24,24 Eye Drop Assist pliers (bottle 22 mm) - PLA x2.3mf,Eye Drop Assist pliers (bottle 22 mm),PLA,2 copies,2,59m 19s,28.7,22.8,11.4,,-,,0.2,2,15%,0,auto_brim,0.20mm Standard @BBL X1C,True,0,0
-25,25 Eye Drop Assist pliers (bottle 24 mm) - PLA x2.3mf,Eye Drop Assist pliers (bottle 24 mm),PLA,2 copies,2,58m 59s,28.6,22.7,11.34,,-,,0.2,2,15%,0,auto_brim,0.20mm Standard @BBL X1C,True,0,0
-26,26 Eye Drop Assist pliers (bottle 25 mm) - PLA x2.3mf,Eye Drop Assist pliers (bottle 25 mm),PLA,2 copies,2,57m 5s,27.9,22.2,11.08,,-,,0.2,2,15%,0,auto_brim,0.20mm Standard @BBL X1C,True,0,0
-27,27 Eye Drop Assist eyepiece 03 A - PLA x35.3mf,Eye Drop Assist eyepiece 03 A,PLA,35 copies,35,5h 5m 14s,117.7,93.4,2.67,,-,,0.2,2,15%,0,auto_brim,0.20mm Standard @BBL X1C,True,0,1
-28,28 Eye Drop Assist eyepiece 03 B - PLA x35.3mf,Eye Drop Assist eyepiece 03 B,PLA,35 copies,35,4h 42m 50s,113.4,90.0,2.57,,-,,0.2,2,15%,0,auto_brim,0.20mm Standard @BBL X1C,True,0,0
-29,29 Eye Drop Assist eyepiece 03 C - PLA x35.3mf,Eye Drop Assist eyepiece 03 C,PLA,35 copies,35,5h 1m 57s,122.5,97.2,2.78,,-,,0.2,2,15%,0,auto_brim,0.20mm Standard @BBL X1C,True,0,1
-30,30 Eye Drop Assist eyepiece 04 D - PLA x35.3mf,Eye Drop Assist eyepiece 04 D,PLA,35 copies,35,5h 41m 16s,136.7,108.5,3.1,,-,,0.2,2,15%,0,auto_brim,0.20mm Standard @BBL X1C,True,0,1
-31,31 Eye Drop Assist eyepiece 04 E - PLA x35.3mf,Eye Drop Assist eyepiece 04 E,PLA,35 copies,35,5h 21m 16s,130.9,103.9,2.97,,-,,0.2,2,15%,0,auto_brim,0.20mm Standard @BBL X1C,True,0,0
+22,22 Eye Drop Assist pliers (bottle 20 mm) - PLA x2.3mf,Eye Drop Assist pliers (bottle 20 mm),PLA,2 copies,2,59m 33s,29.0,23.0,11.5,,-,,0.2,2,15%,0,auto_brim,0.20mm Standard @BBL X1C,True,0,0
+23,23 Eye Drop Assist pliers (bottle 22 mm) - PLA x2.3mf,Eye Drop Assist pliers (bottle 22 mm),PLA,2 copies,2,59m 19s,28.7,22.8,11.4,,-,,0.2,2,15%,0,auto_brim,0.20mm Standard @BBL X1C,True,0,0
+24,24 Eye Drop Assist pliers (bottle 24 mm) - PLA x2.3mf,Eye Drop Assist pliers (bottle 24 mm),PLA,2 copies,2,58m 59s,28.6,22.7,11.34,,-,,0.2,2,15%,0,auto_brim,0.20mm Standard @BBL X1C,True,0,0
+25,25 Eye Drop Assist pliers (bottle 25 mm) - PLA x2.3mf,Eye Drop Assist pliers (bottle 25 mm),PLA,2 copies,2,57m 5s,27.9,22.2,11.08,,-,,0.2,2,15%,0,auto_brim,0.20mm Standard @BBL X1C,True,0,0
+26,26 Eye Drop Assist eyepiece 03 A - PLA x35.3mf,Eye Drop Assist eyepiece 03 A,PLA,35 copies,35,5h 5m 14s,117.7,93.4,2.67,,-,,0.2,2,15%,0,auto_brim,0.20mm Standard @BBL X1C,True,0,1
+27,27 Eye Drop Assist eyepiece 03 B - PLA x35.3mf,Eye Drop Assist eyepiece 03 B,PLA,35 copies,35,4h 42m 50s,113.4,90.0,2.57,,-,,0.2,2,15%,0,auto_brim,0.20mm Standard @BBL X1C,True,0,0
+28,28 Eye Drop Assist eyepiece 03 C - PLA x35.3mf,Eye Drop Assist eyepiece 03 C,PLA,35 copies,35,5h 1m 57s,122.5,97.2,2.78,,-,,0.2,2,15%,0,auto_brim,0.20mm Standard @BBL X1C,True,0,1
+29,29 Eye Drop Assist eyepiece 04 D - PLA x35.3mf,Eye Drop Assist eyepiece 04 D,PLA,35 copies,35,5h 41m 16s,136.7,108.5,3.1,,-,,0.2,2,15%,0,auto_brim,0.20mm Standard @BBL X1C,True,0,1
+30,30 Eye Drop Assist eyepiece 04 E - PLA x35.3mf,Eye Drop Assist eyepiece 04 E,PLA,35 copies,35,5h 21m 16s,130.9,103.9,2.97,,-,,0.2,2,15%,0,auto_brim,0.20mm Standard @BBL X1C,True,0,0

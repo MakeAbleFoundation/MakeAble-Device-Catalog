@@ -5,7 +5,7 @@ PY=~/Library/Caches/makebot-build/venv/bin/python
 cd "$P/Validation/tools"
 rm -f "$P/Validation/.finish3_done"
 echo "### rebuilding plates whose reference keeps meshes inline"
-$PY -u build.py "$P" bag-carrier-medium bag-carrier-small bag-carrier-large can-opener blister-pack-opener book-holder phone-magnifier-stand toothpaste-squeezer
+$PY -u build.py "$P" bag-carrier-medium bag-carrier-small bag-carrier-large can-opener blister-pack-opener book-holder phone-magnifier-stand
 echo "### rebuilding the catalogue"
 $PY -u catalogue.py "$P"
 echo "### slicing every full plate"
