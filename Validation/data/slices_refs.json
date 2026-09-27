@@ -1,0 +1,441 @@
+{
+  "bag-carrier-medium": {
+    "ref": "/Users/justinrui/Desktop/M/Bag Carrier (PLA)/Bag+Carrier+Medium.3mf",
+    "units": {
+      "1": 1
+    },
+    "per_unit_cm3": {
+      "1": 24.93
+    },
+    "ok": true,
+    "plates": {
+      "1": {
+        "model_time": "50m 49s",
+        "total_time": "57m 5s",
+        "layers": "75",
+        "density": "1.25",
+        "max_z": "15.00",
+        "used_mm": 10365.87,
+        "used_cm3": 24.93,
+        "used_g": 31.17
+      }
+    }
+  },
+  "bag-carrier-small": {
+    "ref": "/Users/justinrui/Desktop/M/Bag Carrier (PLA)/Bag+Carrier+Medium.3mf",
+    "units": {},
+    "per_unit_cm3": {},
+    "ok": true,
+    "plates": {
+      "1": {
+        "model_time": "50m 49s",
+        "total_time": "57m 5s",
+        "layers": "75",
+        "density": "1.25",
+        "max_z": "15.00",
+        "used_mm": 10365.87,
+        "used_cm3": 24.93,
+        "used_g": 31.17
+      }
+    }
+  },
+  "bag-carrier-large": {
+    "ref": "/Users/justinrui/Desktop/M/Bag Carrier (PLA)/Bag+Carrier+Medium.3mf",
+    "units": {},
+    "per_unit_cm3": {},
+    "ok": true,
+    "plates": {
+      "1": {
+        "model_time": "50m 49s",
+        "total_time": "57m 5s",
+        "layers": "75",
+        "density": "1.25",
+        "max_z": "15.00",
+        "used_mm": 10365.87,
+        "used_cm3": 24.93,
+        "used_g": 31.17
+      }
+    }
+  },
+  "bottle-cap-opener": {
+    "ref": "/Users/justinrui/Desktop/M/Bottle Opener (PETG)/Bottle+Cap+Opener.3mf",
+    "units": {
+      "1": 1
+    },
+    "per_unit_cm3": {
+      "1": 16.68
+    },
+    "ok": true,
+    "plates": {
+      "1": {
+        "model_time": "46m 31s",
+        "total_time": "52m 31s",
+        "layers": "50",
+        "density": "1.26,1.26,1.26,1.26,1.27",
+        "max_z": "9.95",
+        "used_mm": 6936.2,
+        "used_cm3": 16.68,
+        "used_g": 21.02
+      }
+    }
+  },
+  "bottle-opener-wide-handle": {
+    "ref": "/Users/justinrui/Desktop/M/Bottle Opener (PETG)/Bottle+Opener+remix+without+support+material.3mf",
+    "units": {
+      "1": 1
+    },
+    "per_unit_cm3": {
+      "1": 29.4
+    },
+    "ok": true,
+    "plates": {
+      "1": {
+        "model_time": "1h 27m 38s",
+        "total_time": "1h 34m 5s",
+        "layers": "100",
+        "density": "1.26,1.24,1.27,1.32,1.3",
+        "max_z": "20.00",
+        "used_mm": 12222.33,
+        "used_cm3": 29.4,
+        "used_g": 37.34
+      }
+    }
+  },
+  "can-opener": {
+    "ref": "/Users/justinrui/Desktop/M/Can Opener (PLA)/Base_Can_Opener.3mf",
+    "units": {
+      "1": 1
+    },
+    "per_unit_cm3": {
+      "1": 9.57
+    },
+    "ok": true,
+    "plates": {
+      "1": {
+        "model_time": "24m 29s",
+        "total_time": "30m 45s",
+        "layers": "120",
+        "density": "1.25",
+        "max_z": "24.00",
+        "used_mm": 3977.66,
+        "used_cm3": 9.57,
+        "used_g": 11.96
+      }
+    }
+  },
+  "jar-opener": {
+    "ref": "/Users/justinrui/Desktop/M/Jar Opener (PETG)/opensesame.3mf",
+    "units": {
+      "1": 1
+    },
+    "per_unit_cm3": {
+      "1": 58.94
+    },
+    "ok": true,
+    "plates": {
+      "1": {
+        "model_time": "2h 30m 57s",
+        "total_time": "2h 37m 15s",
+        "layers": "166",
+        "density": "1.26,1.26,1.26,1.26",
+        "max_z": "20.00",
+        "used_mm": 24506.07,
+        "used_cm3": 58.94,
+        "used_g": 74.27
+      }
+    }
+  },
+  "keywings": {
+    "ref": "/Users/justinrui/Desktop/M/Key Holder (PETG)/KeyWings+v6+Bambu.3mf",
+    "units": {
+      "1": 1
+    },
+    "per_unit_cm3": {
+      "1": 2.63
+    },
+    "ok": true,
+    "plates": {
+      "1": {
+        "model_time": "15m 46s",
+        "total_time": "21m 48s",
+        "layers": "105",
+        "density": "1.32,1.32,1.32,1.32",
+        "max_z": "21.00",
+        "used_mm": 1094.36,
+        "used_cm3": 2.63,
+        "used_g": 3.47
+      }
+    }
+  },
+  "drag-writer": {
+    "ref": "/Users/justinrui/Desktop/M/DRAG Assistive Writer (PLA)/DRAG+v2 (1).3mf",
+    "units": {
+      "1": 1
+    },
+    "per_unit_cm3": {
+      "1": 58.06
+    },
+    "ok": true,
+    "plates": {
+      "1": {
+        "model_time": "1h 45m 31s",
+        "total_time": "1h 51m 46s",
+        "layers": "140",
+        "density": "1.26",
+        "max_z": "28.00",
+        "used_mm": 24140.37,
+        "used_cm3": 58.06,
+        "used_g": 73.16
+      }
+    }
+  },
+  "blister-pack-opener": {
+    "ref": "/Users/justinrui/Desktop/M/Pill Popper (PETG)/Pill+Opener.3mf",
+    "units": {
+      "1": 1
+    },
+    "per_unit_cm3": {
+      "1": 26.09
+    },
+    "ok": true,
+    "plates": {
+      "1": {
+        "model_time": "1h 4m 8s",
+        "total_time": "1h 10m 25s",
+        "layers": "120",
+        "density": "1.24,1.24,1.25,1.22",
+        "max_z": "24.00",
+        "used_mm": 10848.83,
+        "used_cm3": 26.09,
+        "used_g": 32.36
+      }
+    }
+  },
+  "pill-popper": {
+    "ref": "/Users/justinrui/Desktop/M/Pill Popper (PETG)/Pill+Popper+Bambu+Studio.3mf",
+    "units": {
+      "1": 1
+    },
+    "per_unit_cm3": {
+      "1": 6.29
+    },
+    "ok": true,
+    "plates": {
+      "1": {
+        "model_time": "23m 15s",
+        "total_time": "29m 26s",
+        "layers": "73",
+        "density": "1.32,1.26,1.32,1.32",
+        "max_z": "14.60",
+        "used_mm": 2615.83,
+        "used_cm3": 6.29,
+        "used_g": 8.31
+      }
+    }
+  },
+  "clothes-button-hook": {
+    "ref": "/Users/justinrui/Desktop/M/Clothes Button and Zipper Aid (PETG + PLA)/central-loop-and-hook-button-and-zipper-hook.3mf",
+    "units": {
+      "2": 1
+    },
+    "per_unit_cm3": {
+      "2": 3.5
+    },
+    "ok": true,
+    "plates": {
+      "1": {
+        "model_time": "30m 29s",
+        "total_time": "36m 56s",
+        "layers": "64",
+        "density": "1.27,1.26,1.27,1.32",
+        "max_z": "7.60",
+        "used_mm": 4079.93,
+        "used_cm3": 9.81,
+        "used_g": 12.36
+      },
+      "2": {
+        "model_time": "9m 56s",
+        "total_time": "16m 23s",
+        "layers": "10",
+        "density": "1.27,1.26,1.27,1.32",
+        "max_z": "2.00",
+        "used_mm": 1456.1,
+        "used_cm3": 3.5,
+        "used_g": 4.45
+      }
+    }
+  },
+  "clothes-button-handles": {
+    "ref": "/Users/justinrui/Desktop/M/Clothes Button and Zipper Aid (PETG + PLA)/central-loop-and-hook-button-and-zipper-hook.3mf",
+    "units": {
+      "1": 1
+    },
+    "per_unit_cm3": {
+      "1": 9.81
+    },
+    "ok": true,
+    "plates": {
+      "1": {
+        "model_time": "30m 29s",
+        "total_time": "36m 56s",
+        "layers": "64",
+        "density": "1.27,1.26,1.27,1.32",
+        "max_z": "7.60",
+        "used_mm": 4079.93,
+        "used_cm3": 9.81,
+        "used_g": 12.36
+      },
+      "2": {
+        "model_time": "9m 56s",
+        "total_time": "16m 23s",
+        "layers": "10",
+        "density": "1.27,1.26,1.27,1.32",
+        "max_z": "2.00",
+        "used_mm": 1456.1,
+        "used_cm3": 3.5,
+        "used_g": 4.45
+      }
+    }
+  },
+  "flipper-nail-clipper-large": {
+    "ref": "/Users/justinrui/Desktop/M/Nail Clipper Holder (PLA)/Flipper+Clipper+mod+for+large+size+nailcutter_a1mini.3mf",
+    "units": {
+      "1": 1
+    },
+    "per_unit_cm3": {
+      "1": 23.96
+    },
+    "ok": true,
+    "plates": {
+      "1": {
+        "model_time": "1h 9m 59s",
+        "total_time": "1h 16m 14s",
+        "layers": "60",
+        "density": "1.24,1.24,1.24,1.24",
+        "max_z": "12.00",
+        "used_mm": 9960.97,
+        "used_cm3": 23.96,
+        "used_g": 29.71
+      }
+    }
+  },
+  "eating-utensil-aid": {
+    "ref": "/Users/justinrui/Desktop/M/Eating Utensil Aid (PLA)/Eating+Utensil+Aid.3mf",
+    "units": {
+      "1": 1
+    },
+    "per_unit_cm3": {
+      "1": 36.8
+    },
+    "ok": true,
+    "plates": {
+      "1": {
+        "model_time": "1h 55m 49s",
+        "total_time": "2h 2m 4s",
+        "layers": "125",
+        "density": "1.26",
+        "max_z": "25.00",
+        "used_mm": 15300.12,
+        "used_cm3": 36.8,
+        "used_g": 46.37
+      }
+    }
+  },
+  "shoe-horn": {
+    "ref": "/Users/justinrui/Desktop/M/Shoe Horn (PETG)/Shoe+Horn+3MF.3mf",
+    "units": {
+      "1": 1
+    },
+    "per_unit_cm3": {},
+    "ok": false,
+    "plates": {}
+  },
+  "tube-opener": {
+    "ref": "/Users/justinrui/Desktop/M/Tube Opener/Tube_Opener.3mf",
+    "units": {
+      "1": 3
+    },
+    "per_unit_cm3": {
+      "1": 13.426666666666668
+    },
+    "ok": true,
+    "plates": {
+      "1": {
+        "model_time": "1h 42m 32s",
+        "total_time": "1h 48m 48s",
+        "layers": "131",
+        "density": "1.26,1.24",
+        "max_z": "21.00",
+        "used_mm": 16744.43,
+        "used_cm3": 40.28,
+        "used_g": 50.75
+      }
+    }
+  },
+  "book-holder": {
+    "ref": "/Users/justinrui/Desktop/M/Other/One_Handed_Book_Holder.3mf",
+    "units": {
+      "1": 1
+    },
+    "per_unit_cm3": {
+      "1": 7.87
+    },
+    "ok": true,
+    "plates": {
+      "1": {
+        "model_time": "24m 3s",
+        "total_time": "30m 19s",
+        "layers": "125",
+        "density": "1.24,1.24",
+        "max_z": "20.04",
+        "used_mm": 3273.37,
+        "used_cm3": 7.87,
+        "used_g": 9.76
+      }
+    }
+  },
+  "phone-magnifier-stand": {
+    "ref": "/Users/justinrui/Desktop/M/Other/Smartphone+Magnification+Stand.3mf",
+    "units": {
+      "1": 1
+    },
+    "per_unit_cm3": {
+      "1": 20.73
+    },
+    "ok": true,
+    "plates": {
+      "1": {
+        "model_time": "54m 30s",
+        "total_time": "1h 0m 47s",
+        "layers": "250",
+        "density": "1.24,1.24",
+        "max_z": "40.04",
+        "used_mm": 8616.58,
+        "used_cm3": 20.73,
+        "used_g": 25.7
+      }
+    }
+  },
+  "toothpaste-squeezer": {
+    "ref": "/Users/justinrui/Desktop/M/Other/Toothpaste+Squeezer+4.0.3mf",
+    "units": {
+      "1": 1
+    },
+    "per_unit_cm3": {
+      "1": 31.9
+    },
+    "ok": true,
+    "plates": {
+      "1": {
+        "model_time": "1h 36m 47s",
+        "total_time": "1h 41m 56s",
+        "layers": "493",
+        "density": "1.26",
+        "max_z": "98.60",
+        "used_mm": 13262.7,
+        "used_cm3": 31.9,
+        "used_g": 40.19
+      }
+    }
+  }
+}

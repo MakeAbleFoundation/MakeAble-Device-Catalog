@@ -1,0 +1,32 @@
+id,file,device,material,per_plate,objects,print_time,grams,cm3,cm3_per_unit,reference_cm3_per_unit,match,page_grams,layer,walls,infill,supports,brim,preset,slice_ok,geometry_issues,advisories
+1,01 Bag Carrier (Medium) - PLA x4.3mf,Bag Carrier (Medium),PLA,4 copies,4,3h 0m 37s,125.4,99.5,24.88,24.93,100%,32,0.2,2,15%,0,auto_brim,0.20mm Standard @BBL X1C,True,0,0
+2,02 Bag Carrier (Small) - PLA x4.3mf,Bag Carrier (Small),PLA,4 copies,4,2h 41m 50s,112.5,89.2,22.31,,-,,0.2,2,15%,0,auto_brim,0.20mm Standard @BBL X1C,True,0,0
+3,03 Bag Carrier (Large) - PLA x2.3mf,Bag Carrier (Large),PLA,2 copies,2,1h 49m 24s,78.9,62.6,31.32,,-,,0.2,2,15%,0,auto_brim,0.20mm Standard @BBL X1C,True,0,0
+4,04 Bottle Cap Opener - PETG x8.3mf,Bottle Cap Opener,PETG,8 copies,8,7h 1m 48s,166.0,132.8,16.6,16.68,99%,22,0.2,5,50%,0,auto_brim,0.20mm Standard @BBL X1C,True,0,0
+5,"05 Bottle Opener (three sizes, wide handle) - PETG x4.3mf","Bottle Opener (three sizes, wide handle)",PETG,4 copies,4,6h 46m 6s,141.1,112.9,28.22,29.4,96%,35,0.2,6,25%,0,auto_brim,0.20mm Strength @BBL X1C,True,0,1
+6,06 Assistive Can Tab Opener - PLA x30.3mf,Assistive Can Tab Opener,PLA,30 copies,30,11h 8m 48s,358.8,284.7,9.49,9.57,99%,12,0.2,2,50%,1,auto_brim,0.20mm Standard @BBL X1C,True,0,0
+7,07 OPENSESAME3000 Jar Tool - PETG x2.3mf,OPENSESAME3000 Jar Tool,PETG,2 copies,2,5h 57m 26s,147.1,117.7,58.83,58.94,100%,74,0.12,3,15%,0,auto_brim,0.12mm Fine @BBL X1C,True,0,0
+8,08 KeyWings - PETG x88.3mf,KeyWings,PETG,88 copies,88,16h 7m 18s,274.4,219.5,2.49,2.63,95%,4,0.2,3,20%,0,no_brim,0.20mm Standard @BBL X1C,True,0,1
+9,09 DRAG Assistive Writer (kit of 3) - PLA x2.3mf,DRAG Assistive Writer (kit of 3),PLA,2 kits,6,3h 39m 32s,146.4,116.2,58.11,58.06,100%,76,0.2,2,15%,0,no_brim,0.20mm Standard @BBL X1C,True,0,2
+10,10 Blister Pack Opener - PETG x8.3mf,Blister Pack Opener,PETG,8 copies,8,10h 27m 58s,251.1,200.9,25.11,26.09,96%,33,0.2,5,17%,1,outer_only,0.20mm Standard @BBL X1C,True,0,0
+11,11 Pill Popper - PETG x21.3mf,Pill Popper,PETG,21 copies,21,8h 22m 50s,165.8,132.6,6.32,6.29,100%,9,0.2,6,25%,0,auto_brim,0.20mm Strength @BBL X1C,True,0,1
+12,"12 Clothes Button & Zipper Hook (hook, PETG) - PETG x9.3mf","Clothes Button & Zipper Hook (hook, PETG)",PETG,9 copies,9,1h 43m 51s,37.9,30.3,3.37,3.5,96%,,0.2,6,25%,0,auto_brim,0.20mm Strength @BBL X1C,True,0,0
+13,"13 Clothes Button & Zipper Hook (handle kit, PLA) - PLA x8.3mf","Clothes Button & Zipper Hook (handle kit, PLA)",PLA,8 kits,32,3h 51m 4s,95.0,75.4,9.43,9.81,96%,,0.2,6,25%,0,auto_brim,0.20mm Strength @BBL X1C,True,0,1
+14,14 Flipper Nail Clipper (large clippers) - PLA x3.3mf,Flipper Nail Clipper (large clippers),PLA,3 copies,3,2h 21m 17s,90.8,72.1,24.02,23.96,100%,30,0.2,2,15%,0,auto_brim,0.20mm Standard @BBL X1C,True,0,1
+15,15 Flipper the Clipper v2 (Thingiverse) - PLA x4.3mf,Flipper the Clipper v2 (Thingiverse),PLA,4 copies,4,4h 19m 31s,184.0,146.0,36.5,,-,,0.2,2,80%,0,auto_brim,0.20mm Standard @BBL X1C,True,0,1
+16,16 Eating Utensil Aid (kit) - PLA x5.3mf,Eating Utensil Aid (kit),PLA,5 kits,10,9h 49m 52s,231.2,183.5,36.7,36.8,100%,45,0.2,2,60%,0,auto_brim,0.20mm Standard @BBL X1C,True,0,1
+17,17 Quick-Slip Shoe Horn - PETG x12.3mf,Quick-Slip Shoe Horn,PETG,12 copies,12,11h 46m 18s,296.5,237.2,19.76,,-,25,0.2,2,15%,0,auto_brim,0.20mm Standard @BBL X1C,True,0,0
+18,18 Tuber Opener - PLA x12.3mf,Tuber Opener,PLA,12 copies,12,6h 51m 19s,202.7,160.9,13.41,13.43,100%,17,0.16,4,15%,0,auto_brim,0.16mm Optimal @BBL X1C,True,0,0
+19,19 Arthritis Toothbrush Grip - PLA x25.3mf,Arthritis Toothbrush Grip,PLA,25 copies,25,17h 34m 24s,788.5,625.8,25.03,,-,,0.2,2,15%,0,auto_brim,0.20mm Standard @BBL X1C,True,0,0
+20,20 One-Handed Page Holder - PLA x23.3mf,One-Handed Page Holder,PLA,23 copies,23,8h 10m 32s,228.1,181.0,7.87,7.87,100%,,0.16,3,15%,0,auto_brim,0.16mm Optimal @BBL X1C,True,0,0
+21,21 Smartphone Magnification Stand - PLA x12.3mf,Smartphone Magnification Stand,PLA,12 copies,12,10h 10m 51s,312.1,247.7,20.64,20.73,100%,,0.16,2,15%,0,auto_brim,0.16mm Optimal @BBL X1C,True,0,1
+22,22 Ratcheted Toothpaste Squeezer (kit) - PLA x15.3mf,Ratcheted Toothpaste Squeezer (kit),PLA,15 kits,30,21h 46m 24s,606.2,481.1,32.08,31.9,101%,,0.2,2,15%,0,auto_brim,0.20mm Standard @BBL X1C,True,0,1
+23,23 Eye Drop Assist pliers (bottle 20 mm) - PLA x2.3mf,Eye Drop Assist pliers (bottle 20 mm),PLA,2 copies,2,59m 33s,29.0,23.0,11.5,,-,,0.2,2,15%,0,auto_brim,0.20mm Standard @BBL X1C,True,0,0
+24,24 Eye Drop Assist pliers (bottle 22 mm) - PLA x2.3mf,Eye Drop Assist pliers (bottle 22 mm),PLA,2 copies,2,59m 19s,28.7,22.8,11.4,,-,,0.2,2,15%,0,auto_brim,0.20mm Standard @BBL X1C,True,0,0
+25,25 Eye Drop Assist pliers (bottle 24 mm) - PLA x2.3mf,Eye Drop Assist pliers (bottle 24 mm),PLA,2 copies,2,58m 59s,28.6,22.7,11.34,,-,,0.2,2,15%,0,auto_brim,0.20mm Standard @BBL X1C,True,0,0
+26,26 Eye Drop Assist pliers (bottle 25 mm) - PLA x2.3mf,Eye Drop Assist pliers (bottle 25 mm),PLA,2 copies,2,57m 5s,27.9,22.2,11.08,,-,,0.2,2,15%,0,auto_brim,0.20mm Standard @BBL X1C,True,0,0
+27,27 Eye Drop Assist eyepiece 03 A - PLA x35.3mf,Eye Drop Assist eyepiece 03 A,PLA,35 copies,35,5h 5m 14s,117.7,93.4,2.67,,-,,0.2,2,15%,0,auto_brim,0.20mm Standard @BBL X1C,True,0,1
+28,28 Eye Drop Assist eyepiece 03 B - PLA x35.3mf,Eye Drop Assist eyepiece 03 B,PLA,35 copies,35,4h 42m 50s,113.4,90.0,2.57,,-,,0.2,2,15%,0,auto_brim,0.20mm Standard @BBL X1C,True,0,0
+29,29 Eye Drop Assist eyepiece 03 C - PLA x35.3mf,Eye Drop Assist eyepiece 03 C,PLA,35 copies,35,5h 1m 57s,122.5,97.2,2.78,,-,,0.2,2,15%,0,auto_brim,0.20mm Standard @BBL X1C,True,0,1
+30,30 Eye Drop Assist eyepiece 04 D - PLA x35.3mf,Eye Drop Assist eyepiece 04 D,PLA,35 copies,35,5h 41m 16s,136.7,108.5,3.1,,-,,0.2,2,15%,0,auto_brim,0.20mm Standard @BBL X1C,True,0,1
+31,31 Eye Drop Assist eyepiece 04 E - PLA x35.3mf,Eye Drop Assist eyepiece 04 E,PLA,35 copies,35,5h 21m 16s,130.9,103.9,2.97,,-,,0.2,2,15%,0,auto_brim,0.20mm Standard @BBL X1C,True,0,0

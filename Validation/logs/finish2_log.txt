@@ -1,0 +1,25 @@
+### widening spacing on plates whose paths conflict
+  Bag Carrier (Small): slice failed
+     9 mm spacing -> 4 copies, still conflicts
+     13 mm spacing -> 4 copies, still conflicts
+     18 mm spacing -> 4 copies, still conflicts
+     24 mm spacing -> 4 copies, still conflicts
+  Assistive Can Tab Opener: slice failed
+     9 mm spacing -> 28 copies, slices clean, 10h 24m 50s 335 g
+  Clothes Button & Zipper Hook (handle kit, PLA): slice failed
+     9 mm spacing -> 7 kits, still conflicts
+     13 mm spacing -> 5 kits, still conflicts
+     18 mm spacing -> 4 kits, still conflicts
+     24 mm spacing -> 4 kits, still conflicts
+  Eating Utensil Aid (kit): slice failed
+     9 mm spacing -> 5 kits, still conflicts
+     13 mm spacing -> 4 kits, still conflicts
+     18 mm spacing -> 4 kits, still conflicts
+     24 mm spacing -> 3 kits, still conflicts
+  Ratcheted Toothpaste Squeezer (kit): slice failed
+     9 mm spacing -> 12 kits, still conflicts
+     13 mm spacing -> 10 kits, still conflicts
+     18 mm spacing -> 8 kits, still conflicts
+     24 mm spacing -> 8 kits, still conflicts
+
+widened spacing on 1 plate(s): can-opener -> 9 mm

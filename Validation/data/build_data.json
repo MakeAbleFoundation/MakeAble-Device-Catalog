@@ -1,0 +1,3777 @@
+[
+  {
+    "slug": "bag-carrier-medium",
+    "id": 1,
+    "title": "Bag Carrier (Medium)",
+    "path": "/Users/justinrui/Desktop/M/Makebot P1S Print Files/Full Plates/01 Bag Carrier (Medium) - PLA x4.3mf",
+    "layout": "single",
+    "file": "01 Bag Carrier (Medium) - PLA x4.3mf",
+    "material": "PLA",
+    "count": 4,
+    "unit": "copies",
+    "objects": 4,
+    "issues": [],
+    "bbox": {
+      "1": {
+        "count": 4,
+        "bbox": [
+          5.0,
+          31.5,
+          235.5,
+          239.5
+        ]
+      }
+    },
+    "gap": 5.0,
+    "info": {
+      "target_preset": "0.20mm Standard @BBL X1C",
+      "base_preset": "0.20mm Standard @BBL X1C",
+      "base_note": null,
+      "from_reference": {},
+      "kept_p1s": {
+        "flush_multiplier": [
+          "0.62",
+          "0.75"
+        ],
+        "overhang_threshold_participating_cooling": [
+          "95%",
+          "95%"
+        ],
+        "pressure_advance": [
+          "0.02",
+          "0.02"
+        ]
+      },
+      "ambiguous": {
+        "flush_multiplier": [
+          "0.62",
+          "0.75"
+        ],
+        "overhang_threshold_participating_cooling": [
+          "95%",
+          "95%"
+        ],
+        "pressure_advance": [
+          "0.02",
+          "0.02"
+        ]
+      },
+      "overrides": {}
+    },
+    "filaments": [
+      "Bambu PLA Basic @BBL X1C"
+    ],
+    "advisories": [],
+    "metrics": {
+      "Bag Carrier Medium.stl": {
+        "overhang": {
+          "area": 9.1,
+          "max_gap": 6.0,
+          "faces": 42,
+          "worst_z": 10.5
+        },
+        "footprint": {
+          "contact_mm2": 3616.5,
+          "height": 15.0,
+          "min_width": 100.8,
+          "slenderness": 0.15
+        }
+      }
+    },
+    "parts": [
+      "Bag Carrier Medium.stl"
+    ],
+    "profile": {
+      "preset": "0.20mm Standard @BBL X1C",
+      "layer": "0.2",
+      "first_layer": "0.2",
+      "walls": "2",
+      "infill": "15%",
+      "pattern": "grid",
+      "support": "0",
+      "support_type": "tree(auto)",
+      "brim": "auto_brim",
+      "top": "5",
+      "bottom": "3"
+    }
+  },
+  {
+    "slug": "bag-carrier-small",
+    "id": 2,
+    "title": "Bag Carrier (Small)",
+    "path": "/Users/justinrui/Desktop/M/Makebot P1S Print Files/Full Plates/02 Bag Carrier (Small) - PLA x4.3mf",
+    "layout": "single",
+    "file": "02 Bag Carrier (Small) - PLA x4.3mf",
+    "material": "PLA",
+    "count": 4,
+    "unit": "copies",
+    "objects": 4,
+    "issues": [],
+    "bbox": {
+      "1": {
+        "count": 4,
+        "bbox": [
+          5.0,
+          43.0,
+          205.5,
+          241.0
+        ]
+      }
+    },
+    "gap": 5.0,
+    "info": {
+      "target_preset": "0.20mm Standard @BBL X1C",
+      "base_preset": "0.20mm Standard @BBL X1C",
+      "base_note": null,
+      "from_reference": {},
+      "kept_p1s": {
+        "flush_multiplier": [
+          "0.62",
+          "0.75"
+        ],
+        "overhang_threshold_participating_cooling": [
+          "95%",
+          "95%"
+        ],
+        "pressure_advance": [
+          "0.02",
+          "0.02"
+        ]
+      },
+      "ambiguous": {
+        "flush_multiplier": [
+          "0.62",
+          "0.75"
+        ],
+        "overhang_threshold_participating_cooling": [
+          "95%",
+          "95%"
+        ],
+        "pressure_advance": [
+          "0.02",
+          "0.02"
+        ]
+      },
+      "overrides": {}
+    },
+    "filaments": [
+      "Bambu PLA Basic @BBL X1C"
+    ],
+    "advisories": [],
+    "metrics": {
+      "Bag Carrier Small.stl": {
+        "overhang": {
+          "area": 9.1,
+          "max_gap": 6.0,
+          "faces": 44,
+          "worst_z": 10.5
+        },
+        "footprint": {
+          "contact_mm2": 3321.9,
+          "height": 15.0,
+          "min_width": 95.8,
+          "slenderness": 0.16
+        }
+      }
+    },
+    "parts": [
+      "Bag Carrier Small.stl"
+    ],
+    "profile": {
+      "preset": "0.20mm Standard @BBL X1C",
+      "layer": "0.2",
+      "first_layer": "0.2",
+      "walls": "2",
+      "infill": "15%",
+      "pattern": "grid",
+      "support": "0",
+      "support_type": "tree(auto)",
+      "brim": "auto_brim",
+      "top": "5",
+      "bottom": "3"
+    }
+  },
+  {
+    "slug": "bag-carrier-large",
+    "id": 3,
+    "title": "Bag Carrier (Large)",
+    "path": "/Users/justinrui/Desktop/M/Makebot P1S Print Files/Full Plates/03 Bag Carrier (Large) - PLA x2.3mf",
+    "layout": "single (corner kept clear)",
+    "file": "03 Bag Carrier (Large) - PLA x2.3mf",
+    "material": "PLA",
+    "count": 2,
+    "unit": "copies",
+    "objects": 2,
+    "issues": [],
+    "bbox": {
+      "1": {
+        "count": 2,
+        "bbox": [
+          40.0,
+          19.5,
+          175.8,
+          246.5
+        ]
+      }
+    },
+    "gap": 5.0,
+    "info": {
+      "target_preset": "0.20mm Standard @BBL X1C",
+      "base_preset": "0.20mm Standard @BBL X1C",
+      "base_note": null,
+      "from_reference": {},
+      "kept_p1s": {
+        "flush_multiplier": [
+          "0.62",
+          "0.75"
+        ],
+        "overhang_threshold_participating_cooling": [
+          "95%",
+          "95%"
+        ],
+        "pressure_advance": [
+          "0.02",
+          "0.02"
+        ]
+      },
+      "ambiguous": {
+        "flush_multiplier": [
+          "0.62",
+          "0.75"
+        ],
+        "overhang_threshold_participating_cooling": [
+          "95%",
+          "95%"
+        ],
+        "pressure_advance": [
+          "0.02",
+          "0.02"
+        ]
+      },
+      "overrides": {}
+    },
+    "filaments": [
+      "Bambu PLA Basic @BBL X1C"
+    ],
+    "advisories": [],
+    "metrics": {
+      "Bag Carrier Large.stl": {
+        "overhang": {
+          "area": 9.1,
+          "max_gap": 6.0,
+          "faces": 41,
+          "worst_z": 10.5
+        },
+        "footprint": {
+          "contact_mm2": 4975.9,
+          "height": 15.0,
+          "min_width": 110.2,
+          "slenderness": 0.14
+        }
+      }
+    },
+    "parts": [
+      "Bag Carrier Large.stl"
+    ],
+    "profile": {
+      "preset": "0.20mm Standard @BBL X1C",
+      "layer": "0.2",
+      "first_layer": "0.2",
+      "walls": "2",
+      "infill": "15%",
+      "pattern": "grid",
+      "support": "0",
+      "support_type": "tree(auto)",
+      "brim": "auto_brim",
+      "top": "5",
+      "bottom": "3"
+    }
+  },
+  {
+    "slug": "bottle-cap-opener",
+    "id": 4,
+    "title": "Bottle Cap Opener",
+    "path": "/Users/justinrui/Desktop/M/Makebot P1S Print Files/Full Plates/04 Bottle Cap Opener - PETG x8.3mf",
+    "layout": "pairs at 5deg",
+    "file": "04 Bottle Cap Opener - PETG x8.3mf",
+    "material": "PETG",
+    "count": 8,
+    "unit": "copies",
+    "objects": 8,
+    "issues": [],
+    "bbox": {
+      "1": {
+        "count": 8,
+        "bbox": [
+          5.0,
+          40.7,
+          243.2,
+          231.5
+        ]
+      }
+    },
+    "gap": 5.0,
+    "info": {
+      "target_preset": "0.20mm Standard @BBL X1C",
+      "base_preset": "0.20mm Standard @BBL A1M",
+      "base_note": null,
+      "from_reference": {
+        "bottom_shell_layers": [
+          "3",
+          "5"
+        ],
+        "initial_layer_infill_speed": [
+          "105",
+          "50"
+        ],
+        "initial_layer_print_height": [
+          "0.2",
+          "0.15"
+        ],
+        "inner_wall_speed": [
+          "300",
+          "250"
+        ],
+        "outer_wall_speed": [
+          "200",
+          "150"
+        ],
+        "overhang_totally_speed": [
+          "10",
+          "19"
+        ],
+        "sparse_infill_density": [
+          "15%",
+          "50%"
+        ],
+        "sparse_infill_speed": [
+          "270",
+          "250"
+        ],
+        "support_type": [
+          "tree(auto)",
+          "normal(auto)"
+        ],
+        "top_shell_layers": [
+          "5",
+          "3"
+        ],
+        "top_shell_thickness": [
+          "1.0",
+          "0.6"
+        ],
+        "tree_support_wall_count": [
+          "-1",
+          "1"
+        ],
+        "wall_loops": [
+          "2",
+          "5"
+        ]
+      },
+      "kept_p1s": {
+        "default_acceleration": [
+          "6000",
+          "10000"
+        ],
+        "flush_multiplier": [
+          "1",
+          "0.75"
+        ],
+        "overhang_threshold_participating_cooling": [
+          "95%",
+          "95%"
+        ],
+        "pressure_advance": [
+          "0.02",
+          "0.02"
+        ],
+        "raft_first_layer_expansion": [
+          "2",
+          "-1"
+        ],
+        "smooth_coefficient": [
+          "80",
+          "150"
+        ],
+        "top_area_threshold": [
+          "100%",
+          "200%"
+        ],
+        "travel_speed": [
+          "700",
+          "500"
+        ]
+      },
+      "ambiguous": {
+        "flush_multiplier": [
+          "1",
+          "0.75"
+        ],
+        "overhang_threshold_participating_cooling": [
+          "95%",
+          "95%"
+        ],
+        "pressure_advance": [
+          "0.02",
+          "0.02"
+        ],
+        "raft_first_layer_expansion": [
+          "2",
+          "-1"
+        ],
+        "top_area_threshold": [
+          "100%",
+          "200%"
+        ]
+      },
+      "overrides": {}
+    },
+    "filaments": [
+      "PETG P1S Tuned"
+    ],
+    "advisories": [],
+    "metrics": {
+      "Bottle Cap Opener": {
+        "overhang": {
+          "area": 0.0,
+          "max_gap": 0.0,
+          "faces": 0,
+          "worst_z": 5.0
+        },
+        "footprint": {
+          "contact_mm2": 2108.1,
+          "height": 10.0,
+          "min_width": 59.7,
+          "slenderness": 0.17
+        }
+      }
+    },
+    "parts": [
+      "Bottle Cap Opener"
+    ],
+    "profile": {
+      "preset": "0.20mm Standard @BBL X1C",
+      "layer": "0.2",
+      "first_layer": "0.15",
+      "walls": "5",
+      "infill": "50%",
+      "pattern": "grid",
+      "support": "0",
+      "support_type": "normal(auto)",
+      "brim": "auto_brim",
+      "top": "3",
+      "bottom": "5"
+    }
+  },
+  {
+    "slug": "bottle-opener-wide-handle",
+    "id": 5,
+    "title": "Bottle Opener (three sizes, wide handle)",
+    "path": "/Users/justinrui/Desktop/M/Makebot P1S Print Files/Full Plates/05 Bottle Opener (three sizes, wide handle) - PETG x4.3mf",
+    "layout": "single",
+    "file": "05 Bottle Opener (three sizes, wide handle) - PETG x4.3mf",
+    "material": "PETG",
+    "count": 4,
+    "unit": "copies",
+    "objects": 4,
+    "issues": [],
+    "bbox": {
+      "1": {
+        "count": 4,
+        "bbox": [
+          29.8,
+          5.0,
+          236.0,
+          249.2
+        ]
+      }
+    },
+    "gap": 5.0,
+    "info": {
+      "target_preset": "0.20mm Strength @BBL X1C",
+      "base_preset": "0.20mm Strength @BBL X1C",
+      "base_note": null,
+      "from_reference": {
+        "independent_support_layer_height": [
+          "1",
+          "0"
+        ],
+        "overhang_totally_speed": [
+          "10",
+          "50"
+        ],
+        "sparse_infill_pattern": [
+          "grid",
+          "cubic"
+        ],
+        "support_type": [
+          "tree(auto)",
+          "normal(auto)"
+        ],
+        "tree_support_wall_count": [
+          "-1",
+          "0"
+        ],
+        "wall_sequence": [
+          "inner wall/outer wall",
+          "outer wall/inner wall"
+        ]
+      },
+      "kept_p1s": {
+        "flush_multiplier": [
+          "1",
+          "0.75"
+        ],
+        "overhang_threshold_participating_cooling": [
+          "95%",
+          "95%"
+        ],
+        "pressure_advance": [
+          "0.02",
+          "0.02"
+        ],
+        "raft_first_layer_expansion": [
+          "2",
+          "-1"
+        ],
+        "top_area_threshold": [
+          "100%",
+          "200%"
+        ]
+      },
+      "ambiguous": {
+        "flush_multiplier": [
+          "1",
+          "0.75"
+        ],
+        "overhang_threshold_participating_cooling": [
+          "95%",
+          "95%"
+        ],
+        "pressure_advance": [
+          "0.02",
+          "0.02"
+        ],
+        "raft_first_layer_expansion": [
+          "2",
+          "-1"
+        ],
+        "top_area_threshold": [
+          "100%",
+          "200%"
+        ]
+      },
+      "overrides": {}
+    },
+    "filaments": [
+      "PETG P1S Tuned"
+    ],
+    "advisories": [
+      "bottle opener remix.stl: 349 mm2 of steep overhang with air under it (max drop 5.0 mm at z=5 mm) while supports are off in the designer's profile - worth a look at the preview"
+    ],
+    "metrics": {
+      "bottle opener remix.stl": {
+        "overhang": {
+          "area": 349.0,
+          "max_gap": 5.0,
+          "faces": 177,
+          "worst_z": 5.0
+        },
+        "footprint": {
+          "contact_mm2": 1902.2,
+          "height": 20.0,
+          "min_width": 98.2,
+          "slenderness": 0.2
+        }
+      }
+    },
+    "parts": [
+      "bottle opener remix.stl"
+    ],
+    "profile": {
+      "preset": "0.20mm Strength @BBL X1C",
+      "layer": "0.2",
+      "first_layer": "0.2",
+      "walls": "6",
+      "infill": "25%",
+      "pattern": "cubic",
+      "support": "0",
+      "support_type": "normal(auto)",
+      "brim": "auto_brim",
+      "top": "5",
+      "bottom": "3"
+    }
+  },
+  {
+    "slug": "can-opener",
+    "id": 6,
+    "title": "Assistive Can Tab Opener",
+    "path": "/Users/justinrui/Desktop/M/Makebot P1S Print Files/Full Plates/06 Assistive Can Tab Opener - PLA x30.3mf",
+    "layout": "single",
+    "file": "06 Assistive Can Tab Opener - PLA x30.3mf",
+    "material": "PLA",
+    "count": 30,
+    "unit": "copies",
+    "objects": 30,
+    "issues": [],
+    "bbox": {
+      "1": {
+        "count": 30,
+        "bbox": [
+          32.8,
+          5.0,
+          247.2,
+          248.2
+        ]
+      }
+    },
+    "gap": 8.0,
+    "info": {
+      "target_preset": "0.20mm Standard @BBL X1C",
+      "base_preset": "0.20mm Standard @BBL X1C",
+      "base_note": null,
+      "from_reference": {
+        "enable_support": [
+          "0",
+          "1"
+        ],
+        "skeleton_infill_density": [
+          "15%",
+          "50%"
+        ],
+        "skin_infill_density": [
+          "15%",
+          "50%"
+        ],
+        "sparse_infill_density": [
+          "15%",
+          "50%"
+        ]
+      },
+      "kept_p1s": {
+        "flush_multiplier": [
+          "0.62",
+          "0.75"
+        ],
+        "overhang_threshold_participating_cooling": [
+          "95%",
+          "95%"
+        ],
+        "pressure_advance": [
+          "0.02",
+          "0.02"
+        ]
+      },
+      "ambiguous": {
+        "flush_multiplier": [
+          "0.62",
+          "0.75"
+        ],
+        "overhang_threshold_participating_cooling": [
+          "95%",
+          "95%"
+        ],
+        "pressure_advance": [
+          "0.02",
+          "0.02"
+        ]
+      },
+      "overrides": {}
+    },
+    "filaments": [
+      "Bambu PLA Basic @BBL X1C"
+    ],
+    "advisories": [],
+    "metrics": {
+      "Base_Can_Opener.stl": {
+        "overhang": {
+          "area": 70.2,
+          "max_gap": 18.0,
+          "faces": 160,
+          "worst_z": 21.0
+        },
+        "footprint": {
+          "contact_mm2": 294.3,
+          "height": 24.0,
+          "min_width": 8.0,
+          "slenderness": 3.0
+        }
+      }
+    },
+    "parts": [
+      "Base_Can_Opener.stl"
+    ],
+    "profile": {
+      "preset": "0.20mm Standard @BBL X1C",
+      "layer": "0.2",
+      "first_layer": "0.2",
+      "walls": "2",
+      "infill": "50%",
+      "pattern": "grid",
+      "support": "1",
+      "support_type": "tree(auto)",
+      "brim": "auto_brim",
+      "top": "5",
+      "bottom": "3"
+    }
+  },
+  {
+    "slug": "jar-opener",
+    "id": 7,
+    "title": "OPENSESAME3000 Jar Tool",
+    "path": "/Users/justinrui/Desktop/M/Makebot P1S Print Files/Full Plates/07 OPENSESAME3000 Jar Tool - PETG x2.3mf",
+    "layout": "single",
+    "file": "07 OPENSESAME3000 Jar Tool - PETG x2.3mf",
+    "material": "PETG",
+    "count": 2,
+    "unit": "copies",
+    "objects": 2,
+    "issues": [],
+    "bbox": {
+      "1": {
+        "count": 2,
+        "bbox": [
+          5.0,
+          40.3,
+          243.2,
+          223.8
+        ]
+      }
+    },
+    "gap": 5.0,
+    "info": {
+      "target_preset": "0.12mm Fine @BBL X1C",
+      "base_preset": "0.12mm Fine @BBL X1C",
+      "base_note": null,
+      "from_reference": {
+        "infill_combination": [
+          "0",
+          "1"
+        ],
+        "initial_layer_speed": [
+          "50",
+          "40"
+        ],
+        "overhang_totally_speed": [
+          "10",
+          "50"
+        ],
+        "sparse_infill_pattern": [
+          "grid",
+          "gyroid"
+        ],
+        "support_on_build_plate_only": [
+          "0",
+          "1"
+        ],
+        "support_type": [
+          "tree(auto)",
+          "normal(auto)"
+        ],
+        "tree_support_wall_count": [
+          "-1",
+          "0"
+        ],
+        "wall_loops": [
+          "2",
+          "3"
+        ]
+      },
+      "kept_p1s": {
+        "flush_multiplier": [
+          "1",
+          "0.75"
+        ],
+        "overhang_threshold_participating_cooling": [
+          "95%",
+          "95%"
+        ],
+        "pressure_advance": [
+          "0.02",
+          "0.02"
+        ],
+        "raft_first_layer_expansion": [
+          "2",
+          "-1"
+        ],
+        "top_area_threshold": [
+          "100%",
+          "200%"
+        ]
+      },
+      "ambiguous": {
+        "flush_multiplier": [
+          "1",
+          "0.75"
+        ],
+        "overhang_threshold_participating_cooling": [
+          "95%",
+          "95%"
+        ],
+        "pressure_advance": [
+          "0.02",
+          "0.02"
+        ],
+        "raft_first_layer_expansion": [
+          "2",
+          "-1"
+        ],
+        "top_area_threshold": [
+          "100%",
+          "200%"
+        ]
+      },
+      "overrides": {}
+    },
+    "filaments": [
+      "PETG P1S Tuned"
+    ],
+    "advisories": [],
+    "metrics": {
+      "logod.stl": {
+        "overhang": {
+          "area": 0.0,
+          "max_gap": 0.0,
+          "faces": 0,
+          "worst_z": 10.0
+        },
+        "footprint": {
+          "contact_mm2": 9256.0,
+          "height": 20.0,
+          "min_width": 88.6,
+          "slenderness": 0.23
+        }
+      }
+    },
+    "parts": [
+      "logod.stl"
+    ],
+    "profile": {
+      "preset": "0.12mm Fine @BBL X1C",
+      "layer": "0.12",
+      "first_layer": "0.2",
+      "walls": "3",
+      "infill": "15%",
+      "pattern": "gyroid",
+      "support": "0",
+      "support_type": "normal(auto)",
+      "brim": "auto_brim",
+      "top": "5",
+      "bottom": "5"
+    }
+  },
+  {
+    "slug": "keywings",
+    "id": 8,
+    "title": "KeyWings",
+    "path": "/Users/justinrui/Desktop/M/Makebot P1S Print Files/Full Plates/08 KeyWings - PETG x88.3mf",
+    "layout": "single",
+    "file": "08 KeyWings - PETG x88.3mf",
+    "material": "PETG",
+    "count": 88,
+    "unit": "copies",
+    "objects": 88,
+    "issues": [],
+    "bbox": {
+      "1": {
+        "count": 88,
+        "bbox": [
+          31.5,
+          5.0,
+          238.5,
+          247.5
+        ]
+      }
+    },
+    "gap": 5.0,
+    "info": {
+      "target_preset": "0.20mm Standard @BBL X1C",
+      "base_preset": "0.20mm Standard @BBL A1M",
+      "base_note": null,
+      "from_reference": {
+        "bridge_speed": [
+          "50",
+          "30"
+        ],
+        "brim_type": [
+          "auto_brim",
+          "no_brim"
+        ],
+        "enable_arc_fitting": [
+          "1",
+          "0"
+        ],
+        "enable_prime_tower": [
+          "1",
+          "0"
+        ],
+        "inner_wall_line_width": [
+          "0.45",
+          "0.5"
+        ],
+        "max_travel_detour_distance": [
+          "0",
+          "50"
+        ],
+        "outer_wall_line_width": [
+          "0.42",
+          "0.5"
+        ],
+        "outer_wall_speed": [
+          "200",
+          "100"
+        ],
+        "overhang_2_4_speed": [
+          "50",
+          "100"
+        ],
+        "overhang_3_4_speed": [
+          "30",
+          "100"
+        ],
+        "overhang_4_4_speed": [
+          "10",
+          "100"
+        ],
+        "overhang_totally_speed": [
+          "10",
+          "100"
+        ],
+        "reduce_crossing_wall": [
+          "0",
+          "1"
+        ],
+        "skeleton_infill_density": [
+          "15%",
+          "20%"
+        ],
+        "skin_infill_density": [
+          "15%",
+          "20%"
+        ],
+        "sparse_infill_density": [
+          "15%",
+          "20%"
+        ],
+        "tree_support_wall_count": [
+          "-1",
+          "0"
+        ],
+        "wall_generator": [
+          "classic",
+          "arachne"
+        ],
+        "wall_loops": [
+          "2",
+          "3"
+        ],
+        "wall_sequence": [
+          "inner wall/outer wall",
+          "outer wall/inner wall"
+        ]
+      },
+      "kept_p1s": {
+        "default_acceleration": [
+          "6000",
+          "10000"
+        ],
+        "elefant_foot_compensation": [
+          "0",
+          "0.15"
+        ],
+        "flush_multiplier": [
+          "1",
+          "0.75"
+        ],
+        "overhang_threshold_participating_cooling": [
+          "95%",
+          "95%"
+        ],
+        "pressure_advance": [
+          "0.02",
+          "0.02"
+        ],
+        "raft_first_layer_expansion": [
+          "2",
+          "-1"
+        ],
+        "smooth_coefficient": [
+          "80",
+          "150"
+        ],
+        "travel_speed": [
+          "700",
+          "500"
+        ]
+      },
+      "ambiguous": {
+        "flush_multiplier": [
+          "1",
+          "0.75"
+        ],
+        "overhang_threshold_participating_cooling": [
+          "95%",
+          "95%"
+        ],
+        "pressure_advance": [
+          "0.02",
+          "0.02"
+        ],
+        "raft_first_layer_expansion": [
+          "2",
+          "-1"
+        ]
+      },
+      "overrides": {}
+    },
+    "filaments": [
+      "PETG P1S Tuned"
+    ],
+    "advisories": [
+      "Body_05*: tall and narrow (21 mm on a 6 mm footprint) with brim off in the designer's profile"
+    ],
+    "metrics": {
+      "Body_05*": {
+        "overhang": {
+          "area": 3.4,
+          "max_gap": 7.6,
+          "faces": 17,
+          "worst_z": 11.9
+        },
+        "footprint": {
+          "contact_mm2": 192.5,
+          "height": 21.0,
+          "min_width": 5.6,
+          "slenderness": 3.76
+        }
+      }
+    },
+    "parts": [
+      "Body_05*"
+    ],
+    "profile": {
+      "preset": "0.20mm Standard @BBL X1C",
+      "layer": "0.2",
+      "first_layer": "0.2",
+      "walls": "3",
+      "infill": "20%",
+      "pattern": "grid",
+      "support": "0",
+      "support_type": "tree(auto)",
+      "brim": "no_brim",
+      "top": "5",
+      "bottom": "3"
+    }
+  },
+  {
+    "slug": "drag-writer",
+    "id": 9,
+    "title": "DRAG Assistive Writer (kit of 3)",
+    "path": "/Users/justinrui/Desktop/M/Makebot P1S Print Files/Full Plates/09 DRAG Assistive Writer (kit of 3) - PLA x2.3mf",
+    "layout": "kit by kit (15 deg)",
+    "file": "09 DRAG Assistive Writer (kit of 3) - PLA x2.3mf",
+    "material": "PLA",
+    "count": 2,
+    "unit": "kits",
+    "objects": 6,
+    "issues": [],
+    "bbox": {
+      "1": {
+        "count": 6,
+        "bbox": [
+          5.7,
+          4.8,
+          251.5,
+          225.9
+        ]
+      }
+    },
+    "gap": 5.0,
+    "info": {
+      "target_preset": "0.20mm Standard @BBL X1C",
+      "base_preset": "0.20mm Standard @BBL X1C",
+      "base_note": null,
+      "from_reference": {
+        "brim_type": [
+          "auto_brim",
+          "no_brim"
+        ],
+        "initial_layer_infill_speed": [
+          "105",
+          "50"
+        ],
+        "initial_layer_speed": [
+          "50",
+          "15"
+        ],
+        "overhang_totally_speed": [
+          "10",
+          "50"
+        ],
+        "sparse_infill_pattern": [
+          "grid",
+          "zig-zag"
+        ],
+        "support_type": [
+          "tree(auto)",
+          "normal(auto)"
+        ],
+        "tree_support_wall_count": [
+          "-1",
+          "0"
+        ]
+      },
+      "kept_p1s": {
+        "flush_multiplier": [
+          "1",
+          "0.75"
+        ],
+        "overhang_threshold_participating_cooling": [
+          "95%",
+          "95%"
+        ],
+        "pressure_advance": [
+          "0.02",
+          "0.02"
+        ],
+        "raft_first_layer_expansion": [
+          "2",
+          "-1"
+        ],
+        "top_area_threshold": [
+          "100%",
+          "200%"
+        ]
+      },
+      "ambiguous": {
+        "flush_multiplier": [
+          "1",
+          "0.75"
+        ],
+        "overhang_threshold_participating_cooling": [
+          "95%",
+          "95%"
+        ],
+        "pressure_advance": [
+          "0.02",
+          "0.02"
+        ],
+        "raft_first_layer_expansion": [
+          "2",
+          "-1"
+        ],
+        "top_area_threshold": [
+          "100%",
+          "200%"
+        ]
+      },
+      "overrides": {}
+    },
+    "filaments": [
+      "Bambu PLA Basic @BBL X1C"
+    ],
+    "advisories": [
+      "DRAG left plate: 98 mm2 of steep overhang with air under it (max drop 6.1 mm at z=9 mm) while supports are off in the designer's profile - worth a look at the preview",
+      "DRAG right plate: 93 mm2 of steep overhang with air under it (max drop 12.9 mm at z=13 mm) while supports are off in the designer's profile - worth a look at the preview"
+    ],
+    "metrics": {
+      "DRAG left plate": {
+        "overhang": {
+          "area": 98.0,
+          "max_gap": 6.1,
+          "faces": 107,
+          "worst_z": 9.3
+        },
+        "footprint": {
+          "contact_mm2": 4000.2,
+          "height": 27.9,
+          "min_width": 49.5,
+          "slenderness": 0.56
+        }
+      },
+      "DRAG right plate": {
+        "overhang": {
+          "area": 92.6,
+          "max_gap": 12.9,
+          "faces": 109,
+          "worst_z": 12.9
+        },
+        "footprint": {
+          "contact_mm2": 3959.9,
+          "height": 27.9,
+          "min_width": 49.5,
+          "slenderness": 0.56
+        }
+      },
+      "DRAG centre plate": {
+        "overhang": {
+          "area": 0.0,
+          "max_gap": 0.0,
+          "faces": 0,
+          "worst_z": 14.0
+        },
+        "footprint": {
+          "contact_mm2": 3613.0,
+          "height": 4.0,
+          "min_width": 41.1,
+          "slenderness": 0.1
+        }
+      }
+    },
+    "parts": [
+      "DRAG left plate",
+      "DRAG right plate",
+      "DRAG centre plate"
+    ],
+    "profile": {
+      "preset": "0.20mm Standard @BBL X1C",
+      "layer": "0.2",
+      "first_layer": "0.2",
+      "walls": "2",
+      "infill": "15%",
+      "pattern": "zig-zag",
+      "support": "0",
+      "support_type": "normal(auto)",
+      "brim": "no_brim",
+      "top": "5",
+      "bottom": "3"
+    }
+  },
+  {
+    "slug": "blister-pack-opener",
+    "id": 10,
+    "title": "Blister Pack Opener",
+    "path": "/Users/justinrui/Desktop/M/Makebot P1S Print Files/Full Plates/10 Blister Pack Opener - PETG x8.3mf",
+    "layout": "pairs at 0deg",
+    "file": "10 Blister Pack Opener - PETG x8.3mf",
+    "material": "PETG",
+    "count": 8,
+    "unit": "copies",
+    "objects": 8,
+    "issues": [],
+    "bbox": {
+      "1": {
+        "count": 8,
+        "bbox": [
+          5.0,
+          42.8,
+          230.0,
+          241.6
+        ]
+      }
+    },
+    "gap": 5.0,
+    "info": {
+      "target_preset": "0.20mm Standard @BBL X1C",
+      "base_preset": "0.20mm Standard @BBL X1C",
+      "base_note": null,
+      "from_reference": {
+        "bottom_shell_layers": [
+          "3",
+          "6"
+        ],
+        "brim_type": [
+          "auto_brim",
+          "outer_only"
+        ],
+        "enable_support": [
+          "0",
+          "1"
+        ],
+        "sparse_infill_density": [
+          "15%",
+          "17%"
+        ],
+        "sparse_infill_pattern": [
+          "grid",
+          "crosshatch"
+        ],
+        "support_remove_small_overhang": [
+          "1",
+          "0"
+        ],
+        "top_shell_layers": [
+          "5",
+          "6"
+        ],
+        "wall_loops": [
+          "2",
+          "5"
+        ]
+      },
+      "kept_p1s": {
+        "flush_multiplier": [
+          "1",
+          "0.75"
+        ],
+        "overhang_threshold_participating_cooling": [
+          "95%",
+          "95%"
+        ],
+        "pressure_advance": [
+          "0.02",
+          "0.02"
+        ]
+      },
+      "ambiguous": {
+        "flush_multiplier": [
+          "1",
+          "0.75"
+        ],
+        "overhang_threshold_participating_cooling": [
+          "95%",
+          "95%"
+        ],
+        "pressure_advance": [
+          "0.02",
+          "0.02"
+        ]
+      },
+      "overrides": {}
+    },
+    "filaments": [
+      "PETG P1S Tuned"
+    ],
+    "advisories": [],
+    "metrics": {
+      "Blister Pack Opener.step": {
+        "overhang": {
+          "area": 537.3,
+          "max_gap": 22.5,
+          "faces": 1385,
+          "worst_z": 22.5
+        },
+        "footprint": {
+          "contact_mm2": 474.6,
+          "height": 24.0,
+          "min_width": 65.3,
+          "slenderness": 0.37
+        }
+      }
+    },
+    "parts": [
+      "Blister Pack Opener.step"
+    ],
+    "profile": {
+      "preset": "0.20mm Standard @BBL X1C",
+      "layer": "0.2",
+      "first_layer": "0.2",
+      "walls": "5",
+      "infill": "17%",
+      "pattern": "crosshatch",
+      "support": "1",
+      "support_type": "tree(auto)",
+      "brim": "outer_only",
+      "top": "6",
+      "bottom": "6"
+    }
+  },
+  {
+    "slug": "pill-popper",
+    "id": 11,
+    "title": "Pill Popper",
+    "path": "/Users/justinrui/Desktop/M/Makebot P1S Print Files/Full Plates/11 Pill Popper - PETG x21.3mf",
+    "layout": "single",
+    "file": "11 Pill Popper - PETG x21.3mf",
+    "material": "PETG",
+    "count": 21,
+    "unit": "copies",
+    "objects": 21,
+    "issues": [],
+    "bbox": {
+      "1": {
+        "count": 21,
+        "bbox": [
+          30.2,
+          5.0,
+          227.8,
+          224.0
+        ]
+      }
+    },
+    "gap": 5.0,
+    "info": {
+      "target_preset": "0.20mm Strength @BBL X1C",
+      "base_preset": "0.20mm Strength @BBL A1M",
+      "base_note": null,
+      "from_reference": {
+        "bridge_speed": [
+          "50",
+          "30"
+        ],
+        "initial_layer_speed": [
+          "50",
+          "20"
+        ],
+        "tree_support_wall_count": [
+          "-1",
+          "0"
+        ]
+      },
+      "kept_p1s": {
+        "curr_bed_type": [
+          "High Temp Plate",
+          "Textured PEI Plate"
+        ],
+        "default_acceleration": [
+          "6000",
+          "10000"
+        ],
+        "elefant_foot_compensation": [
+          "0",
+          "0.15"
+        ],
+        "extruder_ams_count": [
+          "1#0|4#0",
+          "1#0|4#0"
+        ],
+        "flush_multiplier": [
+          "1",
+          "0.75"
+        ],
+        "overhang_threshold_participating_cooling": [
+          "95%",
+          "95%"
+        ],
+        "pressure_advance": [
+          "0.02",
+          "0.02"
+        ],
+        "raft_first_layer_expansion": [
+          "2",
+          "-1"
+        ],
+        "smooth_coefficient": [
+          "80",
+          "150"
+        ],
+        "travel_speed": [
+          "700",
+          "500"
+        ]
+      },
+      "ambiguous": {
+        "curr_bed_type": [
+          "High Temp Plate",
+          "Textured PEI Plate"
+        ],
+        "extruder_ams_count": [
+          "1#0|4#0",
+          "1#0|4#0"
+        ],
+        "flush_multiplier": [
+          "1",
+          "0.75"
+        ],
+        "overhang_threshold_participating_cooling": [
+          "95%",
+          "95%"
+        ],
+        "pressure_advance": [
+          "0.02",
+          "0.02"
+        ],
+        "raft_first_layer_expansion": [
+          "2",
+          "-1"
+        ]
+      },
+      "overrides": {}
+    },
+    "filaments": [
+      "PETG P1S Tuned"
+    ],
+    "advisories": [
+      "Body_08*2: 247 mm2 of steep overhang with air under it (max drop 3.6 mm at z=4 mm) while supports are off in the designer's profile - worth a look at the preview"
+    ],
+    "metrics": {
+      "Body_08*2": {
+        "overhang": {
+          "area": 246.8,
+          "max_gap": 3.6,
+          "faces": 275,
+          "worst_z": 3.6
+        },
+        "footprint": {
+          "contact_mm2": 1175.8,
+          "height": 14.6,
+          "min_width": 26.2,
+          "slenderness": 0.56
+        }
+      }
+    },
+    "parts": [
+      "Body_08*2"
+    ],
+    "profile": {
+      "preset": "0.20mm Strength @BBL X1C",
+      "layer": "0.2",
+      "first_layer": "0.2",
+      "walls": "6",
+      "infill": "25%",
+      "pattern": "grid",
+      "support": "0",
+      "support_type": "tree(auto)",
+      "brim": "auto_brim",
+      "top": "5",
+      "bottom": "3"
+    }
+  },
+  {
+    "slug": "clothes-button-hook",
+    "id": 12,
+    "title": "Clothes Button & Zipper Hook (hook, PETG)",
+    "path": "/Users/justinrui/Desktop/M/Makebot P1S Print Files/Full Plates/12 Clothes Button & Zipper Hook (hook, PETG) - PETG x9.3mf",
+    "layout": "single",
+    "file": "12 Clothes Button & Zipper Hook (hook, PETG) - PETG x9.3mf",
+    "material": "PETG",
+    "count": 9,
+    "unit": "copies",
+    "objects": 9,
+    "issues": [],
+    "bbox": {
+      "1": {
+        "count": 9,
+        "bbox": [
+          5.0,
+          49.8,
+          231.8,
+          224.2
+        ]
+      }
+    },
+    "gap": 5.0,
+    "info": {
+      "target_preset": "0.20mm Strength @BBL X1C",
+      "base_preset": "0.20mm Strength @BBL X1C",
+      "base_note": null,
+      "from_reference": {
+        "overhang_totally_speed": [
+          "10",
+          "50"
+        ],
+        "sparse_infill_pattern": [
+          "grid",
+          "gyroid"
+        ],
+        "support_type": [
+          "tree(auto)",
+          "normal(auto)"
+        ],
+        "tree_support_wall_count": [
+          "-1",
+          "0"
+        ]
+      },
+      "kept_p1s": {
+        "flush_multiplier": [
+          "1",
+          "0.75"
+        ],
+        "overhang_threshold_participating_cooling": [
+          "95%",
+          "95%"
+        ],
+        "pressure_advance": [
+          "0.02",
+          "0.02"
+        ],
+        "raft_first_layer_expansion": [
+          "2",
+          "-1"
+        ],
+        "top_area_threshold": [
+          "100%",
+          "200%"
+        ]
+      },
+      "ambiguous": {
+        "flush_multiplier": [
+          "1",
+          "0.75"
+        ],
+        "overhang_threshold_participating_cooling": [
+          "95%",
+          "95%"
+        ],
+        "pressure_advance": [
+          "0.02",
+          "0.02"
+        ],
+        "raft_first_layer_expansion": [
+          "2",
+          "-1"
+        ],
+        "top_area_threshold": [
+          "100%",
+          "200%"
+        ]
+      },
+      "overrides": {}
+    },
+    "filaments": [
+      "PETG P1S Tuned"
+    ],
+    "advisories": [],
+    "metrics": {
+      "central-loop-and-hook-button-and-zipper-hook.stl": {
+        "overhang": {
+          "area": 0.0,
+          "max_gap": 0.0,
+          "faces": 0,
+          "worst_z": 1.0
+        },
+        "footprint": {
+          "contact_mm2": 1776.5,
+          "height": 2.0,
+          "min_width": 20.0,
+          "slenderness": 0.1
+        }
+      }
+    },
+    "parts": [
+      "central-loop-and-hook-button-and-zipper-hook.stl"
+    ],
+    "profile": {
+      "preset": "0.20mm Strength @BBL X1C",
+      "layer": "0.2",
+      "first_layer": "0.2",
+      "walls": "6",
+      "infill": "25%",
+      "pattern": "gyroid",
+      "support": "0",
+      "support_type": "normal(auto)",
+      "brim": "auto_brim",
+      "top": "5",
+      "bottom": "3"
+    }
+  },
+  {
+    "slug": "clothes-button-handles",
+    "id": 13,
+    "title": "Clothes Button & Zipper Hook (handle kit, PLA)",
+    "path": "/Users/justinrui/Desktop/M/Makebot P1S Print Files/Full Plates/13 Clothes Button & Zipper Hook (handle kit, PLA) - PLA x8.3mf",
+    "layout": "kit by kit (15 deg)",
+    "file": "13 Clothes Button & Zipper Hook (handle kit, PLA) - PLA x8.3mf",
+    "material": "PLA",
+    "count": 8,
+    "unit": "kits",
+    "objects": 32,
+    "issues": [],
+    "bbox": {
+      "1": {
+        "count": 32,
+        "bbox": [
+          4.8,
+          4.8,
+          251.2,
+          248.2
+        ]
+      }
+    },
+    "gap": 5.0,
+    "info": {
+      "target_preset": "0.20mm Strength @BBL X1C",
+      "base_preset": "0.20mm Strength @BBL X1C",
+      "base_note": null,
+      "from_reference": {
+        "overhang_totally_speed": [
+          "10",
+          "50"
+        ],
+        "sparse_infill_pattern": [
+          "grid",
+          "gyroid"
+        ],
+        "support_type": [
+          "tree(auto)",
+          "normal(auto)"
+        ],
+        "tree_support_wall_count": [
+          "-1",
+          "0"
+        ]
+      },
+      "kept_p1s": {
+        "flush_multiplier": [
+          "1",
+          "0.75"
+        ],
+        "overhang_threshold_participating_cooling": [
+          "95%",
+          "95%"
+        ],
+        "pressure_advance": [
+          "0.02",
+          "0.02"
+        ],
+        "raft_first_layer_expansion": [
+          "2",
+          "-1"
+        ],
+        "top_area_threshold": [
+          "100%",
+          "200%"
+        ]
+      },
+      "ambiguous": {
+        "flush_multiplier": [
+          "1",
+          "0.75"
+        ],
+        "overhang_threshold_participating_cooling": [
+          "95%",
+          "95%"
+        ],
+        "pressure_advance": [
+          "0.02",
+          "0.02"
+        ],
+        "raft_first_layer_expansion": [
+          "2",
+          "-1"
+        ],
+        "top_area_threshold": [
+          "100%",
+          "200%"
+        ]
+      },
+      "overrides": {}
+    },
+    "filaments": [
+      "Bambu PLA Basic @BBL X1C"
+    ],
+    "advisories": [
+      "Handle+scales.stl: 1157 mm2 of steep overhang with air under it (max drop 5.0 mm at z=5 mm) while supports are off in the designer's profile - worth a look at the preview"
+    ],
+    "metrics": {
+      "Handle+scales.stl": {
+        "overhang": {
+          "area": 1157.1,
+          "max_gap": 5.0,
+          "faces": 2568,
+          "worst_z": 5.0
+        },
+        "footprint": {
+          "contact_mm2": 1543.5,
+          "height": 5.0,
+          "min_width": 20.0,
+          "slenderness": 0.25
+        }
+      },
+      "Connector+pin.stl": {
+        "overhang": {
+          "area": 0.0,
+          "max_gap": 0.0,
+          "faces": 0,
+          "worst_z": 3.8
+        },
+        "footprint": {
+          "contact_mm2": 17.7,
+          "height": 7.6,
+          "min_width": 6.6,
+          "slenderness": 1.14
+        }
+      }
+    },
+    "parts": [
+      "Handle+scales.stl",
+      "Connector+pin.stl"
+    ],
+    "profile": {
+      "preset": "0.20mm Strength @BBL X1C",
+      "layer": "0.2",
+      "first_layer": "0.2",
+      "walls": "6",
+      "infill": "25%",
+      "pattern": "gyroid",
+      "support": "0",
+      "support_type": "normal(auto)",
+      "brim": "auto_brim",
+      "top": "5",
+      "bottom": "3"
+    }
+  },
+  {
+    "slug": "flipper-nail-clipper-large",
+    "id": 14,
+    "title": "Flipper Nail Clipper (large clippers)",
+    "path": "/Users/justinrui/Desktop/M/Makebot P1S Print Files/Full Plates/14 Flipper Nail Clipper (large clippers) - PLA x3.3mf",
+    "layout": "single",
+    "file": "14 Flipper Nail Clipper (large clippers) - PLA x3.3mf",
+    "material": "PLA",
+    "count": 3,
+    "unit": "copies",
+    "objects": 3,
+    "issues": [],
+    "bbox": {
+      "1": {
+        "count": 3,
+        "bbox": [
+          25.5,
+          5.0,
+          241.2,
+          241.8
+        ]
+      }
+    },
+    "gap": 5.0,
+    "info": {
+      "target_preset": "0.20mm Standard @BBL X1C",
+      "base_preset": "0.20mm Standard @BBL A1M",
+      "base_note": null,
+      "from_reference": {
+        "overhang_totally_speed": [
+          "10",
+          "19"
+        ],
+        "support_type": [
+          "tree(auto)",
+          "normal(auto)"
+        ],
+        "tree_support_wall_count": [
+          "-1",
+          "0"
+        ]
+      },
+      "kept_p1s": {
+        "default_acceleration": [
+          "6000",
+          "10000"
+        ],
+        "elefant_foot_compensation": [
+          "0",
+          "0.15"
+        ],
+        "flush_multiplier": [
+          "1",
+          "0.75"
+        ],
+        "overhang_threshold_participating_cooling": [
+          "95%",
+          "95%"
+        ],
+        "pressure_advance": [
+          "0.02",
+          "0.02"
+        ],
+        "raft_first_layer_expansion": [
+          "2",
+          "-1"
+        ],
+        "smooth_coefficient": [
+          "80",
+          "150"
+        ],
+        "top_area_threshold": [
+          "100%",
+          "200%"
+        ],
+        "travel_speed": [
+          "700",
+          "500"
+        ]
+      },
+      "ambiguous": {
+        "flush_multiplier": [
+          "1",
+          "0.75"
+        ],
+        "overhang_threshold_participating_cooling": [
+          "95%",
+          "95%"
+        ],
+        "pressure_advance": [
+          "0.02",
+          "0.02"
+        ],
+        "raft_first_layer_expansion": [
+          "2",
+          "-1"
+        ],
+        "top_area_threshold": [
+          "100%",
+          "200%"
+        ]
+      },
+      "overrides": {}
+    },
+    "filaments": [
+      "Bambu PLA Basic @BBL X1C"
+    ],
+    "advisories": [
+      "Flipper Clipper mod for large size nailcutter.stl: 522 mm2 of steep overhang with air under it (max drop 6.0 mm at z=8 mm) while supports are off in the designer's profile - worth a look at the preview"
+    ],
+    "metrics": {
+      "Flipper Clipper mod for large size nailcutter.stl": {
+        "overhang": {
+          "area": 522.1,
+          "max_gap": 6.0,
+          "faces": 121,
+          "worst_z": 8.5
+        },
+        "footprint": {
+          "contact_mm2": 7823.4,
+          "height": 12.0,
+          "min_width": 84.0,
+          "slenderness": 0.14
+        }
+      }
+    },
+    "parts": [
+      "Flipper Clipper mod for large size nailcutter.stl"
+    ],
+    "profile": {
+      "preset": "0.20mm Standard @BBL X1C",
+      "layer": "0.2",
+      "first_layer": "0.2",
+      "walls": "2",
+      "infill": "15%",
+      "pattern": "grid",
+      "support": "0",
+      "support_type": "normal(auto)",
+      "brim": "auto_brim",
+      "top": "5",
+      "bottom": "3"
+    }
+  },
+  {
+    "slug": "flipper-clipper-v2",
+    "id": 15,
+    "title": "Flipper the Clipper v2 (Thingiverse)",
+    "path": "/Users/justinrui/Desktop/M/Makebot P1S Print Files/Full Plates/15 Flipper the Clipper v2 (Thingiverse) - PLA x4.3mf",
+    "layout": "pairs at 55deg",
+    "file": "15 Flipper the Clipper v2 (Thingiverse) - PLA x4.3mf",
+    "material": "PLA",
+    "count": 4,
+    "unit": "copies",
+    "objects": 4,
+    "issues": [],
+    "bbox": {
+      "1": {
+        "count": 4,
+        "bbox": [
+          5.0,
+          5.0,
+          250.8,
+          249.5
+        ]
+      }
+    },
+    "gap": 5.0,
+    "info": {
+      "target_preset": "0.20mm Standard @BBL X1C",
+      "base_preset": "0.20mm Standard @BBL X1C",
+      "base_note": null,
+      "from_reference": {},
+      "kept_p1s": {},
+      "ambiguous": {},
+      "overrides": {
+        "sparse_infill_density": [
+          "15%",
+          "80%"
+        ],
+        "skin_infill_density": [
+          "15%",
+          "80%"
+        ],
+        "skeleton_infill_density": [
+          "15%",
+          "80%"
+        ]
+      }
+    },
+    "filaments": [
+      "Bambu PLA Basic @BBL X1C"
+    ],
+    "advisories": [
+      "Flipper the Clipper v2 (Thingiverse): 452 mm2 of steep overhang with air under it (max drop 6.0 mm at z=8 mm) while supports are off in the designer's profile - worth a look at the preview"
+    ],
+    "metrics": {
+      "Flipper the Clipper v2 (Thingiverse)": {
+        "overhang": {
+          "area": 452.1,
+          "max_gap": 6.0,
+          "faces": 74,
+          "worst_z": 8.5
+        },
+        "footprint": {
+          "contact_mm2": 6516.5,
+          "height": 11.0,
+          "min_width": 70.0,
+          "slenderness": 0.16
+        }
+      }
+    },
+    "parts": [
+      "Flipper the Clipper v2 (Thingiverse)"
+    ],
+    "profile": {
+      "preset": "0.20mm Standard @BBL X1C",
+      "layer": "0.2",
+      "first_layer": "0.2",
+      "walls": "2",
+      "infill": "80%",
+      "pattern": "grid",
+      "support": "0",
+      "support_type": "tree(auto)",
+      "brim": "auto_brim",
+      "top": "5",
+      "bottom": "3"
+    }
+  },
+  {
+    "slug": "eating-utensil-aid",
+    "id": 16,
+    "title": "Eating Utensil Aid (kit)",
+    "path": "/Users/justinrui/Desktop/M/Makebot P1S Print Files/Full Plates/16 Eating Utensil Aid (kit) - PLA x5.3mf",
+    "layout": "kit by kit (15 deg) (corner kept clear)",
+    "file": "16 Eating Utensil Aid (kit) - PLA x5.3mf",
+    "material": "PLA",
+    "count": 5,
+    "unit": "kits",
+    "objects": 10,
+    "issues": [],
+    "bbox": {
+      "1": {
+        "count": 10,
+        "bbox": [
+          31.8,
+          4.7,
+          251.2,
+          244.5
+        ]
+      }
+    },
+    "gap": 5.0,
+    "info": {
+      "target_preset": "0.20mm Standard @BBL X1C",
+      "base_preset": "0.20mm Standard @BBL X1C",
+      "base_note": null,
+      "from_reference": {
+        "sparse_infill_density": [
+          "15%",
+          "60%"
+        ],
+        "sparse_infill_pattern": [
+          "grid",
+          "gyroid"
+        ]
+      },
+      "kept_p1s": {
+        "flush_multiplier": [
+          "1",
+          "0.75"
+        ],
+        "overhang_threshold_participating_cooling": [
+          "95%",
+          "95%"
+        ],
+        "pressure_advance": [
+          "0.02",
+          "0.02"
+        ]
+      },
+      "ambiguous": {
+        "flush_multiplier": [
+          "1",
+          "0.75"
+        ],
+        "overhang_threshold_participating_cooling": [
+          "95%",
+          "95%"
+        ],
+        "pressure_advance": [
+          "0.02",
+          "0.02"
+        ]
+      },
+      "overrides": {}
+    },
+    "filaments": [
+      "Bambu PLA Basic @BBL X1C"
+    ],
+    "advisories": [
+      "Spoon Holder.stl: 610 mm2 of steep overhang with air under it (max drop 21.0 mm at z=23 mm) while supports are off in the designer's profile - worth a look at the preview"
+    ],
+    "metrics": {
+      "Spoon Holder.stl": {
+        "overhang": {
+          "area": 609.9,
+          "max_gap": 21.0,
+          "faces": 14,
+          "worst_z": 23.0
+        },
+        "footprint": {
+          "contact_mm2": 2355.5,
+          "height": 25.0,
+          "min_width": 62.7,
+          "slenderness": 0.4
+        }
+      },
+      "Nut for Spoon Holder.stl": {
+        "overhang": {
+          "area": 0.0,
+          "max_gap": 0.0,
+          "faces": 0,
+          "worst_z": 10.8
+        },
+        "footprint": {
+          "contact_mm2": 123.0,
+          "height": 21.6,
+          "min_width": 12.3,
+          "slenderness": 1.75
+        }
+      }
+    },
+    "parts": [
+      "Spoon Holder.stl",
+      "Nut for Spoon Holder.stl"
+    ],
+    "profile": {
+      "preset": "0.20mm Standard @BBL X1C",
+      "layer": "0.2",
+      "first_layer": "0.2",
+      "walls": "2",
+      "infill": "60%",
+      "pattern": "gyroid",
+      "support": "0",
+      "support_type": "tree(auto)",
+      "brim": "auto_brim",
+      "top": "5",
+      "bottom": "3"
+    }
+  },
+  {
+    "slug": "shoe-horn",
+    "id": 17,
+    "title": "Quick-Slip Shoe Horn",
+    "path": "/Users/justinrui/Desktop/M/Makebot P1S Print Files/Full Plates/17 Quick-Slip Shoe Horn - PETG x12.3mf",
+    "layout": "single",
+    "file": "17 Quick-Slip Shoe Horn - PETG x12.3mf",
+    "material": "PETG",
+    "count": 12,
+    "unit": "copies",
+    "objects": 12,
+    "issues": [],
+    "bbox": {
+      "1": {
+        "count": 12,
+        "bbox": [
+          5.2,
+          5.0,
+          250.7,
+          251.0
+        ]
+      }
+    },
+    "gap": 5.0,
+    "info": {
+      "target_preset": "0.20mm Standard @BBL X1C",
+      "base_preset": "0.20mm Standard @BBL H2S",
+      "base_note": null,
+      "from_reference": {
+        "ironing_flow": [
+          "10%",
+          "15%"
+        ]
+      },
+      "kept_p1s": {
+        "bridge_speed": [
+          "50",
+          "50"
+        ],
+        "default_acceleration": [
+          "10000",
+          "10000"
+        ],
+        "enable_height_slowdown": [
+          "0",
+          "0"
+        ],
+        "enable_overhang_speed": [
+          "1",
+          "1"
+        ],
+        "extruder_ams_count": [
+          "1#0|4#0",
+          "1#0|4#0"
+        ],
+        "flush_multiplier": [
+          "1",
+          "0.75"
+        ],
+        "gap_infill_speed": [
+          "250",
+          "250"
+        ],
+        "initial_layer_acceleration": [
+          "500",
+          "500"
+        ],
+        "initial_layer_infill_speed": [
+          "105",
+          "105"
+        ],
+        "initial_layer_speed": [
+          "50",
+          "50"
+        ],
+        "initial_layer_travel_acceleration": [
+          "6000",
+          "6000"
+        ],
+        "inner_wall_acceleration": [
+          "0",
+          "0"
+        ],
+        "inner_wall_speed": [
+          "300",
+          "300"
+        ],
+        "internal_solid_infill_speed": [
+          "250",
+          "250"
+        ],
+        "outer_wall_acceleration": [
+          "5000",
+          "5000"
+        ],
+        "outer_wall_speed": [
+          "200",
+          "200"
+        ],
+        "overhang_1_4_speed": [
+          "0",
+          "0"
+        ],
+        "overhang_2_4_speed": [
+          "50",
+          "50"
+        ],
+        "overhang_3_4_speed": [
+          "30",
+          "30"
+        ],
+        "overhang_4_4_speed": [
+          "10",
+          "10"
+        ],
+        "overhang_threshold_participating_cooling": [
+          "95%",
+          "95%"
+        ],
+        "overhang_totally_speed": [
+          "10",
+          "10"
+        ],
+        "pressure_advance": [
+          "0.02",
+          "0.02"
+        ],
+        "print_extruder_id": [
+          "1",
+          "1"
+        ],
+        "print_extruder_variant": [
+          "Direct Drive Standard",
+          "Direct Drive Standard"
+        ],
+        "slowdown_end_acc": [
+          "100000",
+          "100000"
+        ],
+        "slowdown_end_height": [
+          "400",
+          "400"
+        ],
+        "slowdown_end_speed": [
+          "1000",
+          "1000"
+        ],
+        "slowdown_start_acc": [
+          "100000",
+          "100000"
+        ],
+        "slowdown_start_height": [
+          "0",
+          "0"
+        ],
+        "slowdown_start_speed": [
+          "1000",
+          "1000"
+        ],
+        "small_perimeter_speed": [
+          "50%",
+          "50%"
+        ],
+        "small_perimeter_threshold": [
+          "0",
+          "0"
+        ],
+        "smooth_coefficient": [
+          "4",
+          "150"
+        ],
+        "sparse_infill_acceleration": [
+          "100%",
+          "100%"
+        ],
+        "sparse_infill_speed": [
+          "350",
+          "270"
+        ],
+        "support_interface_speed": [
+          "80",
+          "80"
+        ],
+        "support_speed": [
+          "150",
+          "150"
+        ],
+        "top_solid_infill_flow_ratio": [
+          "1",
+          "1"
+        ],
+        "top_surface_acceleration": [
+          "2000",
+          "2000"
+        ],
+        "top_surface_speed": [
+          "200",
+          "200"
+        ],
+        "travel_acceleration": [
+          "10000",
+          "10000"
+        ],
+        "travel_speed": [
+          "1000",
+          "500"
+        ],
+        "travel_speed_z": [
+          "0",
+          "0"
+        ],
+        "vertical_shell_speed": [
+          "80%",
+          "80%"
+        ]
+      },
+      "ambiguous": {
+        "extruder_ams_count": [
+          "1#0|4#0",
+          "1#0|4#0"
+        ],
+        "flush_multiplier": [
+          "1",
+          "0.75"
+        ],
+        "overhang_threshold_participating_cooling": [
+          "95%",
+          "95%"
+        ],
+        "pressure_advance": [
+          "0.02",
+          "0.02"
+        ],
+        "top_solid_infill_flow_ratio": [
+          "1",
+          "1"
+        ]
+      },
+      "overrides": {}
+    },
+    "filaments": [
+      "PETG P1S Tuned"
+    ],
+    "advisories": [],
+    "metrics": {
+      "Shoe Horn.stl": {
+        "overhang": {
+          "area": 30.2,
+          "max_gap": 17.4,
+          "faces": 251,
+          "worst_z": 30.7
+        },
+        "footprint": {
+          "contact_mm2": 1393.3,
+          "height": 44.0,
+          "min_width": 57.0,
+          "slenderness": 0.77
+        }
+      }
+    },
+    "parts": [
+      "Shoe Horn.stl"
+    ],
+    "profile": {
+      "preset": "0.20mm Standard @BBL X1C",
+      "layer": "0.2",
+      "first_layer": "0.2",
+      "walls": "2",
+      "infill": "15%",
+      "pattern": "grid",
+      "support": "0",
+      "support_type": "tree(auto)",
+      "brim": "auto_brim",
+      "top": "5",
+      "bottom": "3"
+    }
+  },
+  {
+    "slug": "tube-opener",
+    "id": 18,
+    "title": "Tuber Opener",
+    "path": "/Users/justinrui/Desktop/M/Makebot P1S Print Files/Full Plates/18 Tuber Opener - PLA x12.3mf",
+    "layout": "pairs at 0deg",
+    "file": "18 Tuber Opener - PLA x12.3mf",
+    "material": "PLA",
+    "count": 12,
+    "unit": "copies",
+    "objects": 12,
+    "issues": [],
+    "bbox": {
+      "1": {
+        "count": 12,
+        "bbox": [
+          5.0,
+          29.2,
+          243.5,
+          228.9
+        ]
+      }
+    },
+    "gap": 5.0,
+    "info": {
+      "target_preset": "0.16mm Optimal @BBL X1C",
+      "base_preset": "0.16mm Optimal @BBL X1C",
+      "base_note": null,
+      "from_reference": {
+        "wall_loops": [
+          "2",
+          "4"
+        ]
+      },
+      "kept_p1s": {},
+      "ambiguous": {},
+      "overrides": {}
+    },
+    "filaments": [
+      "Bambu PLA Basic @BBL X1C"
+    ],
+    "advisories": [],
+    "metrics": {
+      "Tube_Opener.stl": {
+        "overhang": {
+          "area": 54.1,
+          "max_gap": 4.5,
+          "faces": 210,
+          "worst_z": 7.5
+        },
+        "footprint": {
+          "contact_mm2": 2323.6,
+          "height": 21.0,
+          "min_width": 36.1,
+          "slenderness": 0.58
+        }
+      }
+    },
+    "parts": [
+      "Tube_Opener.stl"
+    ],
+    "profile": {
+      "preset": "0.16mm Optimal @BBL X1C",
+      "layer": "0.16",
+      "first_layer": "0.2",
+      "walls": "4",
+      "infill": "15%",
+      "pattern": "grid",
+      "support": "0",
+      "support_type": "tree(auto)",
+      "brim": "auto_brim",
+      "top": "6",
+      "bottom": "4"
+    }
+  },
+  {
+    "slug": "toothbrush-grip",
+    "id": 19,
+    "title": "Arthritis Toothbrush Grip",
+    "path": "/Users/justinrui/Desktop/M/Makebot P1S Print Files/Full Plates/19 Arthritis Toothbrush Grip - PLA x25.3mf",
+    "layout": "single",
+    "file": "19 Arthritis Toothbrush Grip - PLA x25.3mf",
+    "material": "PLA",
+    "count": 25,
+    "unit": "copies",
+    "objects": 25,
+    "issues": [],
+    "bbox": {
+      "1": {
+        "count": 25,
+        "bbox": [
+          27.5,
+          5.0,
+          248.8,
+          225.0
+        ]
+      }
+    },
+    "gap": 5.0,
+    "info": {
+      "target_preset": "0.20mm Standard @BBL X1C",
+      "base_preset": "0.20mm Standard @BBL X1C",
+      "base_note": null,
+      "from_reference": {},
+      "kept_p1s": {},
+      "ambiguous": {},
+      "overrides": {}
+    },
+    "filaments": [
+      "Bambu PLA Basic @BBL X1C"
+    ],
+    "advisories": [],
+    "metrics": {
+      "Arthritis Toothbrush Grip": {
+        "overhang": {
+          "area": 0.0,
+          "max_gap": 0.0,
+          "faces": 0,
+          "worst_z": 0.0
+        },
+        "footprint": {
+          "contact_mm2": 705.0,
+          "height": 100.0,
+          "min_width": 39.3,
+          "slenderness": 2.54
+        }
+      }
+    },
+    "parts": [
+      "Arthritis Toothbrush Grip"
+    ],
+    "profile": {
+      "preset": "0.20mm Standard @BBL X1C",
+      "layer": "0.2",
+      "first_layer": "0.2",
+      "walls": "2",
+      "infill": "15%",
+      "pattern": "grid",
+      "support": "0",
+      "support_type": "tree(auto)",
+      "brim": "auto_brim",
+      "top": "5",
+      "bottom": "3"
+    }
+  },
+  {
+    "slug": "book-holder",
+    "id": 20,
+    "title": "One-Handed Page Holder",
+    "path": "/Users/justinrui/Desktop/M/Makebot P1S Print Files/Full Plates/20 One-Handed Page Holder - PLA x23.3mf",
+    "layout": "single",
+    "file": "20 One-Handed Page Holder - PLA x23.3mf",
+    "material": "PLA",
+    "count": 23,
+    "unit": "copies",
+    "objects": 23,
+    "issues": [],
+    "bbox": {
+      "1": {
+        "count": 23,
+        "bbox": [
+          4.8,
+          5.0,
+          250.5,
+          249.2
+        ]
+      }
+    },
+    "gap": 5.0,
+    "info": {
+      "target_preset": "0.16mm Optimal @BBL X1C",
+      "base_preset": "0.16mm Optimal @BBL X1C",
+      "base_note": null,
+      "from_reference": {
+        "wall_loops": [
+          "2",
+          "3"
+        ]
+      },
+      "kept_p1s": {},
+      "ambiguous": {},
+      "overrides": {}
+    },
+    "filaments": [
+      "Bambu PLA Basic @BBL X1C"
+    ],
+    "advisories": [],
+    "metrics": {
+      "One_Handed_Book_Holder.stl": {
+        "overhang": {
+          "area": 10.7,
+          "max_gap": 1.3,
+          "faces": 150,
+          "worst_z": 1.3
+        },
+        "footprint": {
+          "contact_mm2": 319.4,
+          "height": 20.0,
+          "min_width": 50.2,
+          "slenderness": 0.4
+        }
+      }
+    },
+    "parts": [
+      "One_Handed_Book_Holder.stl"
+    ],
+    "profile": {
+      "preset": "0.16mm Optimal @BBL X1C",
+      "layer": "0.16",
+      "first_layer": "0.2",
+      "walls": "3",
+      "infill": "15%",
+      "pattern": "grid",
+      "support": "0",
+      "support_type": "tree(auto)",
+      "brim": "auto_brim",
+      "top": "6",
+      "bottom": "4"
+    }
+  },
+  {
+    "slug": "phone-magnifier-stand",
+    "id": 21,
+    "title": "Smartphone Magnification Stand",
+    "path": "/Users/justinrui/Desktop/M/Makebot P1S Print Files/Full Plates/21 Smartphone Magnification Stand - PLA x12.3mf",
+    "layout": "pairs at 0deg",
+    "file": "21 Smartphone Magnification Stand - PLA x12.3mf",
+    "material": "PLA",
+    "count": 12,
+    "unit": "copies",
+    "objects": 12,
+    "issues": [],
+    "bbox": {
+      "1": {
+        "count": 12,
+        "bbox": [
+          33.0,
+          5.0,
+          251.4,
+          246.1
+        ]
+      }
+    },
+    "gap": 5.0,
+    "info": {
+      "target_preset": "0.16mm Optimal @BBL X1C",
+      "base_preset": "0.16mm Optimal @BBL X1C",
+      "base_note": null,
+      "from_reference": {},
+      "kept_p1s": {},
+      "ambiguous": {},
+      "overrides": {}
+    },
+    "filaments": [
+      "Bambu PLA Basic @BBL X1C"
+    ],
+    "advisories": [
+      "Smartphone Magnification Stand.stl: 72 mm2 of steep overhang with air under it (max drop 5.0 mm at z=13 mm) while supports are off in the designer's profile - worth a look at the preview"
+    ],
+    "metrics": {
+      "Smartphone Magnification Stand.stl": {
+        "overhang": {
+          "area": 72.2,
+          "max_gap": 5.0,
+          "faces": 308,
+          "worst_z": 12.9
+        },
+        "footprint": {
+          "contact_mm2": 778.7,
+          "height": 40.0,
+          "min_width": 62.9,
+          "slenderness": 0.64
+        }
+      }
+    },
+    "parts": [
+      "Smartphone Magnification Stand.stl"
+    ],
+    "profile": {
+      "preset": "0.16mm Optimal @BBL X1C",
+      "layer": "0.16",
+      "first_layer": "0.2",
+      "walls": "2",
+      "infill": "15%",
+      "pattern": "grid",
+      "support": "0",
+      "support_type": "tree(auto)",
+      "brim": "auto_brim",
+      "top": "6",
+      "bottom": "4"
+    }
+  },
+  {
+    "slug": "toothpaste-squeezer",
+    "id": 22,
+    "title": "Ratcheted Toothpaste Squeezer (kit)",
+    "path": "/Users/justinrui/Desktop/M/Makebot P1S Print Files/Full Plates/22 Ratcheted Toothpaste Squeezer (kit) - PLA x15.3mf",
+    "layout": "kit by kit (10 deg)",
+    "file": "22 Ratcheted Toothpaste Squeezer (kit) - PLA x15.3mf",
+    "material": "PLA",
+    "count": 15,
+    "unit": "kits",
+    "objects": 30,
+    "issues": [],
+    "bbox": {
+      "1": {
+        "count": 30,
+        "bbox": [
+          5.1,
+          7.4,
+          248.9,
+          250.7
+        ]
+      }
+    },
+    "gap": 5.0,
+    "info": {
+      "target_preset": "0.20mm Standard @BBL X1C",
+      "base_preset": "0.20mm Standard @BBL P2S",
+      "base_note": "0.20mm Standard @BBL P2S is not in this Studio's profile set",
+      "from_reference": {
+        "flush_multiplier": [
+          "0.75",
+          "1"
+        ],
+        "overhang_threshold_participating_cooling": [
+          "['95%', '95%']",
+          "95%"
+        ],
+        "pressure_advance": [
+          "['0.02', '0.02']",
+          "0.02"
+        ],
+        "top_solid_infill_flow_ratio": [
+          "1",
+          "1"
+        ]
+      },
+      "kept_p1s": {
+        "bridge_speed": [
+          "50",
+          "50"
+        ],
+        "default_acceleration": [
+          "10000",
+          "10000"
+        ],
+        "enable_height_slowdown": [
+          "0",
+          "0"
+        ],
+        "enable_overhang_speed": [
+          "1",
+          "1"
+        ],
+        "gap_infill_speed": [
+          "250",
+          "250"
+        ],
+        "initial_layer_acceleration": [
+          "500",
+          "500"
+        ],
+        "initial_layer_infill_speed": [
+          "105",
+          "105"
+        ],
+        "initial_layer_speed": [
+          "50",
+          "50"
+        ],
+        "initial_layer_travel_acceleration": [
+          "6000",
+          "6000"
+        ],
+        "inner_wall_acceleration": [
+          "0",
+          "0"
+        ],
+        "inner_wall_speed": [
+          "300",
+          "300"
+        ],
+        "internal_solid_infill_speed": [
+          "250",
+          "250"
+        ],
+        "outer_wall_acceleration": [
+          "6000",
+          "5000"
+        ],
+        "outer_wall_speed": [
+          "200",
+          "200"
+        ],
+        "overhang_1_4_speed": [
+          "0",
+          "0"
+        ],
+        "overhang_2_4_speed": [
+          "50",
+          "50"
+        ],
+        "overhang_3_4_speed": [
+          "30",
+          "30"
+        ],
+        "overhang_4_4_speed": [
+          "10",
+          "10"
+        ],
+        "overhang_totally_speed": [
+          "10",
+          "10"
+        ],
+        "print_extruder_id": [
+          "1",
+          "1"
+        ],
+        "print_extruder_variant": [
+          "Direct Drive Standard",
+          "Direct Drive Standard"
+        ],
+        "slowdown_end_acc": [
+          "100000",
+          "100000"
+        ],
+        "slowdown_end_height": [
+          "400",
+          "400"
+        ],
+        "slowdown_end_speed": [
+          "1000",
+          "1000"
+        ],
+        "slowdown_start_acc": [
+          "100000",
+          "100000"
+        ],
+        "slowdown_start_height": [
+          "0",
+          "0"
+        ],
+        "slowdown_start_speed": [
+          "1000",
+          "1000"
+        ],
+        "small_perimeter_speed": [
+          "50%",
+          "50%"
+        ],
+        "small_perimeter_threshold": [
+          "0",
+          "0"
+        ],
+        "smooth_coefficient": [
+          "4",
+          "150"
+        ],
+        "sparse_infill_acceleration": [
+          "100%",
+          "100%"
+        ],
+        "sparse_infill_speed": [
+          "270",
+          "270"
+        ],
+        "support_interface_speed": [
+          "80",
+          "80"
+        ],
+        "support_speed": [
+          "150",
+          "150"
+        ],
+        "top_surface_acceleration": [
+          "2000",
+          "2000"
+        ],
+        "top_surface_speed": [
+          "200",
+          "200"
+        ],
+        "travel_acceleration": [
+          "10000",
+          "10000"
+        ],
+        "travel_speed": [
+          "600",
+          "500"
+        ],
+        "travel_speed_z": [
+          "0",
+          "0"
+        ],
+        "vertical_shell_speed": [
+          "80%",
+          "80%"
+        ]
+      },
+      "ambiguous": {
+        "bridge_speed": [
+          "50",
+          "50"
+        ],
+        "default_acceleration": [
+          "10000",
+          "10000"
+        ],
+        "enable_height_slowdown": [
+          "0",
+          "0"
+        ],
+        "enable_overhang_speed": [
+          "1",
+          "1"
+        ],
+        "gap_infill_speed": [
+          "250",
+          "250"
+        ],
+        "initial_layer_acceleration": [
+          "500",
+          "500"
+        ],
+        "initial_layer_infill_speed": [
+          "105",
+          "105"
+        ],
+        "initial_layer_speed": [
+          "50",
+          "50"
+        ],
+        "initial_layer_travel_acceleration": [
+          "6000",
+          "6000"
+        ],
+        "inner_wall_acceleration": [
+          "0",
+          "0"
+        ],
+        "inner_wall_speed": [
+          "300",
+          "300"
+        ],
+        "internal_solid_infill_speed": [
+          "250",
+          "250"
+        ],
+        "outer_wall_acceleration": [
+          "6000",
+          "5000"
+        ],
+        "outer_wall_speed": [
+          "200",
+          "200"
+        ],
+        "overhang_1_4_speed": [
+          "0",
+          "0"
+        ],
+        "overhang_2_4_speed": [
+          "50",
+          "50"
+        ],
+        "overhang_3_4_speed": [
+          "30",
+          "30"
+        ],
+        "overhang_4_4_speed": [
+          "10",
+          "10"
+        ],
+        "overhang_totally_speed": [
+          "10",
+          "10"
+        ],
+        "print_extruder_id": [
+          "1",
+          "1"
+        ],
+        "print_extruder_variant": [
+          "Direct Drive Standard",
+          "Direct Drive Standard"
+        ],
+        "slowdown_end_acc": [
+          "100000",
+          "100000"
+        ],
+        "slowdown_end_height": [
+          "400",
+          "400"
+        ],
+        "slowdown_end_speed": [
+          "1000",
+          "1000"
+        ],
+        "slowdown_start_acc": [
+          "100000",
+          "100000"
+        ],
+        "slowdown_start_height": [
+          "0",
+          "0"
+        ],
+        "slowdown_start_speed": [
+          "1000",
+          "1000"
+        ],
+        "small_perimeter_speed": [
+          "50%",
+          "50%"
+        ],
+        "small_perimeter_threshold": [
+          "0",
+          "0"
+        ],
+        "smooth_coefficient": [
+          "4",
+          "150"
+        ],
+        "sparse_infill_acceleration": [
+          "100%",
+          "100%"
+        ],
+        "sparse_infill_speed": [
+          "270",
+          "270"
+        ],
+        "support_interface_speed": [
+          "80",
+          "80"
+        ],
+        "support_speed": [
+          "150",
+          "150"
+        ],
+        "top_surface_acceleration": [
+          "2000",
+          "2000"
+        ],
+        "top_surface_speed": [
+          "200",
+          "200"
+        ],
+        "travel_acceleration": [
+          "10000",
+          "10000"
+        ],
+        "travel_speed": [
+          "600",
+          "500"
+        ],
+        "travel_speed_z": [
+          "0",
+          "0"
+        ],
+        "vertical_shell_speed": [
+          "80%",
+          "80%"
+        ]
+      },
+      "overrides": {}
+    },
+    "filaments": [
+      "Bambu PLA Basic @BBL X1C"
+    ],
+    "advisories": [
+      "Toothpaste Squeezer 4.0.stl: 427 mm2 of steep overhang with air under it (max drop 51.0 mm at z=80 mm) while supports are off in the designer's profile - worth a look at the preview"
+    ],
+    "metrics": {
+      "Toothpaste Squeezer 4.0.stl": {
+        "overhang": {
+          "area": 426.7,
+          "max_gap": 51.0,
+          "faces": 711,
+          "worst_z": 79.9
+        },
+        "footprint": {
+          "contact_mm2": 609.3,
+          "height": 98.6,
+          "min_width": 34.1,
+          "slenderness": 2.89
+        }
+      },
+      "Part Studio 3 - Part 3.stl": {
+        "overhang": {
+          "area": 41.9,
+          "max_gap": 72.4,
+          "faces": 271,
+          "worst_z": 79.0
+        },
+        "footprint": {
+          "contact_mm2": 731.6,
+          "height": 88.0,
+          "min_width": 34.6,
+          "slenderness": 2.54
+        }
+      }
+    },
+    "parts": [
+      "Toothpaste Squeezer 4.0.stl",
+      "Part Studio 3 - Part 3.stl"
+    ],
+    "profile": {
+      "preset": "0.20mm Standard @BBL X1C",
+      "layer": "0.2",
+      "first_layer": "0.2",
+      "walls": "2",
+      "infill": "15%",
+      "pattern": "grid",
+      "support": "0",
+      "support_type": "tree(auto)",
+      "brim": "auto_brim",
+      "top": "5",
+      "bottom": "3"
+    }
+  },
+  {
+    "slug": "eda-pliers-bd20",
+    "id": 23,
+    "title": "Eye Drop Assist pliers (bottle 20 mm)",
+    "path": "/Users/justinrui/Desktop/M/Makebot P1S Print Files/Full Plates/23 Eye Drop Assist pliers (bottle 20 mm) - PLA x2.3mf",
+    "layout": "pairs at 50deg",
+    "file": "23 Eye Drop Assist pliers (bottle 20 mm) - PLA x2.3mf",
+    "material": "PLA",
+    "count": 2,
+    "unit": "copies",
+    "objects": 2,
+    "issues": [],
+    "bbox": {
+      "1": {
+        "count": 2,
+        "bbox": [
+          5.0,
+          5.0,
+          246.6,
+          185.2
+        ]
+      }
+    },
+    "gap": 5.0,
+    "info": {
+      "target_preset": "0.20mm Standard @BBL X1C",
+      "base_preset": "0.20mm Standard @BBL X1C",
+      "base_note": null,
+      "from_reference": {},
+      "kept_p1s": {},
+      "ambiguous": {},
+      "overrides": {}
+    },
+    "filaments": [
+      "Bambu PLA Basic @BBL X1C"
+    ],
+    "advisories": [],
+    "metrics": {
+      "Eye Drop Assist pliers (bottle 20 mm)": {
+        "overhang": {
+          "area": 0.0,
+          "max_gap": 0.0,
+          "faces": 0,
+          "worst_z": 0.0
+        },
+        "footprint": {
+          "contact_mm2": 3787.6,
+          "height": 6.0,
+          "min_width": 136.6,
+          "slenderness": 0.04
+        }
+      }
+    },
+    "parts": [
+      "Eye Drop Assist pliers (bottle 20 mm)"
+    ],
+    "profile": {
+      "preset": "0.20mm Standard @BBL X1C",
+      "layer": "0.2",
+      "first_layer": "0.2",
+      "walls": "2",
+      "infill": "15%",
+      "pattern": "grid",
+      "support": "0",
+      "support_type": "tree(auto)",
+      "brim": "auto_brim",
+      "top": "5",
+      "bottom": "3"
+    }
+  },
+  {
+    "slug": "eda-pliers-bd22",
+    "id": 24,
+    "title": "Eye Drop Assist pliers (bottle 22 mm)",
+    "path": "/Users/justinrui/Desktop/M/Makebot P1S Print Files/Full Plates/24 Eye Drop Assist pliers (bottle 22 mm) - PLA x2.3mf",
+    "layout": "pairs at 50deg",
+    "file": "24 Eye Drop Assist pliers (bottle 22 mm) - PLA x2.3mf",
+    "material": "PLA",
+    "count": 2,
+    "unit": "copies",
+    "objects": 2,
+    "issues": [],
+    "bbox": {
+      "1": {
+        "count": 2,
+        "bbox": [
+          5.0,
+          5.0,
+          243.1,
+          187.6
+        ]
+      }
+    },
+    "gap": 5.0,
+    "info": {
+      "target_preset": "0.20mm Standard @BBL X1C",
+      "base_preset": "0.20mm Standard @BBL X1C",
+      "base_note": null,
+      "from_reference": {},
+      "kept_p1s": {},
+      "ambiguous": {},
+      "overrides": {}
+    },
+    "filaments": [
+      "Bambu PLA Basic @BBL X1C"
+    ],
+    "advisories": [],
+    "metrics": {
+      "Eye Drop Assist pliers (bottle 22 mm)": {
+        "overhang": {
+          "area": 0.0,
+          "max_gap": 0.0,
+          "faces": 0,
+          "worst_z": 0.0
+        },
+        "footprint": {
+          "contact_mm2": 3730.1,
+          "height": 6.0,
+          "min_width": 137.0,
+          "slenderness": 0.04
+        }
+      }
+    },
+    "parts": [
+      "Eye Drop Assist pliers (bottle 22 mm)"
+    ],
+    "profile": {
+      "preset": "0.20mm Standard @BBL X1C",
+      "layer": "0.2",
+      "first_layer": "0.2",
+      "walls": "2",
+      "infill": "15%",
+      "pattern": "grid",
+      "support": "0",
+      "support_type": "tree(auto)",
+      "brim": "auto_brim",
+      "top": "5",
+      "bottom": "3"
+    }
+  },
+  {
+    "slug": "eda-pliers-bd24",
+    "id": 25,
+    "title": "Eye Drop Assist pliers (bottle 24 mm)",
+    "path": "/Users/justinrui/Desktop/M/Makebot P1S Print Files/Full Plates/25 Eye Drop Assist pliers (bottle 24 mm) - PLA x2.3mf",
+    "layout": "pairs at 50deg",
+    "file": "25 Eye Drop Assist pliers (bottle 24 mm) - PLA x2.3mf",
+    "material": "PLA",
+    "count": 2,
+    "unit": "copies",
+    "objects": 2,
+    "issues": [],
+    "bbox": {
+      "1": {
+        "count": 2,
+        "bbox": [
+          5.0,
+          5.0,
+          238.3,
+          190.6
+        ]
+      }
+    },
+    "gap": 5.0,
+    "info": {
+      "target_preset": "0.20mm Standard @BBL X1C",
+      "base_preset": "0.20mm Standard @BBL X1C",
+      "base_note": null,
+      "from_reference": {},
+      "kept_p1s": {},
+      "ambiguous": {},
+      "overrides": {}
+    },
+    "filaments": [
+      "Bambu PLA Basic @BBL X1C"
+    ],
+    "advisories": [],
+    "metrics": {
+      "Eye Drop Assist pliers (bottle 24 mm)": {
+        "overhang": {
+          "area": 0.0,
+          "max_gap": 0.0,
+          "faces": 0,
+          "worst_z": 0.0
+        },
+        "footprint": {
+          "contact_mm2": 3678.2,
+          "height": 6.0,
+          "min_width": 137.5,
+          "slenderness": 0.04
+        }
+      }
+    },
+    "parts": [
+      "Eye Drop Assist pliers (bottle 24 mm)"
+    ],
+    "profile": {
+      "preset": "0.20mm Standard @BBL X1C",
+      "layer": "0.2",
+      "first_layer": "0.2",
+      "walls": "2",
+      "infill": "15%",
+      "pattern": "grid",
+      "support": "0",
+      "support_type": "tree(auto)",
+      "brim": "auto_brim",
+      "top": "5",
+      "bottom": "3"
+    }
+  },
+  {
+    "slug": "eda-pliers-bd25",
+    "id": 26,
+    "title": "Eye Drop Assist pliers (bottle 25 mm)",
+    "path": "/Users/justinrui/Desktop/M/Makebot P1S Print Files/Full Plates/26 Eye Drop Assist pliers (bottle 25 mm) - PLA x2.3mf",
+    "layout": "pairs at 50deg",
+    "file": "26 Eye Drop Assist pliers (bottle 25 mm) - PLA x2.3mf",
+    "material": "PLA",
+    "count": 2,
+    "unit": "copies",
+    "objects": 2,
+    "issues": [],
+    "bbox": {
+      "1": {
+        "count": 2,
+        "bbox": [
+          5.0,
+          5.0,
+          240.1,
+          193.6
+        ]
+      }
+    },
+    "gap": 5.0,
+    "info": {
+      "target_preset": "0.20mm Standard @BBL X1C",
+      "base_preset": "0.20mm Standard @BBL X1C",
+      "base_note": null,
+      "from_reference": {},
+      "kept_p1s": {},
+      "ambiguous": {},
+      "overrides": {}
+    },
+    "filaments": [
+      "Bambu PLA Basic @BBL X1C"
+    ],
+    "advisories": [],
+    "metrics": {
+      "Eye Drop Assist pliers (bottle 25 mm)": {
+        "overhang": {
+          "area": 0.0,
+          "max_gap": 0.0,
+          "faces": 0,
+          "worst_z": 0.0
+        },
+        "footprint": {
+          "contact_mm2": 3615.4,
+          "height": 6.0,
+          "min_width": 139.8,
+          "slenderness": 0.04
+        }
+      }
+    },
+    "parts": [
+      "Eye Drop Assist pliers (bottle 25 mm)"
+    ],
+    "profile": {
+      "preset": "0.20mm Standard @BBL X1C",
+      "layer": "0.2",
+      "first_layer": "0.2",
+      "walls": "2",
+      "infill": "15%",
+      "pattern": "grid",
+      "support": "0",
+      "support_type": "tree(auto)",
+      "brim": "auto_brim",
+      "top": "5",
+      "bottom": "3"
+    }
+  },
+  {
+    "slug": "eda-eyepiece-03a",
+    "id": 27,
+    "title": "Eye Drop Assist eyepiece 03 A",
+    "path": "/Users/justinrui/Desktop/M/Makebot P1S Print Files/Full Plates/27 Eye Drop Assist eyepiece 03 A - PLA x35.3mf",
+    "layout": "single",
+    "file": "27 Eye Drop Assist eyepiece 03 A - PLA x35.3mf",
+    "material": "PLA",
+    "count": 35,
+    "unit": "copies",
+    "objects": 35,
+    "issues": [],
+    "bbox": {
+      "1": {
+        "count": 35,
+        "bbox": [
+          5.0,
+          5.0,
+          251.0,
+          251.0
+        ]
+      }
+    },
+    "gap": 5.0,
+    "info": {
+      "target_preset": "0.20mm Standard @BBL X1C",
+      "base_preset": "0.20mm Standard @BBL X1C",
+      "base_note": null,
+      "from_reference": {},
+      "kept_p1s": {},
+      "ambiguous": {},
+      "overrides": {}
+    },
+    "filaments": [
+      "Bambu PLA Basic @BBL X1C"
+    ],
+    "advisories": [
+      "Eye Drop Assist eyepiece 03 A: 130 mm2 of steep overhang with air under it (max drop 25.2 mm at z=25 mm) while supports are off in the designer's profile - worth a look at the preview"
+    ],
+    "metrics": {
+      "Eye Drop Assist eyepiece 03 A": {
+        "overhang": {
+          "area": 129.7,
+          "max_gap": 25.2,
+          "faces": 811,
+          "worst_z": 25.2
+        },
+        "footprint": {
+          "contact_mm2": 213.5,
+          "height": 29.0,
+          "min_width": 30.0,
+          "slenderness": 0.97
+        }
+      }
+    },
+    "parts": [
+      "Eye Drop Assist eyepiece 03 A"
+    ],
+    "profile": {
+      "preset": "0.20mm Standard @BBL X1C",
+      "layer": "0.2",
+      "first_layer": "0.2",
+      "walls": "2",
+      "infill": "15%",
+      "pattern": "grid",
+      "support": "0",
+      "support_type": "tree(auto)",
+      "brim": "auto_brim",
+      "top": "5",
+      "bottom": "3"
+    }
+  },
+  {
+    "slug": "eda-eyepiece-03b",
+    "id": 28,
+    "title": "Eye Drop Assist eyepiece 03 B",
+    "path": "/Users/justinrui/Desktop/M/Makebot P1S Print Files/Full Plates/28 Eye Drop Assist eyepiece 03 B - PLA x35.3mf",
+    "layout": "single",
+    "file": "28 Eye Drop Assist eyepiece 03 B - PLA x35.3mf",
+    "material": "PLA",
+    "count": 35,
+    "unit": "copies",
+    "objects": 35,
+    "issues": [],
+    "bbox": {
+      "1": {
+        "count": 35,
+        "bbox": [
+          5.0,
+          5.0,
+          251.0,
+          251.0
+        ]
+      }
+    },
+    "gap": 5.0,
+    "info": {
+      "target_preset": "0.20mm Standard @BBL X1C",
+      "base_preset": "0.20mm Standard @BBL X1C",
+      "base_note": null,
+      "from_reference": {},
+      "kept_p1s": {},
+      "ambiguous": {},
+      "overrides": {}
+    },
+    "filaments": [
+      "Bambu PLA Basic @BBL X1C"
+    ],
+    "advisories": [],
+    "metrics": {
+      "Eye Drop Assist eyepiece 03 B": {
+        "overhang": {
+          "area": 53.9,
+          "max_gap": 21.0,
+          "faces": 229,
+          "worst_z": 21.0
+        },
+        "footprint": {
+          "contact_mm2": 213.5,
+          "height": 29.0,
+          "min_width": 30.0,
+          "slenderness": 0.97
+        }
+      }
+    },
+    "parts": [
+      "Eye Drop Assist eyepiece 03 B"
+    ],
+    "profile": {
+      "preset": "0.20mm Standard @BBL X1C",
+      "layer": "0.2",
+      "first_layer": "0.2",
+      "walls": "2",
+      "infill": "15%",
+      "pattern": "grid",
+      "support": "0",
+      "support_type": "tree(auto)",
+      "brim": "auto_brim",
+      "top": "5",
+      "bottom": "3"
+    }
+  },
+  {
+    "slug": "eda-eyepiece-03c",
+    "id": 29,
+    "title": "Eye Drop Assist eyepiece 03 C",
+    "path": "/Users/justinrui/Desktop/M/Makebot P1S Print Files/Full Plates/29 Eye Drop Assist eyepiece 03 C - PLA x35.3mf",
+    "layout": "single",
+    "file": "29 Eye Drop Assist eyepiece 03 C - PLA x35.3mf",
+    "material": "PLA",
+    "count": 35,
+    "unit": "copies",
+    "objects": 35,
+    "issues": [],
+    "bbox": {
+      "1": {
+        "count": 35,
+        "bbox": [
+          5.0,
+          5.0,
+          251.0,
+          251.0
+        ]
+      }
+    },
+    "gap": 5.0,
+    "info": {
+      "target_preset": "0.20mm Standard @BBL X1C",
+      "base_preset": "0.20mm Standard @BBL X1C",
+      "base_note": null,
+      "from_reference": {},
+      "kept_p1s": {},
+      "ambiguous": {},
+      "overrides": {}
+    },
+    "filaments": [
+      "Bambu PLA Basic @BBL X1C"
+    ],
+    "advisories": [
+      "Eye Drop Assist eyepiece 03 C: 158 mm2 of steep overhang with air under it (max drop 25.2 mm at z=25 mm) while supports are off in the designer's profile - worth a look at the preview"
+    ],
+    "metrics": {
+      "Eye Drop Assist eyepiece 03 C": {
+        "overhang": {
+          "area": 158.4,
+          "max_gap": 25.2,
+          "faces": 567,
+          "worst_z": 25.2
+        },
+        "footprint": {
+          "contact_mm2": 213.5,
+          "height": 29.0,
+          "min_width": 30.0,
+          "slenderness": 0.97
+        }
+      }
+    },
+    "parts": [
+      "Eye Drop Assist eyepiece 03 C"
+    ],
+    "profile": {
+      "preset": "0.20mm Standard @BBL X1C",
+      "layer": "0.2",
+      "first_layer": "0.2",
+      "walls": "2",
+      "infill": "15%",
+      "pattern": "grid",
+      "support": "0",
+      "support_type": "tree(auto)",
+      "brim": "auto_brim",
+      "top": "5",
+      "bottom": "3"
+    }
+  },
+  {
+    "slug": "eda-eyepiece-04d",
+    "id": 30,
+    "title": "Eye Drop Assist eyepiece 04 D",
+    "path": "/Users/justinrui/Desktop/M/Makebot P1S Print Files/Full Plates/30 Eye Drop Assist eyepiece 04 D - PLA x35.3mf",
+    "layout": "single",
+    "file": "30 Eye Drop Assist eyepiece 04 D - PLA x35.3mf",
+    "material": "PLA",
+    "count": 35,
+    "unit": "copies",
+    "objects": 35,
+    "issues": [],
+    "bbox": {
+      "1": {
+        "count": 35,
+        "bbox": [
+          5.0,
+          5.0,
+          251.0,
+          251.0
+        ]
+      }
+    },
+    "gap": 5.0,
+    "info": {
+      "target_preset": "0.20mm Standard @BBL X1C",
+      "base_preset": "0.20mm Standard @BBL X1C",
+      "base_note": null,
+      "from_reference": {},
+      "kept_p1s": {},
+      "ambiguous": {},
+      "overrides": {}
+    },
+    "filaments": [
+      "Bambu PLA Basic @BBL X1C"
+    ],
+    "advisories": [
+      "Eye Drop Assist eyepiece 04 D: 168 mm2 of steep overhang with air under it (max drop 25.2 mm at z=25 mm) while supports are off in the designer's profile - worth a look at the preview"
+    ],
+    "metrics": {
+      "Eye Drop Assist eyepiece 04 D": {
+        "overhang": {
+          "area": 168.3,
+          "max_gap": 25.2,
+          "faces": 1111,
+          "worst_z": 25.2
+        },
+        "footprint": {
+          "contact_mm2": 213.6,
+          "height": 33.0,
+          "min_width": 30.0,
+          "slenderness": 1.1
+        }
+      }
+    },
+    "parts": [
+      "Eye Drop Assist eyepiece 04 D"
+    ],
+    "profile": {
+      "preset": "0.20mm Standard @BBL X1C",
+      "layer": "0.2",
+      "first_layer": "0.2",
+      "walls": "2",
+      "infill": "15%",
+      "pattern": "grid",
+      "support": "0",
+      "support_type": "tree(auto)",
+      "brim": "auto_brim",
+      "top": "5",
+      "bottom": "3"
+    }
+  },
+  {
+    "slug": "eda-eyepiece-04e",
+    "id": 31,
+    "title": "Eye Drop Assist eyepiece 04 E",
+    "path": "/Users/justinrui/Desktop/M/Makebot P1S Print Files/Full Plates/31 Eye Drop Assist eyepiece 04 E - PLA x35.3mf",
+    "layout": "single",
+    "file": "31 Eye Drop Assist eyepiece 04 E - PLA x35.3mf",
+    "material": "PLA",
+    "count": 35,
+    "unit": "copies",
+    "objects": 35,
+    "issues": [],
+    "bbox": {
+      "1": {
+        "count": 35,
+        "bbox": [
+          5.0,
+          5.0,
+          251.0,
+          251.0
+        ]
+      }
+    },
+    "gap": 5.0,
+    "info": {
+      "target_preset": "0.20mm Standard @BBL X1C",
+      "base_preset": "0.20mm Standard @BBL X1C",
+      "base_note": null,
+      "from_reference": {},
+      "kept_p1s": {},
+      "ambiguous": {},
+      "overrides": {}
+    },
+    "filaments": [
+      "Bambu PLA Basic @BBL X1C"
+    ],
+    "advisories": [],
+    "metrics": {
+      "Eye Drop Assist eyepiece 04 E": {
+        "overhang": {
+          "area": 53.9,
+          "max_gap": 21.0,
+          "faces": 229,
+          "worst_z": 21.0
+        },
+        "footprint": {
+          "contact_mm2": 213.6,
+          "height": 33.0,
+          "min_width": 30.0,
+          "slenderness": 1.1
+        }
+      }
+    },
+    "parts": [
+      "Eye Drop Assist eyepiece 04 E"
+    ],
+    "profile": {
+      "preset": "0.20mm Standard @BBL X1C",
+      "layer": "0.2",
+      "first_layer": "0.2",
+      "walls": "2",
+      "infill": "15%",
+      "pattern": "grid",
+      "support": "0",
+      "support_type": "tree(auto)",
+      "brim": "auto_brim",
+      "top": "5",
+      "bottom": "3"
+    }
+  }
+]

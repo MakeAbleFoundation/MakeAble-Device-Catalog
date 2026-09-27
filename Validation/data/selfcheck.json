@@ -1,0 +1,156 @@
+{
+  "bag-carrier-medium": {
+    "problems": [],
+    "notes": []
+  },
+  "bag-carrier-small": {
+    "problems": [],
+    "notes": []
+  },
+  "bag-carrier-large": {
+    "problems": [],
+    "notes": []
+  },
+  "bottle-cap-opener": {
+    "problems": [],
+    "notes": []
+  },
+  "bottle-opener-wide-handle": {
+    "problems": [],
+    "notes": []
+  },
+  "can-opener": {
+    "problems": [],
+    "notes": []
+  },
+  "jar-opener": {
+    "problems": [],
+    "notes": []
+  },
+  "keywings": {
+    "problems": [],
+    "notes": []
+  },
+  "drag-writer": {
+    "problems": [],
+    "notes": [
+      "geometry intact (74378 triangles)"
+    ]
+  },
+  "blister-pack-opener": {
+    "problems": [],
+    "notes": []
+  },
+  "pill-popper": {
+    "problems": [],
+    "notes": []
+  },
+  "clothes-button-hook": {
+    "problems": [],
+    "notes": [
+      "painted seam/support data preserved"
+    ]
+  },
+  "clothes-button-handles": {
+    "problems": [],
+    "notes": []
+  },
+  "flipper-nail-clipper-large": {
+    "problems": [],
+    "notes": []
+  },
+  "flipper-clipper-v2": {
+    "problems": [],
+    "notes": [
+      "geometry intact (9218 triangles)"
+    ]
+  },
+  "eating-utensil-aid": {
+    "problems": [],
+    "notes": []
+  },
+  "shoe-horn": {
+    "problems": [],
+    "notes": []
+  },
+  "tube-opener": {
+    "problems": [],
+    "notes": []
+  },
+  "toothbrush-grip": {
+    "problems": [],
+    "notes": [
+      "geometry intact (1200 triangles)"
+    ]
+  },
+  "book-holder": {
+    "problems": [],
+    "notes": []
+  },
+  "phone-magnifier-stand": {
+    "problems": [],
+    "notes": []
+  },
+  "toothpaste-squeezer": {
+    "problems": [],
+    "notes": []
+  },
+  "eda-pliers-bd20": {
+    "problems": [],
+    "notes": [
+      "geometry intact (19772 triangles)"
+    ]
+  },
+  "eda-pliers-bd22": {
+    "problems": [],
+    "notes": [
+      "geometry intact (19752 triangles)"
+    ]
+  },
+  "eda-pliers-bd24": {
+    "problems": [],
+    "notes": [
+      "geometry intact (19868 triangles)"
+    ]
+  },
+  "eda-pliers-bd25": {
+    "problems": [],
+    "notes": [
+      "geometry intact (18856 triangles)"
+    ]
+  },
+  "eda-eyepiece-03a": {
+    "problems": [],
+    "notes": [
+      "geometry intact (10404 triangles)"
+    ]
+  },
+  "eda-eyepiece-03b": {
+    "problems": [],
+    "notes": [
+      "geometry intact (8000 triangles)"
+    ]
+  },
+  "eda-eyepiece-03c": {
+    "problems": [],
+    "notes": [
+      "geometry intact (10174 triangles)"
+    ]
+  },
+  "eda-eyepiece-04d": {
+    "problems": [],
+    "notes": [
+      "geometry intact (11632 triangles)"
+    ]
+  },
+  "eda-eyepiece-04e": {
+    "problems": [],
+    "notes": [
+      "geometry intact (7988 triangles)"
+    ]
+  },
+  "_catalogue": {
+    "problems": [],
+    "notes": []
+  }
+}

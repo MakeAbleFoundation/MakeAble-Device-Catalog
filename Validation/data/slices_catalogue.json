@@ -1,0 +1,451 @@
+{
+  "plates": {
+    "1": {
+      "model_time": "45m 17s",
+      "total_time": "51m 32s",
+      "layers": "75",
+      "density": "1.26,1.25",
+      "max_z": "15.00",
+      "used_mm": 10365.87,
+      "used_cm3": 24.93,
+      "used_g": 31.42
+    },
+    "2": {
+      "model_time": "40m 27s",
+      "total_time": "46m 42s",
+      "layers": "75",
+      "density": "1.26,1.25",
+      "max_z": "15.00",
+      "used_mm": 9299.54,
+      "used_cm3": 22.37,
+      "used_g": 28.18
+    },
+    "3": {
+      "model_time": "53m 32s",
+      "total_time": "59m 47s",
+      "layers": "75",
+      "density": "1.26,1.25",
+      "max_z": "15.00",
+      "used_mm": 13037.74,
+      "used_cm3": 31.36,
+      "used_g": 39.51
+    },
+    "4": {
+      "model_time": "54m 30s",
+      "total_time": "1h 0m 49s",
+      "layers": "50",
+      "density": "1.26,1.25",
+      "max_z": "10.00",
+      "used_mm": 7037.92,
+      "used_cm3": 16.93,
+      "used_g": 21.16
+    },
+    "5": {
+      "model_time": "1h 43m 21s",
+      "total_time": "1h 49m 40s",
+      "layers": "116",
+      "density": "1.26,1.25",
+      "max_z": "20.00",
+      "used_mm": 11850.16,
+      "used_cm3": 28.5,
+      "used_g": 35.63
+    },
+    "6": {
+      "model_time": "22m 48s",
+      "total_time": "29m 3s",
+      "layers": "120",
+      "density": "1.26,1.25",
+      "max_z": "24.00",
+      "used_mm": 3976.33,
+      "used_cm3": 9.56,
+      "used_g": 12.05
+    },
+    "7": {
+      "model_time": "3h 2m 46s",
+      "total_time": "3h 9m 6s",
+      "layers": "166",
+      "density": "1.26,1.25",
+      "max_z": "20.00",
+      "used_mm": 24617.98,
+      "used_cm3": 59.21,
+      "used_g": 74.02
+    },
+    "8": {
+      "model_time": "22m 28s",
+      "total_time": "28m 48s",
+      "layers": "105",
+      "density": "1.26,1.25",
+      "max_z": "21.00",
+      "used_mm": 1067.28,
+      "used_cm3": 2.57,
+      "used_g": 3.21
+    },
+    "9": {
+      "model_time": "1h 46m 21s",
+      "total_time": "1h 52m 36s",
+      "layers": "140",
+      "density": "1.26,1.25",
+      "max_z": "28.00",
+      "used_mm": 24126.38,
+      "used_cm3": 58.03,
+      "used_g": 73.12
+    },
+    "10": {
+      "model_time": "1h 18m 51s",
+      "total_time": "1h 25m 11s",
+      "layers": "120",
+      "density": "1.26,1.25",
+      "max_z": "24.00",
+      "used_mm": 10454.54,
+      "used_cm3": 25.15,
+      "used_g": 31.43
+    },
+    "11": {
+      "model_time": "28m 13s",
+      "total_time": "34m 32s",
+      "layers": "73",
+      "density": "1.26,1.25",
+      "max_z": "14.60",
+      "used_mm": 2664.5,
+      "used_cm3": 6.41,
+      "used_g": 8.01
+    },
+    "12": {
+      "model_time": "12m 35s",
+      "total_time": "18m 55s",
+      "layers": "10",
+      "density": "1.26,1.25",
+      "max_z": "2.00",
+      "used_mm": 1429.48,
+      "used_cm3": 3.44,
+      "used_g": 4.3
+    },
+    "13": {
+      "model_time": "30m 22s",
+      "total_time": "36m 37s",
+      "layers": "38",
+      "density": "1.26,1.25",
+      "max_z": "7.60",
+      "used_mm": 3947.5,
+      "used_cm3": 9.49,
+      "used_g": 11.96
+    },
+    "14": {
+      "model_time": "48m 11s",
+      "total_time": "54m 26s",
+      "layers": "60",
+      "density": "1.26,1.25",
+      "max_z": "12.00",
+      "used_mm": 10011.15,
+      "used_cm3": 24.08,
+      "used_g": 30.34
+    },
+    "15": {
+      "model_time": "1h 4m 59s",
+      "total_time": "1h 11m 14s",
+      "layers": "55",
+      "density": "1.26,1.25",
+      "max_z": "11.00",
+      "used_mm": 15127.93,
+      "used_cm3": 36.39,
+      "used_g": 45.85
+    },
+    "16": {
+      "model_time": "2h 0m 57s",
+      "total_time": "2h 7m 12s",
+      "layers": "125",
+      "density": "1.26,1.25",
+      "max_z": "25.00",
+      "used_mm": 15415.38,
+      "used_cm3": 37.08,
+      "used_g": 46.72
+    },
+    "17": {
+      "model_time": "1h 1m 52s",
+      "total_time": "1h 8m 11s",
+      "layers": "220",
+      "density": "1.26,1.25",
+      "max_z": "44.00",
+      "used_mm": 8430.03,
+      "used_cm3": 20.28,
+      "used_g": 25.35
+    },
+    "18": {
+      "model_time": "38m 6s",
+      "total_time": "44m 21s",
+      "layers": "131",
+      "density": "1.26,1.25",
+      "max_z": "21.00",
+      "used_mm": 5602.41,
+      "used_cm3": 13.48,
+      "used_g": 16.98
+    },
+    "19": {
+      "model_time": "48m 37s",
+      "total_time": "54m 52s",
+      "layers": "500",
+      "density": "1.26,1.25",
+      "max_z": "100.00",
+      "used_mm": 10437.43,
+      "used_cm3": 25.1,
+      "used_g": 31.63
+    },
+    "20": {
+      "model_time": "20m 48s",
+      "total_time": "27m 3s",
+      "layers": "125",
+      "density": "1.26,1.25",
+      "max_z": "20.04",
+      "used_mm": 3273.35,
+      "used_cm3": 7.87,
+      "used_g": 9.92
+    },
+    "21": {
+      "model_time": "51m 41s",
+      "total_time": "57m 56s",
+      "layers": "250",
+      "density": "1.26,1.25",
+      "max_z": "40.04",
+      "used_mm": 8616.58,
+      "used_cm3": 20.73,
+      "used_g": 26.11
+    },
+    "22": {
+      "model_time": "1h 29m 6s",
+      "total_time": "1h 35m 21s",
+      "layers": "493",
+      "density": "1.26,1.25",
+      "max_z": "98.60",
+      "used_mm": 13248.37,
+      "used_cm3": 31.87,
+      "used_g": 40.15
+    },
+    "23": {
+      "model_time": "28m 58s",
+      "total_time": "35m 12s",
+      "layers": "30",
+      "density": "1.26,1.25",
+      "max_z": "6.00",
+      "used_mm": 4787.44,
+      "used_cm3": 11.52,
+      "used_g": 14.51
+    },
+    "24": {
+      "model_time": "28m 58s",
+      "total_time": "35m 13s",
+      "layers": "30",
+      "density": "1.26,1.25",
+      "max_z": "6.00",
+      "used_mm": 4761.85,
+      "used_cm3": 11.45,
+      "used_g": 14.43
+    },
+    "25": {
+      "model_time": "28m 48s",
+      "total_time": "35m 3s",
+      "layers": "30",
+      "density": "1.26,1.25",
+      "max_z": "6.00",
+      "used_mm": 4729.94,
+      "used_cm3": 11.38,
+      "used_g": 14.33
+    },
+    "26": {
+      "model_time": "27m 45s",
+      "total_time": "34m 0s",
+      "layers": "30",
+      "density": "1.26,1.25",
+      "max_z": "6.00",
+      "used_mm": 4614.71,
+      "used_cm3": 11.1,
+      "used_g": 13.99
+    },
+    "27": {
+      "model_time": "12m 21s",
+      "total_time": "18m 36s",
+      "layers": "145",
+      "density": "1.26,1.25",
+      "max_z": "29.00",
+      "used_mm": 1140.0,
+      "used_cm3": 2.74,
+      "used_g": 3.45
+    },
+    "28": {
+      "model_time": "12m 9s",
+      "total_time": "18m 24s",
+      "layers": "145",
+      "density": "1.26,1.25",
+      "max_z": "29.00",
+      "used_mm": 1099.11,
+      "used_cm3": 2.64,
+      "used_g": 3.33
+    },
+    "29": {
+      "model_time": "12m 27s",
+      "total_time": "18m 41s",
+      "layers": "145",
+      "density": "1.26,1.25",
+      "max_z": "29.00",
+      "used_mm": 1185.04,
+      "used_cm3": 2.85,
+      "used_g": 3.59
+    },
+    "30": {
+      "model_time": "14m 0s",
+      "total_time": "20m 15s",
+      "layers": "165",
+      "density": "1.26,1.25",
+      "max_z": "33.00",
+      "used_mm": 1318.93,
+      "used_cm3": 3.17,
+      "used_g": 4.0
+    },
+    "31": {
+      "model_time": "13m 44s",
+      "total_time": "19m 58s",
+      "layers": "165",
+      "density": "1.26,1.25",
+      "max_z": "33.00",
+      "used_mm": 1264.16,
+      "used_cm3": 3.04,
+      "used_g": 3.83
+    }
+  },
+  "per_plate": {
+    "1": {
+      "ok": true,
+      "warnings": []
+    },
+    "2": {
+      "ok": true,
+      "warnings": []
+    },
+    "3": {
+      "ok": true,
+      "warnings": []
+    },
+    "4": {
+      "ok": true,
+      "warnings": []
+    },
+    "5": {
+      "ok": true,
+      "warnings": []
+    },
+    "6": {
+      "ok": true,
+      "warnings": []
+    },
+    "7": {
+      "ok": true,
+      "warnings": []
+    },
+    "8": {
+      "ok": true,
+      "warnings": []
+    },
+    "9": {
+      "ok": true,
+      "warnings": []
+    },
+    "10": {
+      "ok": true,
+      "warnings": []
+    },
+    "11": {
+      "ok": true,
+      "warnings": []
+    },
+    "12": {
+      "ok": true,
+      "warnings": []
+    },
+    "13": {
+      "ok": true,
+      "warnings": []
+    },
+    "14": {
+      "ok": true,
+      "warnings": []
+    },
+    "15": {
+      "ok": true,
+      "warnings": []
+    },
+    "16": {
+      "ok": true,
+      "warnings": []
+    },
+    "17": {
+      "ok": true,
+      "warnings": []
+    },
+    "18": {
+      "ok": true,
+      "warnings": []
+    },
+    "19": {
+      "ok": true,
+      "warnings": []
+    },
+    "20": {
+      "ok": true,
+      "warnings": []
+    },
+    "21": {
+      "ok": true,
+      "warnings": []
+    },
+    "22": {
+      "ok": true,
+      "warnings": []
+    },
+    "23": {
+      "ok": true,
+      "warnings": []
+    },
+    "24": {
+      "ok": true,
+      "warnings": []
+    },
+    "25": {
+      "ok": true,
+      "warnings": []
+    },
+    "26": {
+      "ok": true,
+      "warnings": []
+    },
+    "27": {
+      "ok": true,
+      "warnings": []
+    },
+    "28": {
+      "ok": true,
+      "warnings": []
+    },
+    "29": {
+      "ok": true,
+      "warnings": []
+    },
+    "30": {
+      "ok": true,
+      "warnings": []
+    },
+    "31": {
+      "ok": true,
+      "warnings": []
+    }
+  },
+  "clamped": {
+    "tree_support_wall_count": [
+      "-1",
+      "0"
+    ],
+    "raft_first_layer_expansion": [
+      "-1",
+      "2"
+    ]
+  },
+  "ok": true
+}

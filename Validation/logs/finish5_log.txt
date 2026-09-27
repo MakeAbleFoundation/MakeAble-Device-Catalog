@@ -1,0 +1,92 @@
+### rebuilding the 5 plates that reach the excluded corner
+  03 Bag Carrier (Large)                              2 copies   0.6 MB  50.9s  [single]
+  05 Bottle Opener (three sizes, wide handle)         4 copies   1.4 MB  50.2s  [single]
+  14 Flipper Nail Clipper (large clippers)            3 copies   1.5 MB  35.6s  [single]
+  16 Eating Utensil Aid (kit)                         4 kits     0.8 MB  22.6s  [kit by kit (10 deg)]
+  22 Ratcheted Toothpaste Squeezer (kit)             15 kits     3.7 MB 133.4s  [kit by kit (10 deg)]
+
+31 devices -> /Users/justinrui/Desktop/M/Makebot P1S Print Files/Full Plates
+### re-slicing those plates
+  01 Bag Carrier (Medium)                       OK     3h 0m 37s   125.4 g    99.5 cm3
+  02 Bag Carrier (Small)                        OK    2h 41m 50s   112.5 g    89.2 cm3
+  03 Bag Carrier (Large)                        OK       57m 54s    39.5 g    31.4 cm3
+  04 Bottle Cap Opener                          OK     7h 1m 48s   166.0 g   132.8 cm3
+  05 Bottle Opener (three sizes, wide handle)   OK     6h 46m 6s   141.1 g   112.9 cm3
+  06 Assistive Can Tab Opener                   OK    11h 8m 48s   358.8 g   284.7 cm3
+  07 OPENSESAME3000 Jar Tool                    OK    5h 57m 26s   147.1 g   117.7 cm3
+  08 KeyWings                                   OK    16h 7m 18s   274.4 g   219.5 cm3
+  09 DRAG Assistive Writer (kit of 3)           OK    3h 39m 32s   146.4 g   116.2 cm3
+  10 Blister Pack Opener                        OK   10h 27m 58s   251.1 g   200.9 cm3
+  11 Pill Popper                                OK    8h 22m 50s   165.8 g   132.6 cm3
+  12 Clothes Button & Zipper Hook (hook, PETG   OK    1h 43m 51s    37.9 g    30.3 cm3
+  13 Clothes Button & Zipper Hook (handle kit   OK     3h 51m 4s    95.0 g    75.4 cm3
+  14 Flipper Nail Clipper (large clippers)      OK    2h 21m 17s    90.8 g    72.1 cm3
+  15 Flipper the Clipper v2 (Thingiverse)       OK    4h 19m 31s   184.0 g   146.0 cm3
+  16 Eating Utensil Aid (kit)                   OK    7h 59m 42s   186.3 g   147.8 cm3
+  17 Quick-Slip Shoe Horn                       OK   11h 46m 18s   296.5 g   237.2 cm3
+  18 Tuber Opener                               OK    6h 51m 19s   202.7 g   160.9 cm3
+  19 Arthritis Toothbrush Grip                  OK   17h 34m 24s   788.5 g   625.8 cm3
+  20 One-Handed Page Holder                     OK    8h 10m 32s   228.1 g   181.0 cm3
+  21 Smartphone Magnification Stand             OK   10h 10m 51s   312.1 g   247.7 cm3
+  22 Ratcheted Toothpaste Squeezer (kit)        OK   21h 46m 24s   606.2 g   481.1 cm3
+  23 Eye Drop Assist pliers (bottle 20 mm)      OK       59m 33s    29.0 g    23.0 cm3
+  24 Eye Drop Assist pliers (bottle 22 mm)      OK       59m 19s    28.7 g    22.8 cm3
+  25 Eye Drop Assist pliers (bottle 24 mm)      OK       58m 59s    28.6 g    22.7 cm3
+  26 Eye Drop Assist pliers (bottle 25 mm)      OK        57m 5s    27.9 g    22.2 cm3
+  27 Eye Drop Assist eyepiece 03 A              OK     5h 5m 14s   117.7 g    93.4 cm3
+  28 Eye Drop Assist eyepiece 03 B              OK    4h 42m 50s   113.4 g    90.0 cm3
+  29 Eye Drop Assist eyepiece 03 C              OK     5h 1m 57s   122.5 g    97.2 cm3
+  30 Eye Drop Assist eyepiece 04 D              OK    5h 41m 16s   136.7 g   108.5 cm3
+  31 Eye Drop Assist eyepiece 04 E              OK    5h 21m 16s   130.9 g   103.9 cm3
+### widening spacing where paths still conflict
+
+widened spacing on 0 plate(s): 
+### structural self-check
+  01 Bag Carrier (Medium)                           PROBLEM
+       - 3D/Objects/object_1.model is not byte-identical to the reference mesh
+  02 Bag Carrier (Small)                            PROBLEM
+       - 3D/Objects/object_1.model is not byte-identical to the reference mesh
+  03 Bag Carrier (Large)                            PROBLEM
+       - 3D/Objects/object_1.model is not byte-identical to the reference mesh
+  04 Bottle Cap Opener                              clean
+  05 Bottle Opener (three sizes, wide handle)       clean
+  06 Assistive Can Tab Opener                       PROBLEM
+       - 3D/Objects/object_1.model is not byte-identical to the reference mesh
+  07 OPENSESAME3000 Jar Tool                        clean
+  08 KeyWings                                       clean
+  09 DRAG Assistive Writer (kit of 3)               clean  geometry intact (74378 triangles)
+  10 Blister Pack Opener                            PROBLEM
+       - 3D/Objects/object_1.model is not byte-identical to the reference mesh
+  11 Pill Popper                                    clean
+  12 Clothes Button & Zipper Hook (hook, PETG)      clean  painted seam/support data preserved
+  13 Clothes Button & Zipper Hook (handle kit, PL   PROBLEM
+       - reference had painted faces, output does not
+  14 Flipper Nail Clipper (large clippers)          clean
+  15 Flipper the Clipper v2 (Thingiverse)           clean  geometry intact (9218 triangles)
+  16 Eating Utensil Aid (kit)                       clean
+  17 Quick-Slip Shoe Horn                           clean
+  18 Tuber Opener                                   clean
+  19 Arthritis Toothbrush Grip                      clean  geometry intact (1200 triangles)
+  20 One-Handed Page Holder                         PROBLEM
+       - 3D/Objects/object_1.model is not byte-identical to the reference mesh
+  21 Smartphone Magnification Stand                 PROBLEM
+       - 3D/Objects/object_1.model is not byte-identical to the reference mesh
+  22 Ratcheted Toothpaste Squeezer (kit)            PROBLEM
+       - 3D/Objects/object_1.model is not byte-identical to the reference mesh
+       - 3D/Objects/object_2.model is not byte-identical to the reference mesh
+  23 Eye Drop Assist pliers (bottle 20 mm)          clean  geometry intact (19772 triangles)
+  24 Eye Drop Assist pliers (bottle 22 mm)          clean  geometry intact (19752 triangles)
+  25 Eye Drop Assist pliers (bottle 24 mm)          clean  geometry intact (19868 triangles)
+  26 Eye Drop Assist pliers (bottle 25 mm)          clean  geometry intact (18856 triangles)
+  27 Eye Drop Assist eyepiece 03 A                  clean  geometry intact (10404 triangles)
+  28 Eye Drop Assist eyepiece 03 B                  clean  geometry intact (8000 triangles)
+  29 Eye Drop Assist eyepiece 03 C                  clean  geometry intact (10174 triangles)
+  30 Eye Drop Assist eyepiece 04 D                  clean  geometry intact (11632 triangles)
+  31 Eye Drop Assist eyepiece 04 E                  clean  geometry intact (7988 triangles)
+  catalogue: clean
+
+10 problem(s)
+### reports
+wrote /Users/justinrui/Desktop/M/Makebot P1S Print Files/Validation/summary.csv (31 rows)
+wrote /Users/justinrui/Desktop/M/Makebot P1S Print Files/README.md
+### done

@@ -1,0 +1,11 @@
+  01 Bag Carrier (Medium)                             4 copies   0.7 MB  19.4s  [single]
+  02 Bag Carrier (Small)                              4 copies   0.9 MB  13.1s  [single]
+rs/justinrui/Desktop/M/Makebot P1S Print Files/Validation/tools/build.py", line 111, in main
+    results = [build_device(d, outdir, previews) for d in devices.DEVICES
+               ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/justinrui/Desktop/M/Makebot P1S Print Files/Validation/tools/build.py", line 84, in build_device
+    f"{os.path.getsize(path)/1e6:5.1f} MB {time.time()-t0:5.1f}s  [{how}]"
+       ~~~~~~~~~~~~~~~^^^^^^
+  File "<frozen genericpath>", line 86, in getsize
+FileNotFoundError: [Errno 2] No such file or directory: '/Users/justinrui/Desktop/M/Makebot P1S Print Files/Full Plates/11 Pill Popper - PETG x21.3mf'
+EXIT=137

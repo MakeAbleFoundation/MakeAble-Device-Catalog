@@ -1,0 +1,20 @@
+  01 Bag Carrier (Medium)                       ref OK  units {1: 1} -> 24.93 cm3 per unit
+  02 Bag Carrier (Small)                        ref OK  units {} -> None cm3 per unit
+  03 Bag Carrier (Large)                        ref OK  units {} -> None cm3 per unit
+  04 Bottle Cap Opener                          ref OK  units {1: 1} -> 16.68 cm3 per unit
+  05 Bottle Opener (three sizes, wide handle)   ref OK  units {1: 1} -> 29.4 cm3 per unit
+  06 Assistive Can Tab Opener                   ref OK  units {1: 1} -> 9.57 cm3 per unit
+  07 OPENSESAME3000 Jar Tool                    ref OK  units {1: 1} -> 58.94 cm3 per unit
+  08 KeyWings                                   ref OK  units {1: 1} -> 2.63 cm3 per unit
+  09 DRAG Assistive Writer (kit of 3)           ref OK  units {1: 1} -> 58.06 cm3 per unit
+  10 Blister Pack Opener                        ref OK  units {1: 1} -> 26.09 cm3 per unit
+  11 Pill Popper                                ref OK  units {1: 1} -> 6.29 cm3 per unit
+  12 Clothes Button & Zipper Hook (hook, PETG   ref OK  units {2: 1} -> 3.5 cm3 per unit
+  13 Clothes Button & Zipper Hook (handle kit   ref OK  units {1: 1} -> 9.81 cm3 per unit
+  14 Flipper Nail Clipper (large clippers)      ref OK  units {1: 1} -> 23.96 cm3 per unit
+  16 Eating Utensil Aid (kit)                   ref OK  units {1: 1} -> 36.8 cm3 per unit
+  17 Quick-Slip Shoe Horn                       ref FAIL units {1: 1} -> None cm3 per unit
+  18 Tuber Opener                               ref OK  units {1: 3} -> 13.43 cm3 per unit
+  20 One-Handed Page Holder                     ref OK  units {1: 1} -> 7.87 cm3 per unit
+  21 Smartphone Magnification Stand             ref OK  units {1: 1} -> 20.73 cm3 per unit
+  22 Ratcheted Toothpaste Squeezer (kit)        ref FAIL units {1: 1} -> None cm3 per unit

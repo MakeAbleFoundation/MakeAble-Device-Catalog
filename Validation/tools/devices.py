@@ -1,0 +1,158 @@
+#!/usr/bin/env python3
+"""The Makebot catalogue: which file is the source of truth for each device.
+
+Every MakerWorld `profileId` in the brief was matched against the `DesignProfileId`
+stored inside the local 3mf, so `ref` below is the exact profile that was linked.
+"""
+M = "/Users/justinrui/Desktop/M/"
+
+PLA = "Bambu PLA Basic @BBL X1C"
+PETG = "PETG P1S Tuned"
+
+DEVICES = [
+ dict(id=1, slug="bag-carrier-medium", title="Bag Carrier (Medium)", designer="MakeAble",
+      link="https://makerworld.com/en/models/1715311-bag-carrier#profileId-1820526",
+      ref=M+"Bag Carrier (PLA)/Bag+Carrier+Medium.3mf", names=["Bag Carrier Medium.stl"],
+      material="PLA"),
+ dict(id=2, slug="bag-carrier-small", title="Bag Carrier (Small)", designer="MakeAble",
+      link="https://makerworld.com/en/models/1715311-bag-carrier",
+      ref=M+"Bag Carrier (PLA)/Bag+Carrier+Medium.3mf",
+      mesh_ref=M+"Other/All+bag+carriers.3mf", names=["Bag Carrier Small.stl"],
+      material="PLA",
+      notes=["Mesh from All+bag+carriers.3mf; settings from the linked Medium profile "
+             "(the designer uses the same 0.2 mm / 2 walls / 15% profile for all sizes)."]),
+ dict(id=3, slug="bag-carrier-large", title="Bag Carrier (Large)", designer="MakeAble",
+      link="https://makerworld.com/en/models/1715311-bag-carrier",
+      ref=M+"Bag Carrier (PLA)/Bag+Carrier+Medium.3mf",
+      mesh_ref=M+"Other/All+bag+carriers.3mf", names=["Bag Carrier Large.stl"],
+      material="PLA",
+      notes=["Mesh from All+bag+carriers.3mf; settings from the linked Medium profile."]),
+ dict(id=4, slug="bottle-cap-opener", title="Bottle Cap Opener", designer="TuTu",
+      link="https://makerworld.com/en/models/1093642-bottle-cap-opener#profileId-1087614",
+      ref=M+"Bottle Opener (PETG)/Bottle+Cap+Opener.3mf", names=["Bottle Cap Opener"],
+      material="PETG",
+      notes=["Designer's profile: 0.15 mm first layer, 5 walls, 50% infill, slower walls "
+             "(was an A1 mini profile, rebased onto the P1S)."]),
+ dict(id=5, slug="bottle-opener-wide-handle",
+      title="Bottle Opener (three sizes, wide handle)", designer="val",
+      link="https://makerworld.com/en/models/712423-bottle-opener-three-sizes-wider-handle#profileId-642822",
+      ref=M+"Bottle Opener (PETG)/Bottle+Opener+remix+without+support+material.3mf",
+      names=["bottle opener remix.stl"], material="PETG",
+      notes=["The designer's per-object settings (5 walls, 15% honeycomb, supports on, "
+             "seam at the back) are carried over per object, as in the original."]),
+ dict(id=6, slug="can-opener", title="Assistive Can Tab Opener", designer="MakeAble",
+      link="https://makerworld.com/en/models/1797256-assistive-can-tab-opener#profileId-1916191",
+      ref=M+"Can Opener (PLA)/Base_Can_Opener.3mf", names=["Base_Can_Opener.stl"],
+      material="PLA"),
+ dict(id=7, slug="jar-opener", title="OPENSESAME3000 Jar Tool", designer="cartyski",
+      link="https://makerworld.com/en/models/90424-opensesame3000-jar-tool#profileId-96804",
+      ref=M+"Jar Opener (PETG)/opensesame.3mf", names=["logod.stl"], material="PETG",
+      notes=["Linked profile is the PLA one (0.12 mm, 3 walls, 15% gyroid). The designer "
+             "publishes the same settings as a PETG profile, which is what this file is "
+             "set up for since the folder says PETG."]),
+ dict(id=8, slug="keywings", title="KeyWings", designer="AlbertMakes",
+      link="https://makerworld.com/en/models/1688156-keywings-for-mobility-needs#profileId-1789186",
+      ref=M+"Key Holder (PETG)/KeyWings+v6+Bambu.3mf", names=["Body_05*"], material="PETG",
+      notes=["Designer recommends PETG or nylon; brim is deliberately off in their profile."]),
+ dict(id=9, slug="drag-writer", title="DRAG Assistive Writer (kit of 3)", designer="PrintLab",
+      link="https://makerworld.com/en/models/869468-drag-assistive-writing-and-drawing-device#profileId-821115",
+      ref=M+"DRAG Assistive Writer (PLA)/DRAG+v2 (1).3mf", names=["all parts v2.stl"],
+      split=["DRAG left plate", "DRAG right plate", "DRAG centre plate"],
+      kit=[1, 1, 1], material="PLA",
+      notes=["One kit = left + right + centre plate, as the maker guide specifies "
+             "(plus 3x M3x20 screws, not printed)."]),
+ dict(id=10, slug="blister-pack-opener", title="Blister Pack Opener", designer="MakeAble",
+      link="https://makerworld.com/en/models/1791626-blister-pack-opener#profileId-1909450",
+      ref=M+"Pill Popper (PETG)/Pill+Opener.3mf", names=["Blister Pack Opener.step"],
+      material="PETG",
+      notes=["Tree supports and an outer brim are part of the designer's profile."]),
+ dict(id=11, slug="pill-popper", title="Pill Popper", designer="AlbertMakes",
+      link="https://makerworld.com/en/models/1440419-pill-popper#profileId-1499190",
+      ref=M+"Pill Popper (PETG)/Pill+Popper+Bambu+Studio.3mf", names=["Body_08*2"],
+      material="PETG",
+      notes=["Model page asks for a very slow first layer: the profile's 20 mm/s is kept.",
+             "Page says 10-15% infill, the profile says 25%; the profile wins, as agreed."]),
+ dict(id=12, slug="clothes-button-hook",
+      title="Clothes Button & Zipper Hook (hook, PETG)", designer="Adapt3D_OT",
+      link="https://makerworld.com/en/models/423231-clothes-button-and-zipper-hook-helper",
+      ref=M+"Clothes Button and Zipper Aid (PETG + PLA)/central-loop-and-hook-button-and-zipper-hook.3mf",
+      names=["central-loop-and-hook-button-and-zipper-hook.stl"], material="PETG",
+      notes=["Designer: print the central piece in PETG so it keeps its shape.",
+             "This mesh carries the designer's painted seams, which are preserved."]),
+ dict(id=13, slug="clothes-button-handles",
+      title="Clothes Button & Zipper Hook (handle kit, PLA)", designer="Adapt3D_OT",
+      link="https://makerworld.com/en/models/423231-clothes-button-and-zipper-hook-helper",
+      ref=M+"Clothes Button and Zipper Aid (PETG + PLA)/central-loop-and-hook-button-and-zipper-hook.3mf",
+      names=["Handle+scales.stl", "Connector+pin.stl"], kit=[2, 2], material="PLA",
+      notes=["One kit = 2 handle scales + 2 connector pins, which is what one hook needs.",
+             "Pins are the designer's 95%-scaled version from the 3mf, not the loose STL."]),
+ dict(id=14, slug="flipper-nail-clipper-large",
+      title="Flipper Nail Clipper (large clippers)", designer="saad.caffeine",
+      link="https://makerworld.com/en/models/47915-flipper-the-one-handed-nail-clipper-adjusted-for-l",
+      ref=M+"Nail Clipper Holder (PLA)/Flipper+Clipper+mod+for+large+size+nailcutter_a1mini.3mf",
+      names=["Flipper Clipper mod for large size nailcutter.stl"], material="PLA",
+      notes=["Print-in-place hinge: the two bodies stay in one object, as the designer had it.",
+             "Designer notes PETG works better than PLA; folder says PLA, so PLA it is."]),
+ dict(id=15, slug="flipper-clipper-v2", title="Flipper the Clipper v2 (Thingiverse)",
+      designer="kafei", link="https://www.thingiverse.com/thing:5637570",
+      stl=[M+"Nail Clipper Holder (PLA)/Nailcutter_v2.stl"], material="PLA",
+      overrides={"sparse_infill_density": "80%", "skin_infill_density": "80%",
+                 "skeleton_infill_density": "80%"},
+      notes=["No designer 3mf exists, so this is the P1S 0.20 mm Standard profile plus "
+             "the designer's one stated requirement: 80% infill."]),
+ dict(id=16, slug="eating-utensil-aid", title="Eating Utensil Aid (kit)",
+      designer="Keebitzenny",
+      link="https://makerworld.com/en/models/192317-eating-utensil-aid-no-supports-updated-v2-files-in#profileId-212499",
+      ref=M+"Eating Utensil Aid (PLA)/Eating+Utensil+Aid.3mf",
+      names=["Spoon Holder.stl", "Nut for Spoon Holder.stl"], kit=[1, 1], material="PLA",
+      notes=["Designer recommends ABS and supplies a PLA profile; PLA used per the folder.",
+             "PETG would be the tougher option for a utensil aid that gets washed."]),
+ dict(id=17, slug="shoe-horn", title="Quick-Slip Shoe Horn", designer="Stag 3D",
+      link="https://makerworld.com/en/models/1024414-quick-slip-shoe-horn#profileId-1006338",
+      ref=M+"Shoe Horn (PETG)/Shoe+Horn+3MF.3mf", names=["Shoe Horn.stl"], material="PETG",
+      notes=["Designer: PETG or stronger is required.",
+             "Profile came from an H2S; speeds and accelerations rebased to the P1S."]),
+ dict(id=18, slug="tube-opener", title="Tuber Opener", designer="MakeAble",
+      link="https://makerworld.com/en/models/1737344-tuber-opener#profileId-1845987",
+      ref=M+"Tube Opener/Tube_Opener.3mf", indices=[0], material="PLA"),
+ dict(id=19, slug="toothbrush-grip", title="Arthritis Toothbrush Grip",
+      designer="MyMiniFactory",
+      stl=[M+"Toothbrush Grip (PLA)/6066726cbda58_arthritis-toothbrush-grip/toofbrushgrip.stl"],
+      material="PLA",
+      notes=["No designer profile exists; P1S 0.20 mm Standard used.",
+             "Heavy part: check the reported filament weight before starting a full plate."]),
+ dict(id=20, slug="book-holder", title="One-Handed Page Holder", designer="MakeAble",
+      ref=M+"Other/One_Handed_Book_Holder.3mf", names=["One_Handed_Book_Holder.stl"],
+      material="PLA"),
+ dict(id=21, slug="phone-magnifier-stand", title="Smartphone Magnification Stand",
+      designer="MakeAble", ref=M+"Other/Smartphone+Magnification+Stand.3mf",
+      names=["Smartphone Magnification Stand.stl"], material="PLA"),
+ dict(id=22, slug="toothpaste-squeezer", title="Ratcheted Toothpaste Squeezer (kit)",
+      designer="Andrew3d", ref=M+"Other/Toothpaste+Squeezer+4.0.3mf",
+      names=["Toothpaste Squeezer 4.0.stl", "Part Studio 3 - Part 3.stl"], kit=[1, 1],
+      material="PLA",
+      notes=["One kit = body + handle/shaft; the ratchet prints in place inside the body.",
+             "Profile was saved for a P2S, which this Studio doesn't ship; process values "
+             "kept, machine speeds and accelerations rebased to the P1S."]),
+]
+
+EYE_DROP = [
+ ("eda-pliers-bd20", "Eye Drop Assist pliers (bottle 20 mm)", "edab_pliers_07_bd20.stl"),
+ ("eda-pliers-bd22", "Eye Drop Assist pliers (bottle 22 mm)", "edab_pliers_07_bd22.stl"),
+ ("eda-pliers-bd24", "Eye Drop Assist pliers (bottle 24 mm)", "edab_pliers_07_bd24.stl"),
+ ("eda-pliers-bd25", "Eye Drop Assist pliers (bottle 25 mm)", "EDA_Pliers_Bottle_06Bc_BD25.stl"),
+ ("eda-eyepiece-03a", "Eye Drop Assist eyepiece 03 A", "EDA_EyePiece_03_A.stl"),
+ ("eda-eyepiece-03b", "Eye Drop Assist eyepiece 03 B", "EDA_EyePiece_03_B.stl"),
+ ("eda-eyepiece-03c", "Eye Drop Assist eyepiece 03 C", "EDA_EyePiece_03_C.stl"),
+ ("eda-eyepiece-04d", "Eye Drop Assist eyepiece 04 D", "eda_eyepiece_04_d.stl"),
+ ("eda-eyepiece-04e", "Eye Drop Assist eyepiece 04 E", "eda_eyepiece_04_e.stl"),
+]
+for i, (slug, title, fn) in enumerate(EYE_DROP, start=23):
+    DEVICES.append(dict(
+        id=i, slug=slug, title=title, designer="jhw (Printables)",
+        link="https://www.printables.com/model/1031668-eye-drop-assist-for-bottles",
+        stl=[M+"Eye Drop Assist (PLA)/"+fn], material="PLA",
+        notes=["No designer 3mf; P1S 0.20 mm Standard used. The Printables pages are "
+               "behind a bot check, so the designer's own settings are unverified."]))
+
+FILAMENT = {"PLA": PLA, "PETG": PETG}

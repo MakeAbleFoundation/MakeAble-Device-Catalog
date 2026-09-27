@@ -1,0 +1,834 @@
+{
+  "bag-carrier-medium": {
+    "ok": true,
+    "returncode": 0,
+    "clamped": {
+      "tree_support_wall_count": [
+        "-1",
+        "0"
+      ],
+      "raft_first_layer_expansion": [
+        "-1",
+        "2"
+      ]
+    },
+    "plates": {
+      "1": {
+        "model_time": "2h 54m 22s",
+        "total_time": "3h 0m 37s",
+        "layers": "75",
+        "density": "1.26",
+        "max_z": "15.00",
+        "used_mm": 41369.28,
+        "used_cm3": 99.5,
+        "used_g": 125.38
+      }
+    },
+    "warnings": [],
+    "log": ""
+  },
+  "bag-carrier-small": {
+    "ok": true,
+    "returncode": 0,
+    "clamped": {
+      "tree_support_wall_count": [
+        "-1",
+        "0"
+      ],
+      "raft_first_layer_expansion": [
+        "-1",
+        "2"
+      ]
+    },
+    "plates": {
+      "1": {
+        "model_time": "2h 35m 35s",
+        "total_time": "2h 41m 50s",
+        "layers": "75",
+        "density": "1.26",
+        "max_z": "15.00",
+        "used_mm": 37103.94,
+        "used_cm3": 89.25,
+        "used_g": 112.45
+      }
+    },
+    "warnings": [],
+    "log": ""
+  },
+  "bag-carrier-large": {
+    "ok": true,
+    "returncode": 0,
+    "clamped": {
+      "tree_support_wall_count": [
+        "-1",
+        "0"
+      ],
+      "raft_first_layer_expansion": [
+        "-1",
+        "2"
+      ]
+    },
+    "plates": {
+      "1": {
+        "model_time": "1h 43m 9s",
+        "total_time": "1h 49m 24s",
+        "layers": "75",
+        "density": "1.26",
+        "max_z": "15.00",
+        "used_mm": 26044.07,
+        "used_cm3": 62.64,
+        "used_g": 78.93
+      }
+    },
+    "warnings": [],
+    "log": ""
+  },
+  "bottle-cap-opener": {
+    "ok": true,
+    "returncode": 0,
+    "clamped": {
+      "raft_first_layer_expansion": [
+        "-1",
+        "2"
+      ]
+    },
+    "plates": {
+      "1": {
+        "model_time": "6h 55m 29s",
+        "total_time": "7h 1m 48s",
+        "layers": "50",
+        "density": "1.25",
+        "max_z": "9.95",
+        "used_mm": 55200.32,
+        "used_cm3": 132.77,
+        "used_g": 165.97
+      }
+    },
+    "warnings": [],
+    "log": ""
+  },
+  "bottle-opener-wide-handle": {
+    "ok": true,
+    "returncode": 0,
+    "clamped": {
+      "raft_first_layer_expansion": [
+        "-1",
+        "2"
+      ]
+    },
+    "plates": {
+      "1": {
+        "model_time": "6h 39m 39s",
+        "total_time": "6h 46m 6s",
+        "layers": "100",
+        "density": "1.25",
+        "max_z": "20.00",
+        "used_mm": 46930.54,
+        "used_cm3": 112.88,
+        "used_g": 141.1
+      }
+    },
+    "warnings": [],
+    "log": ""
+  },
+  "can-opener": {
+    "ok": true,
+    "returncode": 0,
+    "clamped": {
+      "tree_support_wall_count": [
+        "-1",
+        "0"
+      ],
+      "raft_first_layer_expansion": [
+        "-1",
+        "2"
+      ]
+    },
+    "plates": {
+      "1": {
+        "model_time": "11h 2m 33s",
+        "total_time": "11h 8m 48s",
+        "layers": "120",
+        "density": "1.26",
+        "max_z": "24.00",
+        "used_mm": 118379.34,
+        "used_cm3": 284.74,
+        "used_g": 358.77
+      }
+    },
+    "warnings": [],
+    "log": ""
+  },
+  "jar-opener": {
+    "ok": true,
+    "returncode": 0,
+    "clamped": {
+      "raft_first_layer_expansion": [
+        "-1",
+        "2"
+      ]
+    },
+    "plates": {
+      "1": {
+        "model_time": "5h 51m 7s",
+        "total_time": "5h 57m 26s",
+        "layers": "166",
+        "density": "1.25",
+        "max_z": "20.00",
+        "used_mm": 48916.05,
+        "used_cm3": 117.66,
+        "used_g": 147.07
+      }
+    },
+    "warnings": [],
+    "log": ""
+  },
+  "keywings": {
+    "ok": true,
+    "returncode": 0,
+    "clamped": {
+      "raft_first_layer_expansion": [
+        "-1",
+        "2"
+      ]
+    },
+    "plates": {
+      "1": {
+        "model_time": "16h 0m 59s",
+        "total_time": "16h 7m 18s",
+        "layers": "105",
+        "density": "1.25",
+        "max_z": "21.00",
+        "used_mm": 91254.64,
+        "used_cm3": 219.49,
+        "used_g": 274.37
+      }
+    },
+    "warnings": [],
+    "log": ""
+  },
+  "drag-writer": {
+    "ok": true,
+    "returncode": 0,
+    "clamped": {
+      "raft_first_layer_expansion": [
+        "-1",
+        "2"
+      ]
+    },
+    "plates": {
+      "1": {
+        "model_time": "3h 33m 17s",
+        "total_time": "3h 39m 32s",
+        "layers": "140",
+        "density": "1.26",
+        "max_z": "28.00",
+        "used_mm": 48317.9,
+        "used_cm3": 116.22,
+        "used_g": 146.43
+      }
+    },
+    "warnings": [],
+    "log": ""
+  },
+  "blister-pack-opener": {
+    "ok": true,
+    "returncode": 0,
+    "clamped": {
+      "tree_support_wall_count": [
+        "-1",
+        "0"
+      ],
+      "raft_first_layer_expansion": [
+        "-1",
+        "2"
+      ]
+    },
+    "plates": {
+      "1": {
+        "model_time": "10h 21m 39s",
+        "total_time": "10h 27m 58s",
+        "layers": "120",
+        "density": "1.25",
+        "max_z": "24.00",
+        "used_mm": 83523.75,
+        "used_cm3": 200.9,
+        "used_g": 251.12
+      }
+    },
+    "warnings": [],
+    "log": ""
+  },
+  "pill-popper": {
+    "ok": true,
+    "returncode": 0,
+    "clamped": {
+      "raft_first_layer_expansion": [
+        "-1",
+        "2"
+      ]
+    },
+    "plates": {
+      "1": {
+        "model_time": "8h 16m 23s",
+        "total_time": "8h 22m 50s",
+        "layers": "73",
+        "density": "1.25",
+        "max_z": "14.60",
+        "used_mm": 55143.59,
+        "used_cm3": 132.64,
+        "used_g": 165.79
+      }
+    },
+    "warnings": [],
+    "log": ""
+  },
+  "clothes-button-hook": {
+    "ok": true,
+    "returncode": 0,
+    "clamped": {
+      "raft_first_layer_expansion": [
+        "-1",
+        "2"
+      ]
+    },
+    "plates": {
+      "1": {
+        "model_time": "1h 37m 24s",
+        "total_time": "1h 43m 51s",
+        "layers": "10",
+        "density": "1.25",
+        "max_z": "2.00",
+        "used_mm": 12614.08,
+        "used_cm3": 30.34,
+        "used_g": 37.93
+      }
+    },
+    "warnings": [],
+    "log": ""
+  },
+  "clothes-button-handles": {
+    "ok": true,
+    "returncode": 0,
+    "clamped": {
+      "raft_first_layer_expansion": [
+        "-1",
+        "2"
+      ]
+    },
+    "plates": {
+      "1": {
+        "model_time": "3h 44m 37s",
+        "total_time": "3h 51m 4s",
+        "layers": "38",
+        "density": "1.26",
+        "max_z": "7.60",
+        "used_mm": 31351.15,
+        "used_cm3": 75.41,
+        "used_g": 95.01
+      }
+    },
+    "warnings": [],
+    "log": ""
+  },
+  "flipper-nail-clipper-large": {
+    "ok": true,
+    "returncode": 0,
+    "clamped": {
+      "raft_first_layer_expansion": [
+        "-1",
+        "2"
+      ]
+    },
+    "plates": {
+      "1": {
+        "model_time": "2h 15m 2s",
+        "total_time": "2h 21m 17s",
+        "layers": "60",
+        "density": "1.26",
+        "max_z": "12.00",
+        "used_mm": 29965.0,
+        "used_cm3": 72.07,
+        "used_g": 90.81
+      }
+    },
+    "warnings": [],
+    "log": ""
+  },
+  "flipper-clipper-v2": {
+    "ok": true,
+    "returncode": 0,
+    "clamped": {
+      "tree_support_wall_count": [
+        "-1",
+        "0"
+      ],
+      "raft_first_layer_expansion": [
+        "-1",
+        "2"
+      ]
+    },
+    "plates": {
+      "1": {
+        "model_time": "4h 13m 16s",
+        "total_time": "4h 19m 31s",
+        "layers": "55",
+        "density": "1.26",
+        "max_z": "11.00",
+        "used_mm": 60704.72,
+        "used_cm3": 146.01,
+        "used_g": 183.98
+      }
+    },
+    "warnings": [],
+    "log": ""
+  },
+  "eating-utensil-aid": {
+    "ok": true,
+    "returncode": 0,
+    "clamped": {
+      "tree_support_wall_count": [
+        "-1",
+        "0"
+      ],
+      "raft_first_layer_expansion": [
+        "-1",
+        "2"
+      ]
+    },
+    "plates": {
+      "1": {
+        "model_time": "9h 43m 38s",
+        "total_time": "9h 49m 52s",
+        "layers": "125",
+        "density": "1.26",
+        "max_z": "25.00",
+        "used_mm": 76283.54,
+        "used_cm3": 183.48,
+        "used_g": 231.19
+      }
+    },
+    "warnings": [],
+    "log": ""
+  },
+  "shoe-horn": {
+    "ok": true,
+    "returncode": 0,
+    "clamped": {
+      "tree_support_wall_count": [
+        "-1",
+        "0"
+      ],
+      "raft_first_layer_expansion": [
+        "-1",
+        "2"
+      ]
+    },
+    "plates": {
+      "1": {
+        "model_time": "11h 39m 58s",
+        "total_time": "11h 46m 18s",
+        "layers": "220",
+        "density": "1.25",
+        "max_z": "44.00",
+        "used_mm": 98601.44,
+        "used_cm3": 237.16,
+        "used_g": 296.46
+      }
+    },
+    "warnings": [],
+    "log": ""
+  },
+  "tube-opener": {
+    "ok": true,
+    "returncode": 0,
+    "clamped": {
+      "tree_support_wall_count": [
+        "-1",
+        "0"
+      ],
+      "raft_first_layer_expansion": [
+        "-1",
+        "2"
+      ]
+    },
+    "plates": {
+      "1": {
+        "model_time": "6h 45m 3s",
+        "total_time": "6h 51m 19s",
+        "layers": "131",
+        "density": "1.26",
+        "max_z": "21.00",
+        "used_mm": 66884.84,
+        "used_cm3": 160.88,
+        "used_g": 202.7
+      }
+    },
+    "warnings": [],
+    "log": ""
+  },
+  "toothbrush-grip": {
+    "ok": true,
+    "returncode": 0,
+    "clamped": {
+      "tree_support_wall_count": [
+        "-1",
+        "0"
+      ],
+      "raft_first_layer_expansion": [
+        "-1",
+        "2"
+      ]
+    },
+    "plates": {
+      "1": {
+        "model_time": "17h 28m 9s",
+        "total_time": "17h 34m 24s",
+        "layers": "500",
+        "density": "1.26",
+        "max_z": "100.00",
+        "used_mm": 260182.11,
+        "used_cm3": 625.81,
+        "used_g": 788.52
+      }
+    },
+    "warnings": [],
+    "log": ""
+  },
+  "book-holder": {
+    "ok": true,
+    "returncode": 0,
+    "clamped": {
+      "tree_support_wall_count": [
+        "-1",
+        "0"
+      ],
+      "raft_first_layer_expansion": [
+        "-1",
+        "2"
+      ]
+    },
+    "plates": {
+      "1": {
+        "model_time": "8h 4m 16s",
+        "total_time": "8h 10m 32s",
+        "layers": "125",
+        "density": "1.26",
+        "max_z": "20.04",
+        "used_mm": 75251.03,
+        "used_cm3": 181.0,
+        "used_g": 228.06
+      }
+    },
+    "warnings": [],
+    "log": ""
+  },
+  "phone-magnifier-stand": {
+    "ok": true,
+    "returncode": 0,
+    "clamped": {
+      "tree_support_wall_count": [
+        "-1",
+        "0"
+      ],
+      "raft_first_layer_expansion": [
+        "-1",
+        "2"
+      ]
+    },
+    "plates": {
+      "1": {
+        "model_time": "10h 4m 35s",
+        "total_time": "10h 10m 51s",
+        "layers": "250",
+        "density": "1.26",
+        "max_z": "40.04",
+        "used_mm": 102989.12,
+        "used_cm3": 247.72,
+        "used_g": 312.12
+      }
+    },
+    "warnings": [],
+    "log": ""
+  },
+  "toothpaste-squeezer": {
+    "ok": true,
+    "returncode": 0,
+    "clamped": {
+      "tree_support_wall_count": [
+        "-1",
+        "0"
+      ],
+      "raft_first_layer_expansion": [
+        "-1",
+        "2"
+      ]
+    },
+    "plates": {
+      "1": {
+        "model_time": "21h 40m 9s",
+        "total_time": "21h 46m 24s",
+        "layers": "493",
+        "density": "1.26",
+        "max_z": "98.60",
+        "used_mm": 200033.76,
+        "used_cm3": 481.14,
+        "used_g": 606.23
+      }
+    },
+    "warnings": [],
+    "log": ""
+  },
+  "eda-pliers-bd20": {
+    "ok": true,
+    "returncode": 0,
+    "clamped": {
+      "tree_support_wall_count": [
+        "-1",
+        "0"
+      ],
+      "raft_first_layer_expansion": [
+        "-1",
+        "2"
+      ]
+    },
+    "plates": {
+      "1": {
+        "model_time": "53m 18s",
+        "total_time": "59m 33s",
+        "layers": "30",
+        "density": "1.26",
+        "max_z": "6.00",
+        "used_mm": 9561.13,
+        "used_cm3": 23.0,
+        "used_g": 28.98
+      }
+    },
+    "warnings": [],
+    "log": ""
+  },
+  "eda-pliers-bd22": {
+    "ok": true,
+    "returncode": 0,
+    "clamped": {
+      "tree_support_wall_count": [
+        "-1",
+        "0"
+      ],
+      "raft_first_layer_expansion": [
+        "-1",
+        "2"
+      ]
+    },
+    "plates": {
+      "1": {
+        "model_time": "53m 4s",
+        "total_time": "59m 19s",
+        "layers": "30",
+        "density": "1.26",
+        "max_z": "6.00",
+        "used_mm": 9484.29,
+        "used_cm3": 22.81,
+        "used_g": 28.74
+      }
+    },
+    "warnings": [],
+    "log": ""
+  },
+  "eda-pliers-bd24": {
+    "ok": true,
+    "returncode": 0,
+    "clamped": {
+      "tree_support_wall_count": [
+        "-1",
+        "0"
+      ],
+      "raft_first_layer_expansion": [
+        "-1",
+        "2"
+      ]
+    },
+    "plates": {
+      "1": {
+        "model_time": "52m 44s",
+        "total_time": "58m 59s",
+        "layers": "30",
+        "density": "1.26",
+        "max_z": "6.00",
+        "used_mm": 9425.74,
+        "used_cm3": 22.67,
+        "used_g": 28.57
+      }
+    },
+    "warnings": [],
+    "log": ""
+  },
+  "eda-pliers-bd25": {
+    "ok": true,
+    "returncode": 0,
+    "clamped": {
+      "tree_support_wall_count": [
+        "-1",
+        "0"
+      ],
+      "raft_first_layer_expansion": [
+        "-1",
+        "2"
+      ]
+    },
+    "plates": {
+      "1": {
+        "model_time": "50m 50s",
+        "total_time": "57m 5s",
+        "layers": "30",
+        "density": "1.26",
+        "max_z": "6.00",
+        "used_mm": 9212.32,
+        "used_cm3": 22.16,
+        "used_g": 27.92
+      }
+    },
+    "warnings": [],
+    "log": ""
+  },
+  "eda-eyepiece-03a": {
+    "ok": true,
+    "returncode": 0,
+    "clamped": {
+      "tree_support_wall_count": [
+        "-1",
+        "0"
+      ],
+      "raft_first_layer_expansion": [
+        "-1",
+        "2"
+      ]
+    },
+    "plates": {
+      "1": {
+        "model_time": "4h 58m 59s",
+        "total_time": "5h 5m 14s",
+        "layers": "145",
+        "density": "1.26",
+        "max_z": "29.00",
+        "used_mm": 38832.37,
+        "used_cm3": 93.4,
+        "used_g": 117.69
+      }
+    },
+    "warnings": [],
+    "log": ""
+  },
+  "eda-eyepiece-03b": {
+    "ok": true,
+    "returncode": 0,
+    "clamped": {
+      "tree_support_wall_count": [
+        "-1",
+        "0"
+      ],
+      "raft_first_layer_expansion": [
+        "-1",
+        "2"
+      ]
+    },
+    "plates": {
+      "1": {
+        "model_time": "4h 36m 35s",
+        "total_time": "4h 42m 50s",
+        "layers": "145",
+        "density": "1.26",
+        "max_z": "29.00",
+        "used_mm": 37403.2,
+        "used_cm3": 89.97,
+        "used_g": 113.36
+      }
+    },
+    "warnings": [],
+    "log": ""
+  },
+  "eda-eyepiece-03c": {
+    "ok": true,
+    "returncode": 0,
+    "clamped": {
+      "tree_support_wall_count": [
+        "-1",
+        "0"
+      ],
+      "raft_first_layer_expansion": [
+        "-1",
+        "2"
+      ]
+    },
+    "plates": {
+      "1": {
+        "model_time": "4h 55m 42s",
+        "total_time": "5h 1m 57s",
+        "layers": "145",
+        "density": "1.26",
+        "max_z": "29.00",
+        "used_mm": 40411.35,
+        "used_cm3": 97.2,
+        "used_g": 122.47
+      }
+    },
+    "warnings": [],
+    "log": ""
+  },
+  "eda-eyepiece-04d": {
+    "ok": true,
+    "returncode": 0,
+    "clamped": {
+      "tree_support_wall_count": [
+        "-1",
+        "0"
+      ],
+      "raft_first_layer_expansion": [
+        "-1",
+        "2"
+      ]
+    },
+    "plates": {
+      "1": {
+        "model_time": "5h 35m 1s",
+        "total_time": "5h 41m 16s",
+        "layers": "165",
+        "density": "1.26",
+        "max_z": "33.00",
+        "used_mm": 45093.61,
+        "used_cm3": 108.46,
+        "used_g": 136.66
+      }
+    },
+    "warnings": [],
+    "log": ""
+  },
+  "eda-eyepiece-04e": {
+    "ok": true,
+    "returncode": 0,
+    "clamped": {
+      "tree_support_wall_count": [
+        "-1",
+        "0"
+      ],
+      "raft_first_layer_expansion": [
+        "-1",
+        "2"
+      ]
+    },
+    "plates": {
+      "1": {
+        "model_time": "5h 15m 1s",
+        "total_time": "5h 21m 16s",
+        "layers": "165",
+        "density": "1.26",
+        "max_z": "33.00",
+        "used_mm": 43178.63,
+        "used_cm3": 103.86,
+        "used_g": 130.86
+      }
+    },
+    "warnings": [],
+    "log": ""
+  }
+}
