@@ -7,7 +7,7 @@ settings, and every object is assigned to a plate.
 """
 import json, re, sys, zipfile
 import xml.etree.ElementTree as ET
-import p3mf, devices, build, objectcfg
+import p3mf, devices, build, objectcfg, report
 
 CORE = p3mf.CORE
 NS = p3mf.NS
@@ -22,7 +22,36 @@ def mesh_bodies(zf):
     return {n: norm_id(zf.read(n)) for n in zf.namelist() if n.startswith("3D/Objects/")}
 
 
-def check(path, dev):
+EXTRAS = (("layer_heights", p3mf.LAYER_HEIGHTS), ("layer_ranges", p3mf.LAYER_RANGES),
+          ("brim_ears", p3mf.BRIM_EARS))
+
+
+def extras_problems(z, parts_by_name):
+    """Every copy of a part whose reference carried a variable layer height, height-range
+    modifiers or brim-ear points must still carry them, at the right object index."""
+    root = ET.fromstring(z.read("3D/3dmodel.model"))
+    ms = ET.fromstring(z.read("Metadata/model_settings.config"))
+    name_of = {o.get("id"): next((m.get("value") for m in o.findall("metadata")
+                                  if m.get("key") == "name"), "") for o in ms.findall("object")}
+    order = [it.get("objectid") for it in root.find("m:build", NS).findall("m:item", NS)]
+    problems = []
+    for attr, fname in EXTRAS:
+        want = {i for i, oid in enumerate(order, 1)
+                if getattr(parts_by_name.get(name_of.get(oid)), attr, None)}
+        got = set()
+        if fname in z.namelist():
+            text = z.read(fname).decode()
+            got = {int(x) for x in re.findall(r'object_id=(\d+)\|', text)}
+            got |= {int(x) for x in re.findall(r'<object id="(\d+)">', text)}
+        if want != got:
+            problems.append(f"{fname}: expected entries for objects {sorted(want)}, "
+                            f"file has {sorted(got)}")
+    if p3mf.CUSTOM_GCODE in z.namelist() and b"<layer" in z.read(p3mf.CUSTOM_GCODE):
+        problems.append("carries custom gcode (pause / colour change)")
+    return problems
+
+
+def check(path, dev, parts_by_name=None):
     z = zipfile.ZipFile(path)
     problems, notes = [], []
     need = ["[Content_Types].xml", "_rels/.rels", "3D/3dmodel.model",
@@ -41,6 +70,8 @@ def check(path, dev):
         problems.append(f"filament is {cfg.get('filament_settings_id')}, expected {want_fil}")
     if str(cfg.get("enable_prime_tower")) not in ("0", "['0']"):
         problems.append("prime tower is on with a single filament")
+    if cfg.get("curr_bed_type") != "Textured PEI Plate":
+        problems.append(f"build plate is {cfg.get('curr_bed_type')}")
 
     root = ET.fromstring(z.read("3D/3dmodel.model"))
     items = root.find("m:build", NS).findall("m:item", NS)
@@ -64,6 +95,11 @@ def check(path, dev):
         for t in re.findall(r'Target="([^"]+)"', z.read(rel).decode()):
             if t.lstrip("/") not in z.namelist():
                 problems.append(f"{rel} points at missing {t}")
+
+    if parts_by_name is None and dev:
+        parts_by_name = {p.name: p for p in build.load_parts(dev)[1]}
+    if parts_by_name is not None:
+        problems += extras_problems(z, parts_by_name)
 
     # split kits and loose STLs are rebuilt, so check the geometry survived instead
     if dev and (dev.get("stl") or dev.get("split")):
@@ -113,19 +149,37 @@ if __name__ == "__main__":
     bad = 0
     res = {}
     for r in rows:
-        p, n = check(r["path"], by_slug[r["slug"]])
+        p, n = check(report.plate_path(out, r), by_slug[r["slug"]])
         res[r["slug"]] = dict(problems=p, notes=n)
         bad += len(p)
         print(f"  {r['id']:02d} {r['title'][:44]:46} {'clean' if not p else 'PROBLEM'}"
               + ("  " + "; ".join(n) if n else ""))
         for x in p:
             print(f"       - {x}")
-    cat = f"{out}/Catalogue - one device per plate.3mf"
     import os
-    if os.path.exists(cat):
-        p, n = check(cat, None)
-        res["_catalogue"] = dict(problems=p, notes=n)
-        print(f"  catalogue: {'clean' if not p else 'PROBLEM'}")
+    # the folder must hold exactly the files the build data describes - a plate rebuilt
+    # with a different count gets a new name, and the old file must not linger
+    have = {f for f in os.listdir(f"{out}/Full Plates") if f.endswith(".3mf")}
+    listed = {r["file"] for r in rows}
+    if have != listed:
+        p = ([f"not in the build data: {f}" for f in sorted(have - listed)]
+             + [f"missing: {f}" for f in sorted(listed - have)])
+        res["_folder"] = dict(problems=p, notes=[])
+        print("  Full Plates folder: PROBLEM")
+        for x in p:
+            print(f"       - {x}")
+        bad += len(p)
+    for n, c in devices.CATALOGUES.items():
+        cat = f"{out}/{c['file']}"
+        if not os.path.exists(cat):
+            continue
+        parts = {}
+        for d in devices.DEVICES:
+            if d["id"] in c["ids"]:
+                parts.update({p.name: p for p in build.load_parts(d)[1]})
+        p, notes = check(cat, None, parts)
+        res["_catalogue" if n == 1 else f"_catalogue{n}"] = dict(problems=p, notes=notes)
+        print(f"  catalogue {n}: {'clean' if not p else 'PROBLEM'}")
         for x in p:
             print(f"       - {x}")
         bad += len(p)

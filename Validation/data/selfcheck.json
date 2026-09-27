@@ -145,7 +145,95 @@
       "geometry intact (7988 triangles)"
     ]
   },
+  "bedside-box": {
+    "problems": [],
+    "notes": []
+  },
+  "toothpaste-squeezer-gear": {
+    "problems": [],
+    "notes": []
+  },
+  "chopstick-helper": {
+    "problems": [],
+    "notes": []
+  },
+  "soup-can-opener": {
+    "problems": [],
+    "notes": []
+  },
+  "jar-opener-vacuum": {
+    "problems": [],
+    "notes": []
+  },
+  "younger-grip": {
+    "problems": [],
+    "notes": [
+      "painted seam/support data preserved"
+    ]
+  },
+  "plug-puller": {
+    "problems": [],
+    "notes": []
+  },
+  "pinky-saver": {
+    "problems": [],
+    "notes": []
+  },
+  "cup-holder": {
+    "problems": [],
+    "notes": []
+  },
+  "cane-holder": {
+    "problems": [],
+    "notes": [
+      "geometry intact (23992 triangles)"
+    ]
+  },
+  "hand-press-light": {
+    "problems": [],
+    "notes": []
+  },
+  "hand-press-medium": {
+    "problems": [],
+    "notes": []
+  },
+  "hand-press-hard": {
+    "problems": [],
+    "notes": []
+  },
+  "coffee-gimbal": {
+    "problems": [],
+    "notes": [
+      "geometry intact (117726 triangles)"
+    ]
+  },
+  "pen-ball": {
+    "problems": [],
+    "notes": [
+      "geometry intact (16642 triangles)"
+    ]
+  },
+  "card-holder-4row": {
+    "problems": [],
+    "notes": [
+      "geometry intact (47800 triangles)"
+    ]
+  },
+  "boot-jack": {
+    "problems": [],
+    "notes": []
+  },
+  "pencil-grip": {
+    "problems": [],
+    "notes": [
+      "geometry intact (29910 triangles)"
+    ]
+  },
   "_catalogue": {
+    "problems": [],
+    "notes": []
+  },
+  "_catalogue2": {
     "problems": [],
     "notes": []
   }

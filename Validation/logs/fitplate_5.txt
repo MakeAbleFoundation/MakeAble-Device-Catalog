@@ -1,0 +1,6 @@
+  44 Universal Travel Coffee Gimbal (kit)
+       2 kits   gap  5.0 mm -> FAILED (gcode path conflict)
+       2 kits   gap  8.0 mm -> 10h 37m 33s, 287 g
+
+for devices.py:
+  coffee-gimbal                OK     2  10h 37m 33s  gap=8.0

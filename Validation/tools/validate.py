@@ -10,6 +10,20 @@ from orca_fix import fix
 ORCA = "/Applications/OrcaSlicer.app/Contents/MacOS/OrcaSlicer"
 TIME_RE = re.compile(r"model printing time: ([^;]+); total estimated time: (.+)")
 
+# tree-support debug output that Orca prints as "Error:" even on a clean slice
+BENIGN = re.compile(r"Not precalculated Placeable areas|critical: 0")
+
+# Orca's CLI exit codes (negative codes come back as 256 + code); the log does not always
+# say which it was
+EXIT_REASON = {
+    156: "slicing error",
+    155: "gcode path conflict",
+    154: "gcode path in unprintable area",
+    153: "filament does not match the bed type",
+    205: "validation error",
+    204: "objects partly outside the plate",
+}
+
 
 def parse_gcode(path):
     out, head = {}, []
@@ -53,9 +67,13 @@ def slice_project(path, workdir, plate=0, timeout=3600):
         plates[n] = parse_gcode(os.path.join(workdir, g))
     warn = [l.strip() for l in log.splitlines()
             if re.search(r"error|invalid|not in range|failed|exceed|conflict|outside", l, re.I)
-            and "no error" not in l.lower()]
+            and "no error" not in l.lower() and not BENIGN.search(l)]
+    reason = EXIT_REASON.get(p.returncode) if p.returncode else None
+    if reason and reason not in warn:
+        warn.insert(0, reason)
     return dict(ok=p.returncode == 0 and bool(plates), returncode=p.returncode,
-                clamped=clamped, plates=plates, warnings=warn[:12], log=log[-4000:])
+                clamped=clamped, plates=plates, warnings=warn[:12], log=log[-4000:],
+                conflict=p.returncode == 155 or "conflict" in log.lower())
 
 
 if __name__ == "__main__":

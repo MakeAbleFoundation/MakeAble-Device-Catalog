@@ -332,8 +332,33 @@ def kit_cluster(parts, counts, gap, margin, thetas):
     return Unit([tuple(m) for m in members])
 
 
-def plan_kit_best(parts, counts, gap=5.0, margin=5.0, cap=400, verbose=True):
-    """Kit by kit vs. tiling a whole-kit cluster: whichever fits more complete kits."""
+def plan_kits_by_size(parts, counts, kits, gap=5.0, margin=5.0, thetas=None):
+    """Place `kits` complete kits at once, every kit's biggest part first. Kit by kit fills
+    the plate one kit at a time, and a second kit's big part may then find no room left
+    among the first kit's small ones; placing all the big parts first avoids that."""
+    thetas = thetas if thetas is not None else list(range(0, 180, 15))
+    mi = [masks_for(p, thetas, gap) for p in parts]
+    order = sorted(range(len(parts)), key=lambda i: -mi[i][thetas[0]]["raw"].sum())
+    bed = pack.Bed(margin=margin, gap=gap)
+    placements = []
+    for i in order:
+        for _ in range(counts[i] * kits):
+            best = None
+            for th in thetas:
+                m = mi[i][th]
+                pos = bl_positions(bed, m["raw"], limit=1)
+                if pos and (best is None or pos[0] < best[1]):
+                    best = (th, pos[0], m)
+            if not best:
+                return None
+            th, (iy, ix), m = best
+            placements.append(place(bed, parts[i], th, m, iy, ix))
+    return placements
+
+
+def plan_kit_best(parts, counts, gap=5.0, margin=5.0, cap=400, verbose=True, by_size=False):
+    """Kit by kit vs. tiling a whole-kit cluster (vs. biggest parts first, when asked):
+    whichever fits more complete kits."""
     best, how = [], "none"
     for step in (15, 10):
         thetas = list(range(0, 180, step))
@@ -360,6 +385,19 @@ def plan_kit_best(parts, counts, gap=5.0, margin=5.0, cap=400, verbose=True):
                 print(f"    kit cluster at {uth} deg: {len(spots)} kits")
             if len(spots) > best_kits:
                 best, how, best_kits = placed, f"kit cluster ({uth} deg)", len(spots)
+    if by_size:
+        # keep asking for one more kit until it no longer fits
+        for step in (15, 10):
+            n = best_kits + 1
+            while n <= 60:
+                pls = plan_kits_by_size(parts, counts, n, gap=gap, margin=margin,
+                                        thetas=list(range(0, 180, step)))
+                if pls is None:
+                    break
+                if verbose:
+                    print(f"    biggest parts first ({step} deg steps): {n} kits")
+                best, how, best_kits = pls, f"biggest parts first ({step} deg)", n
+                n += 1
     if verbose:
         print(f"    best: {best_kits} kits ({how})")
     return best, best_kits, how

@@ -1,0 +1,284 @@
+{
+  "plates": {
+    "1": {
+      "model_time": "4h 20m 50s",
+      "total_time": "4h 27m 5s",
+      "layers": "443",
+      "density": "1.26,1.25",
+      "max_z": "99.99",
+      "used_mm": 75570.29,
+      "used_cm3": 181.77,
+      "used_g": 229.03
+    },
+    "2": {
+      "model_time": "1h 45m 53s",
+      "total_time": "1h 52m 7s",
+      "layers": "340",
+      "density": "1.26,1.25",
+      "max_z": "68.00",
+      "used_mm": 13434.49,
+      "used_cm3": 32.31,
+      "used_g": 40.72
+    },
+    "3": {
+      "model_time": "8m 41s",
+      "total_time": "14m 56s",
+      "layers": "54",
+      "density": "1.26,1.25",
+      "max_z": "10.80",
+      "used_mm": 1056.19,
+      "used_cm3": 2.54,
+      "used_g": 3.2
+    },
+    "4": {
+      "model_time": "30m 45s",
+      "total_time": "37m 4s",
+      "layers": "34",
+      "density": "1.26,1.25",
+      "max_z": "6.80",
+      "used_mm": 4012.59,
+      "used_cm3": 9.65,
+      "used_g": 12.06
+    },
+    "5": {
+      "model_time": "49m 3s",
+      "total_time": "55m 18s",
+      "layers": "108",
+      "density": "1.26,1.25",
+      "max_z": "26.12",
+      "used_mm": 6652.33,
+      "used_cm3": 16.0,
+      "used_g": 20.16
+    },
+    "6": {
+      "model_time": "1h 10m 7s",
+      "total_time": "1h 16m 21s",
+      "layers": "127",
+      "density": "1.26,1.25",
+      "max_z": "24.80",
+      "used_mm": 10679.25,
+      "used_cm3": 25.69,
+      "used_g": 32.37
+    },
+    "7": {
+      "model_time": "19m 47s",
+      "total_time": "26m 2s",
+      "layers": "25",
+      "density": "1.26,1.25",
+      "max_z": "6.34",
+      "used_mm": 3113.31,
+      "used_cm3": 7.49,
+      "used_g": 9.44
+    },
+    "8": {
+      "model_time": "18m 4s",
+      "total_time": "24m 19s",
+      "layers": "80",
+      "density": "1.26,1.25",
+      "max_z": "16.00",
+      "used_mm": 2974.53,
+      "used_cm3": 7.15,
+      "used_g": 9.01
+    },
+    "9": {
+      "model_time": "5h 5m 37s",
+      "total_time": "5h 11m 51s",
+      "layers": "500",
+      "density": "1.26,1.25",
+      "max_z": "100.00",
+      "used_mm": 66598.29,
+      "used_cm3": 160.19,
+      "used_g": 201.84
+    },
+    "10": {
+      "model_time": "2h 9m 31s",
+      "total_time": "2h 15m 46s",
+      "layers": "425",
+      "density": "1.26,1.25",
+      "max_z": "85.00",
+      "used_mm": 22782.15,
+      "used_cm3": 54.8,
+      "used_g": 69.04
+    },
+    "11": {
+      "model_time": "1h 22m 15s",
+      "total_time": "1h 28m 35s",
+      "layers": "75",
+      "density": "1.26,1.25",
+      "max_z": "15.00",
+      "used_mm": 13002.53,
+      "used_cm3": 31.27,
+      "used_g": 39.09
+    },
+    "12": {
+      "model_time": "1h 32m 17s",
+      "total_time": "1h 38m 36s",
+      "layers": "75",
+      "density": "1.26,1.25",
+      "max_z": "15.00",
+      "used_mm": 14788.15,
+      "used_cm3": 35.57,
+      "used_g": 44.46
+    },
+    "13": {
+      "model_time": "1h 40m 10s",
+      "total_time": "1h 46m 29s",
+      "layers": "75",
+      "density": "1.26,1.25",
+      "max_z": "15.00",
+      "used_mm": 16306.9,
+      "used_cm3": 39.22,
+      "used_g": 49.03
+    },
+    "14": {
+      "model_time": "5h 25m 43s",
+      "total_time": "5h 32m 3s",
+      "layers": "200",
+      "density": "1.26,1.25",
+      "max_z": "40.00",
+      "used_mm": 47941.83,
+      "used_cm3": 115.31,
+      "used_g": 144.14
+    },
+    "15": {
+      "model_time": "2h 56m 23s",
+      "total_time": "3h 2m 42s",
+      "layers": "146",
+      "density": "1.26,1.25",
+      "max_z": "29.40",
+      "used_mm": 21774.52,
+      "used_cm3": 52.37,
+      "used_g": 65.47
+    },
+    "16": {
+      "model_time": "1h 54m 43s",
+      "total_time": "2h 0m 58s",
+      "layers": "377",
+      "density": "1.26,1.25",
+      "max_z": "75.40",
+      "used_mm": 25061.46,
+      "used_cm3": 60.28,
+      "used_g": 75.95
+    },
+    "17": {
+      "model_time": "3h 48m 51s",
+      "total_time": "3h 55m 6s",
+      "layers": "551",
+      "density": "1.26,1.25",
+      "max_z": "110.20",
+      "used_mm": 46593.35,
+      "used_cm3": 112.07,
+      "used_g": 141.21
+    },
+    "18": {
+      "model_time": "32m 10s",
+      "total_time": "38m 24s",
+      "layers": "125",
+      "density": "1.26,1.25",
+      "max_z": "25.00",
+      "used_mm": 6778.46,
+      "used_cm3": 16.3,
+      "used_g": 20.54
+    }
+  },
+  "per_plate": {
+    "1": {
+      "ok": true,
+      "warnings": []
+    },
+    "2": {
+      "ok": true,
+      "warnings": []
+    },
+    "3": {
+      "ok": true,
+      "warnings": []
+    },
+    "4": {
+      "ok": true,
+      "warnings": []
+    },
+    "5": {
+      "ok": true,
+      "warnings": []
+    },
+    "6": {
+      "ok": true,
+      "warnings": []
+    },
+    "7": {
+      "ok": true,
+      "warnings": []
+    },
+    "8": {
+      "ok": true,
+      "warnings": []
+    },
+    "9": {
+      "ok": true,
+      "warnings": []
+    },
+    "10": {
+      "ok": true,
+      "warnings": [
+        "Error: Not precalculated Placeable areas requested, radius 0, layer 0, critical: 0",
+        "Error: Not precalculated Placeable areas requested, radius 0, layer 0, critical: 0",
+        "Error: Not precalculated Placeable areas requested, radius 0, layer 0, critical: 0",
+        "Error: Not precalculated Placeable areas requested, radius 0, layer 0, critical: 0"
+      ]
+    },
+    "11": {
+      "ok": true,
+      "warnings": []
+    },
+    "12": {
+      "ok": true,
+      "warnings": []
+    },
+    "13": {
+      "ok": true,
+      "warnings": []
+    },
+    "14": {
+      "ok": true,
+      "warnings": [
+        "Error: Not precalculated Placeable areas requested, radius 0, layer 0, critical: 0",
+        "Error: Not precalculated Placeable areas requested, radius 0, layer 0, critical: 0",
+        "Error: Not precalculated Placeable areas requested, radius 0, layer 0, critical: 0",
+        "Error: Not precalculated Placeable areas requested, radius 0, layer 0, critical: 0"
+      ]
+    },
+    "15": {
+      "ok": true,
+      "warnings": [
+        "Error: Not precalculated Placeable areas requested, radius 0, layer 0, critical: 0",
+        "Error: Not precalculated Placeable areas requested, radius 0, layer 0, critical: 0",
+        "Error: Not precalculated Placeable areas requested, radius 0, layer 0, critical: 0",
+        "Error: Not precalculated Placeable areas requested, radius 0, layer 0, critical: 0"
+      ]
+    },
+    "16": {
+      "ok": true,
+      "warnings": []
+    },
+    "17": {
+      "ok": true,
+      "warnings": []
+    },
+    "18": {
+      "ok": true,
+      "warnings": []
+    }
+  },
+  "clamped": {
+    "tree_support_wall_count": [
+      "-1",
+      "0"
+    ],
+    "raft_first_layer_expansion": [
+      "-1",
+      "2"
+    ]
+  },
+  "ok": true
+}

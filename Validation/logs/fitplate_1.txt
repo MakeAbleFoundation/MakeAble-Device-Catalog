@@ -1,0 +1,24 @@
+  32 Toothpaste Squeezer, external gear (kit)
+      10 kits   gap  5.0 mm -> 17h 25m 30s, 405 g
+       8 kits   gap  5.0 mm -> 13h 55m 52s, 323 g
+  33 Chopstick Helper (small)
+      48 copies gap  5.0 mm -> 6h 18m 45s, 149 g
+  08 KeyWings
+      76 copies gap  5.0 mm -> 13h 56m 36s, 237 g
+  39 Universal Cup Holder (kit)
+       1 kits   gap  5.0 mm -> FAILED: ['run found error, exit']
+  36 Younger Grip Lid Wrench (glue-in magnets)
+       8 copies gap  5.0 mm -> 9h 25m 5s, 258 g
+  41 Hand Press / Grip Strengthener (Light)
+       5 copies gap  5.0 mm -> 6h 43m 9s, 194 g
+  48 Adaptive Pencil Grip
+       7 copies gap  5.0 mm -> 3h 53m 14s, 143 g
+
+for devices.py:
+  toothpaste-squeezer-gear     OK     8  13h 55m 52s  cap=8
+  chopstick-helper             OK    48  6h 18m 45s  -
+  keywings                     OK    76  13h 56m 36s  cap=76
+  cup-holder                   FAIL   1  None  -
+  younger-grip                 OK     8  9h 25m 5s  -
+  hand-press-light             OK     5  6h 43m 9s  -
+  pencil-grip                  OK     7  3h 53m 14s  -

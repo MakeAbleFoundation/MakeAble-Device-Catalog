@@ -1,11 +1,12 @@
 # 19 Arthritis Toothbrush Grip
 
-- file: `Full Plates/19 Arthritis Toothbrush Grip - PLA x25.3mf`
+- file: `Full Plates/19 Arthritis Toothbrush Grip - PLA x19.3mf`
 - source: https://www.myminifactory.com/object/3d-print-arthritis-toothbrush-grip-77601
 - reference 3mf: `Toothbrush Grip (PLA)/6066726cbda58_arthritis-toothbrush-grip/toofbrushgrip.stl`
 - designer: MyMiniFactory
 - material: PLA (Bambu PLA Basic @BBL X1C)
-- on the plate: 25 copies (25 objects)
+- on the plate: 19 copies (19 objects)
+- print-time cap: 25 copies fit on the plate; trimmed to 19 to stay under 14 h
 
 ## Profile
 | preset | layer | first layer | walls | infill | supports | brim | top/bottom |
@@ -13,7 +14,7 @@
 | 0.20mm Standard @BBL X1C | 0.2 mm | 0.2 mm | 2 | 15% grid | off | auto_brim | 5/3 |
 
 ## Validation
-- Orca slice: passed - 17h 34m 24s, 788.5 g, 625.8 cm3
+- Orca slice: passed - 13h 23m 17s, 599.3 g, 475.6 cm3
 - per copie: 25.03 cm3
 - geometry check: clean
 - clamped for Orca only (the delivered file keeps Bambu's values): tree_support_wall_count, raft_first_layer_expansion

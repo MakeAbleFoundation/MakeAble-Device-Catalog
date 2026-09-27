@@ -18,6 +18,12 @@ NS = {"m": CORE, "p": PROD}
 PROJECT_SETTINGS = "Metadata/project_settings.config"
 MODEL_SETTINGS = "Metadata/model_settings.config"
 MODEL_3D = "3D/3dmodel.model"
+# per-object extras, keyed by the 1-based model-object index (order of first appearance in
+# <build>); they travel with their object whenever it is re-placed
+LAYER_HEIGHTS = "Metadata/layer_heights_profile.txt"
+LAYER_RANGES = "Metadata/layer_config_ranges.xml"
+BRIM_EARS = "Metadata/brim_ear_points.txt"
+CUSTOM_GCODE = "Metadata/custom_gcode_per_layer.xml"
 
 IDENT = [1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0]
 
@@ -68,6 +74,10 @@ class SrcPart:
     plate: int = 1
     verts: object = None
     tris: object = None
+    base_xy: tuple = None          # where the designer put it (item translation)
+    layer_heights: str = None      # variable layer height profile ("z;h;z;h;...")
+    layer_ranges: str = None       # height-range modifiers (<range> elements, verbatim)
+    brim_ears: str = None          # painted brim-ear points (object coordinates)
 
 
 @dataclass
@@ -91,6 +101,37 @@ class Ref:
         self.root = ET.fromstring(self.zf.read(MODEL_3D).decode("utf-8"))
         self.ms_root = ET.fromstring(self.zf.read(MODEL_SETTINGS).decode("utf-8")
                                      if MODEL_SETTINGS in self.names else "<config/>")
+        self.layer_heights = self._indexed_lines(LAYER_HEIGHTS)
+        self.brim_ears = self._indexed_lines(BRIM_EARS)
+        self.layer_ranges = {}
+        if LAYER_RANGES in self.names:
+            text = self.zf.read(LAYER_RANGES).decode("utf-8")
+            for m in re.finditer(r'<object id="(\d+)">(.*?)</object>', text, re.S):
+                self.layer_ranges[int(m.group(1))] = m.group(2)
+
+    def _indexed_lines(self, name):
+        """`object_id=N|payload` lines -> {N: payload}."""
+        out = {}
+        if name in self.names:
+            for line in self.zf.read(name).decode("utf-8").splitlines():
+                m = re.match(r"object_id=(\d+)\|(.*)$", line)
+                if m:
+                    out[int(m.group(1))] = m.group(2)
+        return out
+
+    def has_object_extras(self):
+        return bool(self.layer_heights or self.brim_ears or self.layer_ranges)
+
+    def custom_gcode_layers(self, plate):
+        """Pauses / colour changes / custom gcode the designer put on one plate."""
+        if CUSTOM_GCODE not in self.names:
+            return []
+        root = ET.fromstring(self.zf.read(CUSTOM_GCODE).decode("utf-8"))
+        for pl in root.findall("plate"):
+            info = pl.find("plate_info")
+            if info is not None and int(info.get("id", 0)) == int(plate):
+                return [ET.tostring(l, encoding="unicode") for l in pl.findall("layer")]
+        return []
 
     def meta(self):
         out = {}
@@ -122,7 +163,16 @@ class Ref:
         ms_objs = {o.get("id"): o for o in self.ms_root.findall("object")}
         plate_of = self.object_plates()
         out = []
-        for item in self.root.find("m:build", NS).findall("m:item", NS):
+        items = self.root.find("m:build", NS).findall("m:item", NS)
+        if self.has_object_extras():
+            # the per-object files are indexed by model-object order; only trust that index
+            # when it is unambiguous (one item per object, build order == resource order)
+            build_ids = [it.get("objectid") for it in items]
+            res_ids = [o.get("id") for o in res.findall("m:object", NS)]
+            if len(set(build_ids)) != len(build_ids) or build_ids != res_ids:
+                raise RuntimeError(f"{self.path}: per-object layer data present but build "
+                                   f"order {build_ids} != resource order {res_ids}")
+        for index, item in enumerate(items, start=1):
             oid = item.get("objectid")
             obj = objs[oid]
             tf = parse_tf(item.get("transform"))
@@ -133,6 +183,11 @@ class Ref:
             if len(comp) != 1:
                 raise RuntimeError(f"{self.path}: object {oid} has {len(comp)} components")
             comp = comp[0]
+            comp_tf = parse_tf(comp.get("transform"))
+            if self.has_object_extras() and max(abs(v) for v in comp_tf[9:12]) > 1e-3:
+                # brim-ear points live in object coordinates; write_project drops the
+                # component translation, which would shift them
+                raise RuntimeError(f"{self.path}: object {oid} has a component offset")
             path = (comp.get(f"{{{PROD}}}path") or MODEL_3D).lstrip("/")
             objid = comp.get("objectid")
             if path == MODEL_3D:
@@ -163,7 +218,10 @@ class Ref:
                 mesh_bytes=payload, mesh_objid=int(objid),
                 comp_tf=parse_tf(comp.get("transform")), base_lin=tf[0:9], base_z=tf[11],
                 ms_meta=meta, part_xml=part_xml, face_count=face_count, extruder=extruder,
-                plate=plate_of.get(oid, 1)))
+                plate=plate_of.get(oid, 1), base_xy=(tf[9], tf[10]),
+                layer_heights=self.layer_heights.get(index),
+                layer_ranges=self.layer_ranges.get(index),
+                brim_ears=self.brim_ears.get(index)))
         return out
 
 
@@ -310,6 +368,8 @@ def write_project(out_path, placements, settings, ref_for_shell, meta_override=N
     mm += build
     mm.append(" </build>\n</model>\n")
 
+    extras = object_extras(placements)
+
     rels_3d = [HEAD, '<Relationships xmlns="http://schemas.openxmlformats.org/package/2006/relationships">\n']
     for i, (path, _) in enumerate(mesh_files, 1):
         rels_3d.append(f' <Relationship Target="/{path}" Id="rel-{i}" '
@@ -342,6 +402,31 @@ def write_project(out_path, placements, settings, ref_for_shell, meta_override=N
         z.writestr(PROJECT_SETTINGS, json.dumps(settings, indent=4, ensure_ascii=False))
         z.writestr(MODEL_SETTINGS, "".join(ms))
         z.writestr("Metadata/slice_info.config", SLICE_INFO)
+        for name, body in extras.items():
+            z.writestr(name, body)
         for a in aux:
             z.writestr(a, ref_for_shell.zf.read(a))
     return out_path
+
+
+def object_extras(placements):
+    """Per-object metadata files for a new project: each placement is model object
+    (position + 1), the order write_project emits objects and build items in. A file is
+    only written when some placement carries that kind of data."""
+    heights, ranges, ears = [], [], []
+    for i, pl in enumerate(placements, start=1):
+        if pl.part.layer_heights:
+            heights.append(f"object_id={i}|{pl.part.layer_heights}\n")
+        if pl.part.layer_ranges:
+            ranges.append(f' <object id="{i}">{pl.part.layer_ranges}</object>\n')
+        if pl.part.brim_ears:
+            ears.append(f"object_id={i}|{pl.part.brim_ears}\n")
+    out = {}
+    if heights:
+        out[LAYER_HEIGHTS] = "".join(heights)
+    if ranges:
+        out[LAYER_RANGES] = ('<?xml version="1.0" encoding="utf-8"?>\n<objects>\n'
+                             + "".join(ranges) + "</objects>")
+    if ears:
+        out[BRIM_EARS] = "brim_points_format_version=1\n" + "".join(ears)
+    return out

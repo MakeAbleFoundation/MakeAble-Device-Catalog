@@ -11,7 +11,8 @@
       "infill": "15%",
       "support": "0",
       "device_first_layer": "0.2",
-      "device_first_layer_speed": "50"
+      "device_first_layer_speed": "50",
+      "device_first_layer_infill_speed": "105"
     },
     {
       "plate": 2,
@@ -24,7 +25,8 @@
       "infill": "15%",
       "support": "0",
       "device_first_layer": "0.2",
-      "device_first_layer_speed": "50"
+      "device_first_layer_speed": "50",
+      "device_first_layer_infill_speed": "105"
     },
     {
       "plate": 3,
@@ -37,7 +39,8 @@
       "infill": "15%",
       "support": "0",
       "device_first_layer": "0.2",
-      "device_first_layer_speed": "50"
+      "device_first_layer_speed": "50",
+      "device_first_layer_infill_speed": "105"
     },
     {
       "plate": 4,
@@ -50,7 +53,8 @@
       "infill": "50%",
       "support": "0",
       "device_first_layer": "0.15",
-      "device_first_layer_speed": "50"
+      "device_first_layer_speed": "50",
+      "device_first_layer_infill_speed": "50"
     },
     {
       "plate": 5,
@@ -63,7 +67,8 @@
       "infill": "25%",
       "support": "0",
       "device_first_layer": "0.2",
-      "device_first_layer_speed": "50"
+      "device_first_layer_speed": "50",
+      "device_first_layer_infill_speed": "105"
     },
     {
       "plate": 6,
@@ -76,7 +81,8 @@
       "infill": "50%",
       "support": "1",
       "device_first_layer": "0.2",
-      "device_first_layer_speed": "50"
+      "device_first_layer_speed": "50",
+      "device_first_layer_infill_speed": "105"
     },
     {
       "plate": 7,
@@ -89,7 +95,8 @@
       "infill": "15%",
       "support": "0",
       "device_first_layer": "0.2",
-      "device_first_layer_speed": "40"
+      "device_first_layer_speed": "40",
+      "device_first_layer_infill_speed": "105"
     },
     {
       "plate": 8,
@@ -102,7 +109,8 @@
       "infill": "20%",
       "support": "0",
       "device_first_layer": "0.2",
-      "device_first_layer_speed": "50"
+      "device_first_layer_speed": "50",
+      "device_first_layer_infill_speed": "105"
     },
     {
       "plate": 9,
@@ -115,7 +123,8 @@
       "infill": "15%",
       "support": "0",
       "device_first_layer": "0.2",
-      "device_first_layer_speed": "15"
+      "device_first_layer_speed": "15",
+      "device_first_layer_infill_speed": "50"
     },
     {
       "plate": 10,
@@ -128,7 +137,8 @@
       "infill": "17%",
       "support": "1",
       "device_first_layer": "0.2",
-      "device_first_layer_speed": "50"
+      "device_first_layer_speed": "50",
+      "device_first_layer_infill_speed": "105"
     },
     {
       "plate": 11,
@@ -141,7 +151,8 @@
       "infill": "25%",
       "support": "0",
       "device_first_layer": "0.2",
-      "device_first_layer_speed": "20"
+      "device_first_layer_speed": "20",
+      "device_first_layer_infill_speed": "105"
     },
     {
       "plate": 12,
@@ -154,7 +165,8 @@
       "infill": "25%",
       "support": "0",
       "device_first_layer": "0.2",
-      "device_first_layer_speed": "50"
+      "device_first_layer_speed": "50",
+      "device_first_layer_infill_speed": "105"
     },
     {
       "plate": 13,
@@ -167,7 +179,8 @@
       "infill": "25%",
       "support": "0",
       "device_first_layer": "0.2",
-      "device_first_layer_speed": "50"
+      "device_first_layer_speed": "50",
+      "device_first_layer_infill_speed": "105"
     },
     {
       "plate": 14,
@@ -180,7 +193,8 @@
       "infill": "15%",
       "support": "0",
       "device_first_layer": "0.2",
-      "device_first_layer_speed": "50"
+      "device_first_layer_speed": "50",
+      "device_first_layer_infill_speed": "105"
     },
     {
       "plate": 15,
@@ -193,7 +207,8 @@
       "infill": "80%",
       "support": "0",
       "device_first_layer": "0.2",
-      "device_first_layer_speed": "50"
+      "device_first_layer_speed": "50",
+      "device_first_layer_infill_speed": "105"
     },
     {
       "plate": 16,
@@ -206,7 +221,8 @@
       "infill": "60%",
       "support": "0",
       "device_first_layer": "0.2",
-      "device_first_layer_speed": "50"
+      "device_first_layer_speed": "50",
+      "device_first_layer_infill_speed": "105"
     },
     {
       "plate": 17,
@@ -219,7 +235,8 @@
       "infill": "15%",
       "support": "0",
       "device_first_layer": "0.2",
-      "device_first_layer_speed": "50"
+      "device_first_layer_speed": "50",
+      "device_first_layer_infill_speed": "105"
     },
     {
       "plate": 18,
@@ -232,7 +249,8 @@
       "infill": "15%",
       "support": "0",
       "device_first_layer": "0.2",
-      "device_first_layer_speed": "50"
+      "device_first_layer_speed": "50",
+      "device_first_layer_infill_speed": "105"
     },
     {
       "plate": 19,
@@ -245,7 +263,8 @@
       "infill": "15%",
       "support": "0",
       "device_first_layer": "0.2",
-      "device_first_layer_speed": "50"
+      "device_first_layer_speed": "50",
+      "device_first_layer_infill_speed": "105"
     },
     {
       "plate": 20,
@@ -258,7 +277,8 @@
       "infill": "15%",
       "support": "0",
       "device_first_layer": "0.2",
-      "device_first_layer_speed": "50"
+      "device_first_layer_speed": "50",
+      "device_first_layer_infill_speed": "105"
     },
     {
       "plate": 21,
@@ -271,7 +291,8 @@
       "infill": "15%",
       "support": "0",
       "device_first_layer": "0.2",
-      "device_first_layer_speed": "50"
+      "device_first_layer_speed": "50",
+      "device_first_layer_infill_speed": "105"
     },
     {
       "plate": 22,
@@ -284,7 +305,8 @@
       "infill": "15%",
       "support": "0",
       "device_first_layer": "0.2",
-      "device_first_layer_speed": "50"
+      "device_first_layer_speed": "50",
+      "device_first_layer_infill_speed": "105"
     },
     {
       "plate": 23,
@@ -297,7 +319,8 @@
       "infill": "15%",
       "support": "0",
       "device_first_layer": "0.2",
-      "device_first_layer_speed": "50"
+      "device_first_layer_speed": "50",
+      "device_first_layer_infill_speed": "105"
     },
     {
       "plate": 24,
@@ -310,7 +333,8 @@
       "infill": "15%",
       "support": "0",
       "device_first_layer": "0.2",
-      "device_first_layer_speed": "50"
+      "device_first_layer_speed": "50",
+      "device_first_layer_infill_speed": "105"
     },
     {
       "plate": 25,
@@ -323,7 +347,8 @@
       "infill": "15%",
       "support": "0",
       "device_first_layer": "0.2",
-      "device_first_layer_speed": "50"
+      "device_first_layer_speed": "50",
+      "device_first_layer_infill_speed": "105"
     },
     {
       "plate": 26,
@@ -336,7 +361,8 @@
       "infill": "15%",
       "support": "0",
       "device_first_layer": "0.2",
-      "device_first_layer_speed": "50"
+      "device_first_layer_speed": "50",
+      "device_first_layer_infill_speed": "105"
     },
     {
       "plate": 27,
@@ -349,7 +375,8 @@
       "infill": "15%",
       "support": "0",
       "device_first_layer": "0.2",
-      "device_first_layer_speed": "50"
+      "device_first_layer_speed": "50",
+      "device_first_layer_infill_speed": "105"
     },
     {
       "plate": 28,
@@ -362,7 +389,8 @@
       "infill": "15%",
       "support": "0",
       "device_first_layer": "0.2",
-      "device_first_layer_speed": "50"
+      "device_first_layer_speed": "50",
+      "device_first_layer_infill_speed": "105"
     },
     {
       "plate": 29,
@@ -375,7 +403,8 @@
       "infill": "15%",
       "support": "0",
       "device_first_layer": "0.2",
-      "device_first_layer_speed": "50"
+      "device_first_layer_speed": "50",
+      "device_first_layer_infill_speed": "105"
     },
     {
       "plate": 30,
@@ -388,7 +417,8 @@
       "infill": "15%",
       "support": "0",
       "device_first_layer": "0.2",
-      "device_first_layer_speed": "50"
+      "device_first_layer_speed": "50",
+      "device_first_layer_infill_speed": "105"
     }
   ],
   "issues": [],

@@ -10,7 +10,7 @@
 ## Profile
 | preset | layer | first layer | walls | infill | supports | brim | top/bottom |
 |---|---|---|---|---|---|---|---|
-| 0.20mm Strength @BBL X1C | 0.2 mm | 0.2 mm | 6 | 25% gyroid | off | auto_brim | 5/3 |
+| 0.20mm Strength @BBL X1C | 0.2 mm | 0.2 mm | 3/6 | 25% gyroid | off | auto_brim | 5/3 |
 
 ### Taken from the designer's file
 | setting | P1S preset | designer |
@@ -28,9 +28,9 @@
 | `top_area_threshold` | 100% | **200%** |
 
 ## Validation
-- Orca slice: passed - 3h 51m 4s, 95.0 g, 75.4 cm3
-- per kit: 9.43 cm3
-- the designer's own file slices at 9.81 cm3 per copy (96% of that here)
+- Orca slice: passed - 4h 3m 50s, 98.6 g, 78.3 cm3
+- per kit: 9.79 cm3
+- the designer's own file slices at 9.81 cm3 per copy (100% of that here)
 - geometry check: clean
 - clamped for Orca only (the delivered file keeps Bambu's values): raft_first_layer_expansion
 

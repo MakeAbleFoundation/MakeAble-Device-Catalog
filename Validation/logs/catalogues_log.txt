@@ -1,0 +1,40 @@
+  plate  1  Bedside Hook-On Storage Box (kit)                3 object(s)
+  plate  2  Toothpaste Squeezer, external gear (kit)         3 object(s)
+  plate  3  Chopstick Helper (small)                         1 object(s)
+  plate  4  Soup Can Opener (no magnets)                     1 object(s)
+  plate  5  Jar Opener / Vacuum Releaser                     1 object(s)
+  plate  6  Younger Grip Lid Wrench (glue-in magnets)        1 object(s)
+  plate  7  Plug Puller (WATAP)                              1 object(s)
+  plate  8  Pinky Saver & Phone Stand (standard holes)       1 object(s)
+  plate  9  Universal Cup Holder (kit)                       10 object(s)
+  plate 10  Adjustable Cane Holder (kit)                     3 object(s)
+  plate 11  Hand Press / Grip Strengthener (Light)           1 object(s)
+  plate 12  Hand Press / Grip Strengthener (Medium)          1 object(s)
+  plate 13  Hand Press / Grip Strengthener (Hard)            1 object(s)
+  plate 14  Universal Travel Coffee Gimbal (kit)             4 object(s)
+  plate 15  Pen Ball (kit)                                   2 object(s)
+  plate 16  Playing Card Holder (4 rows)                     1 object(s)
+  plate 17  Shoe Lifter / Boot Jack                          1 object(s)
+  plate 18  Adaptive Pencil Grip                             1 object(s)
+
+wrote ../../Catalogue 2 - one device per plate.3mf (16.6 MB), 18 plates, issues: none
+  plate  1 Bedside Hook-On Storage Box (kit)          OK     4h 27m 5s   229.0 g
+  plate  2 Toothpaste Squeezer, external gear (kit)   OK     1h 52m 7s    40.7 g
+  plate  3 Chopstick Helper (small)                   OK       14m 56s     3.2 g
+  plate  4 Soup Can Opener (no magnets)               OK        37m 4s    12.1 g
+  plate  5 Jar Opener / Vacuum Releaser               OK       55m 18s    20.2 g
+  plate  6 Younger Grip Lid Wrench (glue-in magnets   OK    1h 16m 21s    32.4 g
+  plate  7 Plug Puller (WATAP)                        OK        26m 2s     9.4 g
+  plate  8 Pinky Saver & Phone Stand (standard hole   OK       24m 19s     9.0 g
+  plate  9 Universal Cup Holder (kit)                 OK    5h 11m 51s   201.8 g
+  plate 10 Adjustable Cane Holder (kit)               OK    2h 15m 46s    69.0 g
+  plate 11 Hand Press / Grip Strengthener (Light)     OK    1h 28m 35s    39.1 g
+  plate 12 Hand Press / Grip Strengthener (Medium)    OK    1h 38m 36s    44.5 g
+  plate 13 Hand Press / Grip Strengthener (Hard)      OK    1h 46m 29s    49.0 g
+  plate 14 Universal Travel Coffee Gimbal (kit)       OK     5h 32m 3s   144.1 g
+  plate 15 Pen Ball (kit)                             OK     3h 2m 42s    65.5 g
+  plate 16 Playing Card Holder (4 rows)               OK     2h 0m 58s    76.0 g
+  plate 17 Shoe Lifter / Boot Jack                    OK     3h 55m 6s   141.2 g
+  plate 18 Adaptive Pencil Grip                       OK       38m 24s    20.5 g
+  plate 13 Clothes Button & Zipper Hook (handle kit   OK       38m 37s    12.4 g
+=== CATALOGUES DONE

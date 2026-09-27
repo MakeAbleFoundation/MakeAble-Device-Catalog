@@ -1,0 +1,25 @@
+  31 Bedside Hook-On Storage Box (kit)
+       1 kits   gap  5.0 mm -> 4h 12m 24s, 229 g
+  37 Plug Puller (WATAP)
+       9 copies gap  5.0 mm -> 2h 59m 51s, 84 g
+  45 Pen Ball (kit)
+       6 kits   gap  5.0 mm -> 17h 20m 30s, 391 g
+       4 kits   gap  5.0 mm -> 11h 36m 55s, 261 g
+  46 Playing Card Holder (4 rows)
+       4 copies gap  5.0 mm -> 7h 25m 17s, 302 g
+  43 Hand Press / Grip Strengthener (Hard)
+       5 copies gap  5.0 mm -> 8h 13m 43s, 244 g
+  19 Arthritis Toothbrush Grip
+      20 copies gap  5.0 mm -> 14h 4m 47s, 631 g
+      19 copies gap  5.0 mm -> 13h 23m 17s, 599 g
+  13 Clothes Button & Zipper Hook (handle kit, PLA)
+       8 kits   gap  5.0 mm -> 4h 3m 50s, 99 g
+
+for devices.py:
+  bedside-box                  OK     1  4h 12m 24s  -
+  plug-puller                  OK     9  2h 59m 51s  -
+  pen-ball                     OK     4  11h 36m 55s  cap=4
+  card-holder-4row             OK     4  7h 25m 17s  -
+  hand-press-hard              OK     5  8h 13m 43s  -
+  toothbrush-grip              OK    19  13h 23m 17s  cap=19
+  clothes-button-handles       OK     8  4h 3m 50s  -

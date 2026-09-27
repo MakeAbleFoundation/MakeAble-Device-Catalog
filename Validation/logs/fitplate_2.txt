@@ -1,0 +1,24 @@
+  34 Soup Can Opener (no magnets)
+      12 copies gap  5.0 mm -> 6h 12m 36s, 144 g
+  35 Jar Opener / Vacuum Releaser
+       8 copies gap  5.0 mm -> 6h 20m 5s, 161 g
+  38 Pinky Saver & Phone Stand (standard holes)
+      14 copies gap  5.0 mm -> 4h 5m 53s, 123 g
+  40 Adjustable Cane Holder (kit)
+      10 kits   gap  5.0 mm -> 21h 15m 46s, 689 g
+       6 kits   gap  5.0 mm -> 12h 45m 2s, 413 g
+  42 Hand Press / Grip Strengthener (Medium)
+       5 copies gap  5.0 mm -> 7h 33m 56s, 221 g
+  44 Universal Travel Coffee Gimbal (kit)
+       2 kits   gap  5.0 mm -> FAILED: ['Error: Potentially lost branch!, critical: 1', 'Error: Not precalculated Placeable areas requested, radius 0, layer 0, critical: 0']
+  47 Shoe Lifter / Boot Jack
+       2 copies gap  5.0 mm -> 7h 34m 35s, 282 g
+
+for devices.py:
+  soup-can-opener              OK    12  6h 12m 36s  -
+  jar-opener-vacuum            OK     8  6h 20m 5s  -
+  pinky-saver                  OK    14  4h 5m 53s  -
+  cane-holder                  OK     6  12h 45m 2s  cap=6
+  hand-press-medium            OK     5  7h 33m 56s  -
+  coffee-gimbal                FAIL   2  None  -
+  boot-jack                    OK     2  7h 34m 35s  -

@@ -8,7 +8,7 @@ throw away parts that fit fine), each plate is sliced, and only the ones that co
 rebuilt with more room until they come out clean.
 """
 import json, os, sys, tempfile
-import build, devices, validate
+import build, devices, report, validate
 
 
 def conflicts(log):
@@ -28,7 +28,7 @@ def main(out, ladder=(8.0, 10.0, 12.0, 16.0, 22.0)):
         dev = by_slug[slug]
         print(f"  {data[slug]['title']}: slice failed"
               f"{' (gcode path conflict)' if conflicts(s.get('log')) else ''}")
-        old_file = data[slug]["path"]
+        old_file = report.plate_path(out, data[slug])
         for gap in ladder:
             r = build.build_device(dev, outdir, previews, verbose=False, gap=gap)
             with tempfile.TemporaryDirectory() as d:

@@ -57,6 +57,7 @@ PRESET_MAP = {
     "0.20mm Standard @BBL P2S": "0.20mm Standard @BBL X1C",
     "0.16mm Optimal @BBL P2S": "0.16mm Optimal @BBL X1C",
     "0.20mm Standard @BBL A1": "0.20mm Standard @BBL X1C",
+    "0.24mm Draft @BBL A1M": "0.24mm Draft @BBL X1C",
 }
 
 ALIASES = {
@@ -109,9 +110,27 @@ def preset_keys(d):
     return {k: v for k, v in d.items() if k not in META_KEYS}
 
 
+def x1c_sibling(preset):
+    """`0.24mm Draft @BBL A1M` -> `0.24mm Draft @BBL X1C`, if Studio has that preset: the
+    P1S uses the X1C process presets, and another printer's preset must never be used as-is."""
+    import re
+    m = re.match(r"(.+ @BBL) (?!X1C$)(\S+)$", preset or "")
+    if not m:
+        return None
+    sib = f"{m.group(1)} X1C"
+    try:
+        resolve("process", sib)
+        return sib
+    except FileNotFoundError:
+        return None
+
+
 def p1s_process_for(ref_preset, inherits=None):
     if ref_preset in PRESET_MAP:
         return PRESET_MAP[ref_preset], ref_preset
+    sib = x1c_sibling(ref_preset)
+    if sib:
+        return sib, ref_preset
     try:
         resolve("process", ref_preset)
         return ref_preset, ref_preset
@@ -178,10 +197,13 @@ def build(ref_settings, ref_preset, inherits, filaments, overrides=None, process
     for k, rv in (ref_settings or {}).items():
         if k in META_KEYS or k in machine or k in fil_keys or k in slot_keys or k not in out:
             continue
-        if same(rv, out[k], k):
+        # newer Studio versions store some scalars as per-extruder lists (['200', '350']);
+        # compare in the shape this Studio uses, or every such key looks "changed"
+        if same(rv, out[k], k) or same(coerce(rv, out[k]), out[k], k):
             continue
         in_base = k in base
-        designer_moved = (k in explicit) or (in_base and not same(rv, base[k], k))
+        designer_moved = (k in explicit) or (
+            in_base and not same(rv, base[k], k) and not same(coerce(rv, base[k]), base[k], k))
         if k in KINEMATIC and not base:
             # designer's preset isn't in this Studio (e.g. a P2S profile): without a
             # baseline we can't tell a choice from a default, so machine-side values

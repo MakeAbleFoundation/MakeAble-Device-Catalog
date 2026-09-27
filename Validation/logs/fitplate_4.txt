@@ -1,0 +1,6 @@
+  39 Universal Cup Holder (kit)
+       1 kits   gap  5.0 mm -> FAILED (gcode path conflict)
+       1 kits   gap  8.0 mm -> 5h 7m 16s, 202 g
+
+for devices.py:
+  cup-holder                   OK     1  5h 7m 16s  gap=8.0

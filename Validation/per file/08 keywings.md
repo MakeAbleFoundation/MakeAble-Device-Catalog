@@ -1,11 +1,12 @@
 # 08 KeyWings
 
-- file: `Full Plates/08 KeyWings - PETG x88.3mf`
+- file: `Full Plates/08 KeyWings - PETG x76.3mf`
 - source: https://makerworld.com/en/models/1688156-keywings-for-mobility-needs#profileId-1789186
 - reference 3mf: `Key Holder (PETG)/KeyWings+v6+Bambu.3mf`
 - designer: AlbertMakes
 - material: PETG (PETG P1S Tuned)
-- on the plate: 88 copies (88 objects)
+- on the plate: 76 copies (76 objects)
+- print-time cap: 88 copies fit on the plate; trimmed to 76 to stay under 14 h
 
 ## Profile
 | preset | layer | first layer | walls | infill | supports | brim | top/bottom |
@@ -47,7 +48,7 @@
 | `travel_speed` | 700 | **500** |
 
 ## Validation
-- Orca slice: passed - 16h 7m 18s, 274.4 g, 219.5 cm3
+- Orca slice: passed - 13h 56m 36s, 237.0 g, 189.6 cm3
 - per copie: 2.49 cm3
 - the designer's own file slices at 2.63 cm3 per copy (95% of that here)
 - the model page quotes 4 g per copy

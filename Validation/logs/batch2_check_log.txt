@@ -1,0 +1,33 @@
+  plate  1 Bedside Hook-On Storage Box (kit)          OK     4h 27m 5s   229.0 g
+  plate  2 Toothpaste Squeezer, external gear (kit)   OK     1h 52m 7s    40.7 g
+  plate  3 Chopstick Helper (small)                   OK       14m 56s     3.2 g
+  plate  4 Soup Can Opener (no magnets)               OK        37m 4s    12.1 g
+  plate  5 Jar Opener / Vacuum Releaser               FAIL            -     0.0 g
+  plate  6 Younger Grip Lid Wrench (glue-in magnets   OK    1h 16m 21s    32.4 g
+  plate  7 Plug Puller (WATAP)                        OK        26m 2s     9.4 g
+  plate  8 Pinky Saver & Phone Stand (standard hole   OK       24m 19s     9.0 g
+  plate  9 Universal Cup Holder (kit)                 FAIL            -     0.0 g
+  plate 10 Adjustable Cane Holder (kit)               OK    2h 15m 46s    69.0 g
+  plate 11 Hand Press / Grip Strengthener (Light)     OK    1h 28m 35s    39.1 g
+  plate 12 Hand Press / Grip Strengthener (Medium)    OK    1h 38m 36s    44.5 g
+  plate 13 Hand Press / Grip Strengthener (Hard)      OK    1h 46m 29s    49.0 g
+  plate 14 Universal Travel Coffee Gimbal (kit)       OK    5h 31m 52s   144.1 g
+  plate 15 Pen Ball (kit)                             OK     3h 2m 42s    65.5 g
+  plate 16 Playing Card Holder (4 rows)               OK     2h 0m 58s    76.0 g
+  plate 17 Shoe Lifter / Boot Jack                    OK     3h 55m 6s   141.2 g
+  plate 18 Adaptive Pencil Grip                       OK       38m 24s    20.5 g
+=== refs
+  31 Bedside Hook-On Storage Box (kit)          ref OK  units {1: 1} -> 181.24 cm3 per unit
+  32 Toothpaste Squeezer, external gear (kit)   ref OK  units {'1+2+3': 1} -> 32.17 cm3 per unit
+  33 Chopstick Helper (small)                   ref OK  units {1: 1} -> 2.48 cm3 per unit
+  34 Soup Can Opener (no magnets)               ref OK  units {1: 1} -> 9.82 cm3 per unit
+  35 Jar Opener / Vacuum Releaser               ref FAIL units {1: 1} -> None cm3 per unit
+  36 Younger Grip Lid Wrench (glue-in magnets   ref OK  units {2: 1} -> 25.87 cm3 per unit
+  37 Plug Puller (WATAP)                        ref OK  units {1: 1} -> 7.59 cm3 per unit
+  38 Pinky Saver & Phone Stand (standard hole   ref OK  units {1: 1} -> 6.88 cm3 per unit
+  39 Universal Cup Holder (kit)                 ref OK  units {1: 1} -> 162.7 cm3 per unit
+  41 Hand Press / Grip Strengthener (Light)     ref OK  units {1: 1} -> 31.19 cm3 per unit
+  42 Hand Press / Grip Strengthener (Medium)    ref OK  units {2: 1} -> 35.48 cm3 per unit
+  43 Hand Press / Grip Strengthener (Hard)      ref OK  units {3: 1} -> 39.21 cm3 per unit
+  47 Shoe Lifter / Boot Jack                    ref OK  units {1: 1} -> 111.71 cm3 per unit
+=== STAGE DONE

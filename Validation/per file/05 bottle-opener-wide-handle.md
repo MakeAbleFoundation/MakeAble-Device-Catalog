@@ -10,7 +10,7 @@
 ## Profile
 | preset | layer | first layer | walls | infill | supports | brim | top/bottom |
 |---|---|---|---|---|---|---|---|
-| 0.20mm Strength @BBL X1C | 0.2 mm | 0.2 mm | 6 | 25% cubic | off | auto_brim | 5/3 |
+| 0.20mm Strength @BBL X1C | 0.2 mm | 0.2 mm | 5 | 15% honeycomb | on normal(auto) | auto_brim | 5/3 |
 
 ### Taken from the designer's file
 | setting | P1S preset | designer |
@@ -36,9 +36,6 @@
 - the model page quotes 35 g per copy
 - geometry check: clean
 - clamped for Orca only (the delivered file keeps Bambu's values): raft_first_layer_expansion
-
-## Advisories (nothing changed)
-- bottle opener remix.stl: 349 mm2 of steep overhang with air under it (max drop 5.0 mm at z=5 mm) while supports are off in the designer's profile - worth a look at the preview
 
 ## Notes
 - The designer's per-object settings (5 walls, 15% honeycomb, supports on, seam at the back) are carried over per object, as in the original.

@@ -115,13 +115,71 @@ def split_shells(part, names=None, min_tris=50):
     return out
 
 
-def from_ref(path, names=None, indices=None):
+def from_ref(path, names=None, indices=None, objects=None):
+    """Parts from a reference project, picked by object name, by index, or by 3mf object
+    id (`objects`, in the order given) - the last when names collide."""
     ref = p3mf.Ref(path)
-    parts = [p3mf.load_geometry(p) for p in ref.parts()]
+    parts = ref.parts()
+    if objects:
+        by_id = {p.key.rsplit("::", 1)[1]: p for p in parts}
+        parts = [by_id[str(o)] for o in objects]
     if names:
         want = list(names)
         parts = [p for p in parts if p.name in want]
         parts.sort(key=lambda p: want.index(p.name))
     if indices is not None:
         parts = [parts[i] for i in indices]
-    return ref, parts
+    return ref, [p3mf.load_geometry(p) for p in parts]
+
+
+def flatten_bottom(part, window=1.0, tol=1e-4):
+    """Move vertices that poke below a part's flat base up onto it.
+
+    For a mesh artefact like the Jar Opener's: four vertices form a 0.1 x 0.5 mm spike
+    0.36 mm under an otherwise flat bottom. The part then rests on the spike, the first
+    layer holds nothing but that speck, and the slicer refuses the object ("empty initial
+    layer"). Only the offending vertices move; everything else keeps its bytes. Returns the
+    number of vertices moved and how far the lowest one went.
+    """
+    V, T = p3mf.mesh_geometry(part.mesh_bytes, part.mesh_objid)
+    lin = p3mf.mat_mul(part.comp_tf[0:9], part.base_lin)
+    M = np.array([lin[0:3], lin[3:6], lin[6:9]], dtype=float)
+    off = np.array(part.comp_tf[9:12], dtype=float) @ M
+    W = V @ M + off
+    z0 = W[:, 2].min()
+    # the base: the height carrying the most downward-facing flat area near the bottom
+    a, b, c = W[T[:, 0]], W[T[:, 1]], W[T[:, 2]]
+    n = np.cross(b - a, c - a)
+    L = np.linalg.norm(n, axis=1) + 1e-12
+    zc = (a[:, 2] + b[:, 2] + c[:, 2]) / 3
+    flat = (n[:, 2] / L < -0.99) & (zc < z0 + window)
+    levels = {}
+    for z, area in zip(np.round(zc[flat], 3), L[flat] / 2):
+        levels[z] = levels.get(z, 0.0) + area
+    if not levels:
+        return 0, 0.0
+    base = max(levels, key=levels.get)
+    low = np.nonzero(W[:, 2] < base - tol)[0]
+    if not len(low):
+        return 0, 0.0
+    W2 = W.copy()
+    W2[low, 2] = base
+    V2 = (W2 - off) @ np.linalg.inv(M)
+    text = part.mesh_bytes.decode("utf-8")
+    m = re.search(r'<object id="%d"[ >].*?</object>' % part.mesh_objid, text, re.S)
+    body = m.group(0)
+    it = iter(range(len(V)))
+    fix = set(int(i) for i in low)
+
+    def sub(mt):
+        i = next(it)
+        if i not in fix:
+            return mt.group(0)
+        x, y, z = V2[i]
+        return f'<vertex x="{x:.9g}" y="{y:.9g}" z="{z:.9g}"/>'
+
+    body2 = re.sub(r'<vertex [^>]*/>', sub, body)
+    part.mesh_bytes = (text[:m.start()] + body2 + text[m.end():]).encode("utf-8")
+    part.verts = W2
+    part.base_z = part.base_z - (base - z0)       # the base, not the spike, sits on the bed
+    return len(low), float(base - z0)
