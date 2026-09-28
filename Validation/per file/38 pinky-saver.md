@@ -1,45 +1,41 @@
-# 38 Pinky Saver & Phone Stand (standard holes)
+# 38 Pinky Saver 3 & Phone Stand
 
-- file: `Full Plates/38 Pinky Saver & Phone Stand (standard holes) - PLA x14.3mf`
-- source: https://makerworld.com/en/models/941286-pinky-saver-phone-stand#profileId-907074
-- reference 3mf: `New Devices/save+the+little+finger.3mf`
+- file: `Full Plates/38 Pinky Saver 3 & Phone Stand - PLA x18.3mf`
+- source: https://makerworld.com/en/models/1842862-pinky-saver-3#profileId-1969044
+- reference 3mf: `New Devices/PinkySaver3_x19.3mf` (the delivered file, byte for byte)
 - designer: aqua3D
-- license: CC BY-SA
+- license: Standard Digital File License
 - material: PLA (Bambu PLA Basic @BBL X1C)
-- on the plate: 14 copies (14 objects)
+- on the plate: 18 copies (9 interlocked pairs)
 
 ## Profile
 | preset | layer | first layer | walls | infill | supports | brim | top/bottom |
 |---|---|---|---|---|---|---|---|
 | 0.20mm Standard @BBL X1C | 0.2 mm | 0.2 mm | 2 | 15% grid | off | auto_brim | 5/3 |
 
-### Taken from the designer's file
-| setting | P1S preset | designer |
-|---|---|---|
-| `overhang_totally_speed` | 10 | **19** |
-| `support_type` | tree(auto) | **normal(auto)** |
-| `tree_support_wall_count` | -1 | **0** |
+The designer's profile ("0.2mm layer, 2 walls, 15% infill") on the P1S system presets
+(`Bambu Lab P1S 0.4 nozzle`, `0.20mm Standard @BBL X1C`, `Bambu PLA Basic @BBL X1C`).
 
-### Left at the P1S value (designer never changed it on their printer)
-| setting | their file | P1S |
-|---|---|---|
-| `default_acceleration` | 6000 | **10000** |
-| `elefant_foot_compensation` | 0 | **0.15** |
-| `flush_multiplier` | 1 | **0.75** |
-| `raft_first_layer_expansion` | 2 | **-1** |
-| `smooth_coefficient` | 80 | **150** |
-| `top_area_threshold` | 100% | **200%** |
-| `travel_speed` | 700 | **500** |
+## How this file was made
+
+Supplied as a finished plate, arranged and saved in Bambu Studio 2.2.2, and committed
+unchanged. It was not rebuilt by `Validation/tools`, so the settings are not baked per object
+and the packer's spacing rules were not applied.
 
 ## Validation
-- Orca slice: passed - 4h 5m 53s, 122.9 g, 97.5 cm3
-- per copie: 6.97 cm3
-- the designer's own file slices at 6.88 cm3 per copy (101% of that here)
+- Orca slice: passed - 5h 8m 33s, 159.0 g, 126.2 cm3, no warnings, no toolpath conflicts
+- per copy: 7.01 cm3, 8.8 g
 - the model page quotes 9 g per copy
-- geometry check: clean
-- clamped for Orca only (the delivered file keeps Bambu's values): raft_first_layer_expansion
+- geometry check: tighter than the house rules, which it does not follow - the closest pairs
+  are about 3.3 mm apart (rule: 5 mm), and the front row sits 3 mm from the plate edge
+  (rule: 5 mm) and 3 mm right of the 18 x 28 mm excluded corner (rule: 8 mm). Every part is
+  on the plate and its convex hull is clear of the corner.
+- clamped for Orca only (the delivered file keeps Bambu's values): tree_support_wall_count,
+  raft_first_layer_expansion
 
 ## Notes
-- Standard holes: middle 20 mm, ring 18 mm, pinky 17 mm. A large-hole profile exists on the page.
-- The designer left the A1 mini's 0.20 mm Standard untouched, so this is the P1S 0.20 mm Standard.
-
+- Replaces the earlier Pinky Saver & Phone Stand (standard holes, model 941286) with the
+  designer's newer Pinky Saver 3.
+- The source file was named `x19`, but it holds 18 copies (Orca and Bambu's own plate
+  thumbnail agree).
+- Catalogue 2 plate 38 still holds the earlier Pinky Saver.

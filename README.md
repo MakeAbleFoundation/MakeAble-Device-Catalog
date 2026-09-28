@@ -62,7 +62,7 @@ These files are **not** for the A1, A1 mini, X1C, P2S or H2 series without re-ch
 | 35 | 35 Jar Opener - Vacuum Releaser - PLA x8.3mf | PLA | 8 copies | 6h 20m 5s | 161.0 g | 0.24 mm | 2 | 10% | no | - |
 | 36 | 36 Younger Grip Lid Wrench (glue-in magnets) - PLA x8.3mf | PLA | 8 copies | 9h 25m 5s | 258.0 g | 0.2 mm | 3 | 10% | no | 99% |
 | 37 | 37 Plug Puller (WATAP) - PLA x9.3mf | PLA | 9 copies | 2h 59m 51s | 84.0 g | 0.2 mm | 3 | 25% | no | 98% |
-| 38 | 38 Pinky Saver & Phone Stand (standard holes) - PLA x14.3mf | PLA | 14 copies | 4h 5m 53s | 123.0 g | 0.2 mm | 2 | 15% | no | 101% |
+| 38 | 38 Pinky Saver 3 & Phone Stand - PLA x18.3mf | PLA | 18 copies | 5h 8m 33s | 159.0 g | 0.2 mm | 2 | 15% | no | - |
 | 39 | 39 Universal Cup Holder (kit) - PLA x1.3mf | PLA | 1 kit | 5h 7m 16s | 202.0 g | 0.2 mm | 6 | 15% | yes | 98% |
 | 40 | 40 Adjustable Cane Holder (kit) - PLA x6.3mf | PLA | 6 kits | 12h 45m 2s | 413.0 g | 0.2 mm | 2 | 60% | yes | - |
 | 41 | 41 Hand Press - Grip Strengthener (Light) - PETG x5.3mf | PETG | 5 copies | 6h 43m 9s | 194.0 g | 0.2 mm | 4 | 15% | no | 100% |
@@ -123,6 +123,7 @@ Parts sit at least 5 mm apart, measured on their real outlines rather than bound
 - **Assistive Can Tab Opener**: 8 mm apart - its tree supports flare out well past the part.
 - **Universal Cup Holder (kit)**: 8 mm apart - its tree supports flare out well past the part.
 - **Universal Travel Coffee Gimbal (kit)**: 8 mm apart - its tree supports flare out well past the part.
+- **Pinky Saver 3 & Phone Stand**: supplied as a finished plate and kept exactly as arranged - interlocked pairs about 3 mm apart, the front row 3 mm from the plate edge and from the excluded corner. It slices in OrcaSlicer with no toolpath conflicts.
 
 The P1S cannot print in an 18 x 28 mm patch at the front-left corner (Bambu calls it the bed exclusion area). Parts are kept 8 mm clear of it, and any part whose convex hull would still reach into it is dropped - the slicer refuses the whole plate over a single one.
 
@@ -229,7 +230,7 @@ Structural checks: 50 files, 0 problems. All clean.
 | 35 | Jar Opener / Vacuum Releaser | `New Devices/Jar+Opener+Bambu+ULTRA+FAST.3mf` | [page](https://makerworld.com/en/models/1642031-jar-opener-tuned-for-all-bambu-printers#profileId-1735123) |
 | 36 | Younger Grip Lid Wrench (glue-in magnets) | `New Devices/PRJ___YOUNGER+GRIP_Glue-in+Magnets_.3mf` | [page](https://makerworld.com/en/models/1493731-younger-grip-lid-wrench-arthritis-aid#profileId-1572541) |
 | 37 | Plug Puller (WATAP) | `New Devices/Plug+Puller+by+WATAP.3mf` | [page](https://makerworld.com/en/models/421822-plug-puller-assistive-technology-by-watap#profileId-324742) |
-| 38 | Pinky Saver & Phone Stand (standard holes) | `New Devices/save+the+little+finger.3mf` | [page](https://makerworld.com/en/models/941286-pinky-saver-phone-stand#profileId-907074) |
+| 38 | Pinky Saver 3 & Phone Stand | `New Devices/PinkySaver3_x19.3mf` | [page](https://makerworld.com/en/models/1842862-pinky-saver-3#profileId-1969044) |
 | 39 | Universal Cup Holder (kit) | `New Devices/STOLLER_CUP_HOLDER_v2.0.3mf` | [page](https://makerworld.com/en/models/1969980-universal-cup-holder#profileId-2118034) |
 | 40 | Adjustable Cane Holder (kit) | `New Devices/adjustable-cane-holder-model_files/Recommended Print Files/texture_on_cane_holder_v3.stl (+2 more)` | [page](https://www.printables.com/model/203631-adjustable-cane-holder) |
 | 41 | Hand Press / Grip Strengthener (Light) | `New Devices/Fingergrip+Press (1).3mf` | [page](https://makerworld.com/en/models/531052-hand-press-grip-strengthening#profileId-447870) |
