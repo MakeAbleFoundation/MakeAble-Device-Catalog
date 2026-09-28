@@ -903,6 +903,10 @@
     "ok": true,
     "returncode": 0,
     "clamped": {
+      "tree_support_wall_count": [
+        "-1",
+        "0"
+      ],
       "raft_first_layer_expansion": [
         "-1",
         "2"
@@ -910,18 +914,19 @@
     },
     "plates": {
       "1": {
-        "model_time": "3h 59m 38s",
-        "total_time": "4h 5m 53s",
+        "model_time": "5h 2m 18s",
+        "total_time": "5h 8m 33s",
         "layers": "80",
         "density": "1.26",
         "max_z": "16.00",
-        "used_mm": 40551.86,
-        "used_cm3": 97.54,
-        "used_g": 122.9
+        "used_mm": 52462.37,
+        "used_cm3": 126.19,
+        "used_g": 159.0
       }
     },
     "warnings": [],
-    "log": ""
+    "log": "",
+    "conflict": false
   },
   "pen-ball": {
     "ok": true,

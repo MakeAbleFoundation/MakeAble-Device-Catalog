@@ -36,7 +36,7 @@ id,file,device,material,per_plate,objects,print_time,grams,cm3,cm3_per_unit,refe
 35,35 Jar Opener - Vacuum Releaser - PLA x8.3mf,Jar Opener / Vacuum Releaser,PLA,8 copies,8,6h 20m 5s,161.4,128.1,16.01,,-,22,0.24,2,10%,0,no_brim,0.24mm Draft @BBL X1C,True,0,1
 36,36 Younger Grip Lid Wrench (glue-in magnets) - PLA x8.3mf,Younger Grip Lid Wrench (glue-in magnets),PLA,8 copies,8,9h 25m 5s,258.3,205.0,25.63,25.87,99%,33,0.2,3,10%,0,auto_brim,0.20mm Standard @BBL X1C,True,0,1
 37,37 Plug Puller (WATAP) - PLA x9.3mf,Plug Puller (WATAP),PLA,9 copies,9,2h 59m 51s,84.2,66.8,7.42,7.59,98%,10,0.2,3,25%,0,auto_brim,0.20mm Strength @BBL X1C,True,0,1
-38,38 Pinky Saver 3 & Phone Stand - PLA x18.3mf,Pinky Saver 3 & Phone Stand,PLA,18 copies,18,5h 8m 33s,159.0,126.2,7.01,,-,9,0.2,2,15%,0,auto_brim,0.20mm Standard @BBL X1C,True,22,0
+38,38 Pinky Saver 3 & Phone Stand - PLA x18.3mf,Pinky Saver 3 & Phone Stand,PLA,18 copies,18,5h 8m 33s,159.0,126.2,7.01,,-,9,0.2,2,15%,0,auto_brim,0.20mm Standard @BBL X1C,True,0,0
 39,39 Universal Cup Holder (kit) - PLA x1.3mf,Universal Cup Holder (kit),PLA,1 kit,10,5h 7m 16s,201.8,160.2,160.19,162.7,98%,200,0.2,6,15%,1,brim_ears,0.20mm Standard @BBL X1C,True,0,0
 40,40 Adjustable Cane Holder (kit) - PLA x6.3mf,Adjustable Cane Holder (kit),PLA,6 kits,18,12h 45m 2s,413.3,328.0,54.66,,-,,0.2,2,60%,1,auto_brim/outer_only,0.20mm Standard @BBL X1C,True,0,0
 41,41 Hand Press - Grip Strengthener (Light) - PETG x5.3mf,Hand Press / Grip Strengthener (Light),PETG,5 copies,5,6h 43m 9s,194.3,155.4,31.09,31.19,100%,39,0.2,4,15%,0,auto_brim,0.20mm Standard @BBL X1C,True,0,1

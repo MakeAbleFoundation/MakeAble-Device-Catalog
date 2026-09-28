@@ -143,10 +143,8 @@ def apply_cap(placements, parts, ratio, units):
     return keep
 
 
-def designer_layout(dev, parts):
-    """The designer's own arrangement of one unit, taken from their plate and centred on
-    ours. For parts the packer cannot fit inside the margins (the bedside box lies
-    diagonally across the whole bed) this is the layout that is known to print."""
+def reference_placements(dev, parts):
+    """Every copy of our parts on the reference plate, where the reference puts it."""
     import math
     import numpy as np
     ref = p3mf.Ref(dev["ref"])
@@ -167,6 +165,16 @@ def designer_layout(dev, parts):
             raise RuntimeError(f"{dev['slug']}: {sp.name} is not a turn of the same part")
         placements.append(p3mf.Placement(part=canon, theta=th, x=sp.base_xy[0],
                                          y=sp.base_xy[1]))
+    return placements
+
+
+def designer_layout(dev, parts):
+    """The designer's own arrangement of one unit, taken from their plate and centred on
+    ours. For parts the packer cannot fit inside the margins (the bedside box lies
+    diagonally across the whole bed) this is the layout that is known to print."""
+    import math
+    import numpy as np
+    placements = reference_placements(dev, parts)
     pts = []
     for pl in placements:
         t = math.radians(pl.theta)
@@ -234,7 +242,51 @@ def device_advisories(dev, cfg, parts):
     return out, metrics
 
 
+def supplied_device(dev, outdir, previews=None, verbose=True):
+    """A plate arranged by hand in Bambu Studio (`supplied=True`, the plate is `ref`): it is
+    delivered byte for byte - never re-packed, re-spaced, trimmed or re-baked. It is checked
+    as a plate that has to print (every part on the bed, clear of the excluded corner, not
+    touching another) rather than against the packer's 5 mm rules; how close its parts
+    really sit is recorded instead."""
+    import shutil
+    t0 = time.time()
+    if dev.get("kit"):
+        raise RuntimeError(f"{dev['slug']}: supplied kit plates are not supported")
+    ref, parts = load_parts(dev)
+    cfg, info = device_settings(dev, ref)
+    advisories, metrics = device_advisories(dev, cfg, parts)
+    placements = reference_placements(dev, parts)
+    count = len(placements)
+    rep, issues = verify.layout_report(placements, gap=0.5, margin=0.0, clearance=0.0)
+    spacing = verify.clearances(placements)
+    name = f"{dev['id']:02d} {dev['title']} - {dev['material']} x{count}.3mf".replace("/", "-")
+    path = os.path.join(outdir, name)
+    shutil.copyfile(dev["ref"], path)
+    if previews:
+        os.makedirs(previews, exist_ok=True)
+        pack.set_exclusion_clearance(0.0)      # draw the printer's own corner, not the packer's
+        try:
+            verify.preview(placements, os.path.join(previews, f"{dev['id']:02d} {dev['slug']}.png"))
+        finally:
+            pack.set_exclusion_clearance(pack.EXCLUDE_CLEARANCE)
+    if verbose:
+        print(f"  {dev['id']:02d} {dev['title'][:44]:46} {count:3} copies "
+              f"{os.path.getsize(path)/1e6:5.1f} MB {time.time()-t0:5.1f}s  [supplied plate]"
+              + ("  ISSUES" if issues else ""))
+    # nothing was rebuilt, so there is no designer-vs-P1S settings story to tell
+    kept = dict({k: v for k, v in info.items() if k != "filaments"},
+                from_reference={}, kept_p1s={}, ambiguous={}, overrides={})
+    return dict(slug=dev["slug"], id=dev["id"], title=dev["title"], path=path,
+                layout="supplied plate, kept as arranged", file=name,
+                material=dev["material"], count=count, unit="copies", objects=count,
+                issues=issues, bbox=rep, gap=None, supplied=True, spacing=spacing, info=kept,
+                filaments=info["filaments"], advisories=advisories, metrics=metrics,
+                parts=[p.name for p in parts], profile=profile_summary(cfg, parts, info))
+
+
 def build_device(dev, outdir, previews=None, verbose=True, gap=None, cap=None):
+    if dev.get("supplied"):
+        return supplied_device(dev, outdir, previews, verbose)
     t0 = time.time()
     gap = gap or dev.get("gap") or GAP
     cap = cap if cap is not None else dev.get("cap")

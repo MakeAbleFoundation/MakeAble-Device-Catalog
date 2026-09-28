@@ -146,6 +146,11 @@ def slice_refs(out, slugs=None):
     for dev in devices.DEVICES:
         if dev.get("stl") or (slugs and dev["slug"] not in slugs):
             continue
+        if dev.get("supplied"):
+            # the plate is its own reference: comparing it with itself proves nothing
+            if res.pop(dev["slug"], None) is not None:
+                json.dump(res, open(data_path(out, "slices_refs.json"), "w"), indent=2)
+            continue
         units = ref_units(dev)
         needed = sorted({int(x) for k in units for x in str(k).split("+")})
         # slice only the plates the comparison needs (a reference can carry a heavy
@@ -244,6 +249,10 @@ def write(out):
     return summary, cat, cslice
 
 
+def fmt_mm(v, none="-"):
+    return none if v is None else f"{v:g} mm"
+
+
 def _try(path, default):
     try:
         return json.load(open(path))
@@ -262,7 +271,8 @@ def _write_device_md(out, r, dev, s, rs, per, ref_per):
     if len(dev.get("stl") or []) > 1:
         L.append("- source files: " + ", ".join(f"`{source_label(x)}`" for x in dev["stl"]))
     else:
-        L.append(f"- reference 3mf: `{source_label(dev.get('ref', dev.get('stl', ['-'])[0]))}`")
+        L.append(f"- reference 3mf: `{source_label(dev.get('ref', dev.get('stl', ['-'])[0]))}`"
+                 + (" (this plate, byte for byte)" if r.get("supplied") else ""))
     L.append(f"- designer: {dev.get('designer', '-')}")
     if dev.get("license"):
         L.append(f"- license: {dev['license']}")
@@ -283,6 +293,13 @@ def _write_device_md(out, r, dev, s, rs, per, ref_per):
              f"{pr['infill']} {pr['pattern']} | {sup.get(pr['support'], 'off')} | "
              f"{pr['brim']} | {pr['top']}/{pr['bottom']} |")
     L.append("")
+    if r.get("supplied"):
+        L.append("## How this file was made")
+        L.append("Arranged by hand in Bambu Studio and delivered byte for byte: these tools did "
+                 "not pack, space, trim or re-bake it, so it keeps the project's own settings "
+                 "rather than per-object copies of them. The catalogue plate takes one copy "
+                 "from it.")
+        L.append("")
     info = r["info"]
     if info.get("from_reference"):
         L.append("### Taken from the designer's file")
@@ -325,9 +342,16 @@ def _write_device_md(out, r, dev, s, rs, per, ref_per):
         L.append(f"- the designer's own file slices at {ref_per:.2f} cm3 per copy")
     if PAGE_WEIGHT.get(r["slug"]):
         L.append(f"- the model page quotes {PAGE_WEIGHT[r['slug']]} g per copy")
-    L.append(f"- geometry check: {'clean' if not r['issues'] else 'ISSUES'}")
+    L.append(f"- geometry check: {'clean' if not r['issues'] else 'ISSUES'}"
+             + (" (on the plate, clear of the excluded corner, no parts touching)"
+                if r.get("supplied") else ""))
     for i in r["issues"]:
         L.append(f"  - {i}")
+    if r.get("spacing"):
+        sp = r["spacing"]
+        L.append(f"- spacing, kept as supplied: parts {fmt_mm(sp['gap'], 'more than 10 mm')} "
+                 f"apart (packed plates: 5 mm), {fmt_mm(sp['edge'])} from the plate edge (5 mm), "
+                 f"{fmt_mm(sp['corner'])} from the excluded corner (8 mm)")
     if s.get("clamped"):
         L.append(f"- clamped for Orca only (the delivered file keeps Bambu's values): "
                  f"{', '.join(s['clamped'])}")

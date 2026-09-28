@@ -227,15 +227,16 @@ DEVICES += [
       license="CC BY-NC-SA",
       hardware="2 small zip ties (about 15 cm / 6 in) per puller",
       notes=["The designer's variable layer height is kept."]),
- dict(id=38, slug="pinky-saver", title="Pinky Saver & Phone Stand (standard holes)",
-      designer="aqua3D",
-      link="https://makerworld.com/en/models/941286-pinky-saver-phone-stand#profileId-907074",
-      ref=N+"save+the+little+finger.3mf", names=["salva dito v3.stl"], material="PLA",
-      license="CC BY-SA",
-      notes=["Standard holes: middle 20 mm, ring 18 mm, pinky 17 mm. A large-hole profile "
-             "exists on the page.",
-             "The designer left the A1 mini's 0.20 mm Standard untouched, so this is the "
-             "P1S 0.20 mm Standard."]),
+ # a plate arranged by hand in Bambu Studio: delivered byte for byte (build.supplied_device)
+ dict(id=38, slug="pinky-saver", title="Pinky Saver 3 & Phone Stand", designer="aqua3D",
+      link="https://makerworld.com/en/models/1842862-pinky-saver-3#profileId-1969044",
+      ref=N+"PinkySaver3_x19.3mf", names=["pinky saver 3.stl"], indices=[0],
+      supplied=True, material="PLA", license=MW_STD,
+      notes=["Replaces the earlier Pinky Saver & Phone Stand (standard holes, model 941286) "
+             "with the designer's newer one-piece Pinky Saver 3.",
+             "The designer's profile (0.2 mm, 2 walls, 15% infill) on the P1S presets.",
+             "The supplied file is named x19 but holds 18 copies; Orca and Bambu's own plate "
+             "thumbnail agree."]),
  dict(id=39, slug="cup-holder", title="Universal Cup Holder (kit)", designer="RED_eleven",
       link="https://makerworld.com/en/models/1969980-universal-cup-holder#profileId-2118034",
       ref=N+"STOLLER_CUP_HOLDER_v2.0.3mf",

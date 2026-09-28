@@ -56,7 +56,7 @@ def hull_hits_exclusion(points, clearance=None):
     return not sep(hull, rect)
 
 
-def layout_report(placements, gap=5.0, margin=5.0):
+def layout_report(placements, gap=5.0, margin=5.0, clearance=None):
     n = px(pack.BED)
     occ = np.zeros((n, n), dtype=bool)
     issues = []
@@ -83,7 +83,7 @@ def layout_report(placements, gap=5.0, margin=5.0):
                     or x1 > pack.BED - margin + slack or y1 > pack.BED - margin + slack):
                 issues.append(f"plate {plate} part {k} ({pl.part.name}) outside the "
                               f"{margin} mm margin: x[{x0:.1f},{x1:.1f}] y[{y0:.1f},{y1:.1f}]")
-            if hull_hits_exclusion(pts):
+            if hull_hits_exclusion(pts, clearance):
                 issues.append(f"plate {plate} part {k} ({pl.part.name}) reaches into the "
                               f"excluded corner (convex hull, which is what the slicer "
                               f"checks)")
@@ -101,6 +101,47 @@ def layout_report(placements, gap=5.0, margin=5.0):
             sub |= d
         out[plate] = dict(count=len(pls), bbox=[round(v, 1) for v in bbox])
     return out, issues
+
+
+def clearances(placements, limit=10.0):
+    """How close a plate's parts actually sit, in mm on their real outlines: to each other
+    (to the 0.25 mm raster; None if nothing is within `limit`), to the plate edge, and to
+    the printer's excluded corner (convex hull, as the slicer tests it)."""
+    n = px(pack.BED)
+    labels = np.zeros((n, n), dtype=np.int16)
+    ex = pack.EXCLUDE_RAW
+    shapes, edge, corner = [], 1e9, 1e9
+    for k, pl in enumerate(placements, start=1):
+        t = math.radians(pl.theta)
+        R = np.array([[math.cos(t), -math.sin(t)], [math.sin(t), math.cos(t)]])
+        pts = pl.part.verts[:, :2] @ R.T + np.array([pl.x, pl.y])
+        edge = min(edge, pts[:, 0].min(), pts[:, 1].min(),
+                   pack.BED - pts[:, 0].max(), pack.BED - pts[:, 1].max())
+        hull = np.array(convex_hull(pts), dtype=float)
+        # hull edges sampled every 0.1 mm: the point nearest the corner can sit mid-edge
+        for a, b in zip(hull, np.roll(hull, -1, axis=0)):
+            s = a + (b - a) * np.linspace(0, 1, max(2, int(np.hypot(*(b - a)) / 0.1) + 1))[:, None]
+            dx = np.maximum(np.maximum(ex[0] - s[:, 0], 0), s[:, 0] - ex[2])
+            dy = np.maximum(np.maximum(ex[1] - s[:, 1], 0), s[:, 1] - ex[3])
+            corner = min(corner, float(np.hypot(dx, dy).min()))
+        m, o = pack.rasterize(pts, pl.part.tris)
+        iy, ix = px(o[1]), px(o[0])
+        labels[iy:iy + m.shape[0], ix:ix + m.shape[1]][m] = k
+        shapes.append((k, m, iy, ix))
+    gap = None
+    for r in range(1, int(limit / RES) + 1):
+        for k, m, iy, ix in shapes:
+            d = pack.dilate(m, r)
+            y0, x0 = iy - r, ix - r
+            cy, cx = max(0, -y0), max(0, -x0)
+            sub = labels[y0 + cy:y0 + d.shape[0], x0 + cx:x0 + d.shape[1]]
+            d = d[cy:cy + sub.shape[0], cx:cx + sub.shape[1]]
+            if np.any(d & (sub != 0) & (sub != k)):
+                gap = r * RES
+                break
+        if gap is not None:
+            break
+    return dict(gap=gap, edge=round(float(edge), 1), corner=round(corner, 1))
 
 
 def preview(placements, path, plate=1, size=760):

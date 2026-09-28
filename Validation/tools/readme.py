@@ -124,6 +124,7 @@ def main(out):
     sl = json.load(open(f"{D}/slices_devices.json"))
     chk = json.load(open(f"{D}/selfcheck.json"))
     by_slug = {d["slug"]: d for d in devices.DEVICES}
+    supplied = [r for r in rows if r.get("supplied")]
     cats = []
     for n, c in sorted(devices.CATALOGUES.items()):
         if os.path.exists(f"{out}/{c['file']}") and os.path.exists(f"{D}/{c['data']}"):
@@ -190,7 +191,9 @@ def main(out):
              "comes out exactly as they set it up. The few at 95-96% are the P1S's "
              "elephant-foot compensation shaving the first layer, which their printer "
              "profile did not apply. A dash means there is nothing to compare against "
-             "(loose STLs, or a size variant that shares another file's profile).")
+             "(loose STLs, or a size variant that shares another file's profile"
+             + (", or a supplied plate, which is its own reference" if supplied
+                else "") + ").")
     L.append("")
     capped = [r for r in rows if r.get("capped_from")]
     if capped:
@@ -243,7 +246,7 @@ def main(out):
              "reporting conflicting toolpaths:")
     L.append("")
     for r in rows:
-        if r.get("gap", 5) != 5:
+        if not r.get("supplied") and r.get("gap", 5) != 5:
             L.append(f"- **{r['title']}**: {r['gap']:.0f} mm apart - {spacing_reason(r)}.")
     L.append("")
     for r in rows:
@@ -251,6 +254,16 @@ def main(out):
             L.append(f"**{r['title']}** is too big for the packer's 5 mm margins, so it uses "
                      "the designer's own plate arrangement, centred.")
             L.append("")
+    for r in supplied:
+        sp = r["spacing"]
+        clean = (sl.get(r["slug"]) or {}).get("ok")
+        L.append(f"**{r['title']}** is a supplied plate, arranged by hand in Bambu Studio and "
+                 f"kept exactly as it is: its parts are {report.fmt_mm(sp['gap'], 'over 10 mm')} "
+                 f"apart, {report.fmt_mm(sp['edge'])} from the plate edge and "
+                 f"{report.fmt_mm(sp['corner'])} from the excluded corner. "
+                 + ("It slices with no conflicting toolpaths." if clean
+                    else "It does NOT slice clean - see its validation page."))
+        L.append("")
     L.append("The P1S cannot print in an 18 x 28 mm patch at the front-left corner "
              "(Bambu calls it the bed exclusion area). Parts are kept 8 mm clear of it, "
              "and any part whose convex hull would still reach into it is dropped - the "
@@ -274,6 +287,10 @@ def main(out):
              "profile plus only the settings the designer states on the model page.")
     L.append("6. Anything changed on purpose beyond that is listed per file in "
              "`Validation/per file/`.")
+    if supplied:
+        L.append("7. **Supplied plates**, arranged by hand in Bambu Studio ("
+                 + ", ".join(r["title"] for r in supplied)
+                 + "), are delivered exactly as saved, settings included.")
     L.append("")
     L.append("## How they were checked")
     L.append("")
@@ -287,9 +304,12 @@ def main(out):
              "file, and against the weight quoted on the model page;")
     L.append("- every part is inside the plate, clear of the P1S's excluded front-left "
              "corner, with at least 5 mm between parts (checked on the real outlines, not "
-             "bounding boxes);")
+             "bounding boxes)" + ("; a supplied plate keeps its own spacing" if supplied
+                                  else "") + ";")
     L.append("- meshes are byte-identical to the designer's, so painted seams survive;")
-    L.append("- each object carries its settings, and every object is on a plate.")
+    L.append("- each object carries its settings, and every object is on a plate"
+             + ("; a supplied plate is instead checked byte for byte against the file it "
+                "came from." if supplied else "."))
     L.append("")
     probs = sum(len(v["problems"]) for v in chk.values())
     L.append(f"Structural checks: {len(chk)} files, {probs} problems. "

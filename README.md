@@ -76,7 +76,7 @@ These files are **not** for the A1, A1 mini, X1C, P2S or H2 series without re-ch
 
 All 48 plates together: about 9.0 kg of filament.
 
-The last column is the check that matters: filament per copy on your plate against a slice of the designer's own untouched file. 100% means the part comes out exactly as they set it up. The few at 95-96% are the P1S's elephant-foot compensation shaving the first layer, which their printer profile did not apply. A dash means there is nothing to compare against (loose STLs, or a size variant that shares another file's profile).
+The last column is the check that matters: filament per copy on your plate against a slice of the designer's own untouched file. 100% means the part comes out exactly as they set it up. The few at 95-96% are the P1S's elephant-foot compensation shaving the first layer, which their printer profile did not apply. A dash means there is nothing to compare against (loose STLs, or a size variant that shares another file's profile, or a supplied plate, which is its own reference).
 
 ## Print-time cap
 
@@ -123,7 +123,8 @@ Parts sit at least 5 mm apart, measured on their real outlines rather than bound
 - **Assistive Can Tab Opener**: 8 mm apart - its tree supports flare out well past the part.
 - **Universal Cup Holder (kit)**: 8 mm apart - its tree supports flare out well past the part.
 - **Universal Travel Coffee Gimbal (kit)**: 8 mm apart - its tree supports flare out well past the part.
-- **Pinky Saver 3 & Phone Stand**: supplied as a finished plate and kept exactly as arranged - interlocked pairs about 3 mm apart, the front row 3 mm from the plate edge and from the excluded corner. It slices in OrcaSlicer with no toolpath conflicts.
+
+**Pinky Saver 3 & Phone Stand** is a supplied plate, arranged by hand in Bambu Studio and kept exactly as it is: its parts are 3.25 mm apart, 3 mm from the plate edge and 3 mm from the excluded corner. It slices with no conflicting toolpaths.
 
 The P1S cannot print in an 18 x 28 mm patch at the front-left corner (Bambu calls it the bed exclusion area). Parts are kept 8 mm clear of it, and any part whose convex hull would still reach into it is dropped - the slicer refuses the whole plate over a single one.
 
@@ -137,6 +138,7 @@ For each device, in order:
 4. **Everything else** - walls, infill, shells, supports, brim, seams, line widths, variable layer heights - is the designer's own value from their 3mf.
 5. **Loose STLs** have no designer profile: they get the P1S 0.20 mm Standard profile plus only the settings the designer states on the model page.
 6. Anything changed on purpose beyond that is listed per file in `Validation/per file/`.
+7. **Supplied plates**, arranged by hand in Bambu Studio (Pinky Saver 3 & Phone Stand), are delivered exactly as saved, settings included.
 
 ## How they were checked
 
@@ -145,9 +147,9 @@ Bambu Studio's command-line slicer crashes on macOS (a known upstream bug), so s
 - the plate slices with no errors, and the time and filament are recorded;
 - the plate finishes inside 14 hours;
 - filament per copy is compared against a slice of the designer's untouched file, and against the weight quoted on the model page;
-- every part is inside the plate, clear of the P1S's excluded front-left corner, with at least 5 mm between parts (checked on the real outlines, not bounding boxes);
+- every part is inside the plate, clear of the P1S's excluded front-left corner, with at least 5 mm between parts (checked on the real outlines, not bounding boxes); a supplied plate keeps its own spacing;
 - meshes are byte-identical to the designer's, so painted seams survive;
-- each object carries its settings, and every object is on a plate.
+- each object carries its settings, and every object is on a plate; a supplied plate is instead checked byte for byte against the file it came from.
 
 Structural checks: 50 files, 0 problems. All clean.
 

@@ -607,28 +607,6 @@
       }
     }
   },
-  "pinky-saver": {
-    "ref": "/Users/justinrui/Documents/GitHub/MakeAble-Device-Catalog/New Devices/save+the+little+finger.3mf",
-    "units": {
-      "1": 1
-    },
-    "per_unit_cm3": {
-      "1": 6.88
-    },
-    "ok": true,
-    "plates": {
-      "1": {
-        "model_time": "21m 14s",
-        "total_time": "27m 18s",
-        "layers": "80",
-        "density": "1.24",
-        "max_z": "16.00",
-        "used_mm": 2859.1,
-        "used_cm3": 6.88,
-        "used_g": 8.53
-      }
-    }
-  },
   "cup-holder": {
     "ref": "/Users/justinrui/Documents/GitHub/MakeAble-Device-Catalog/New Devices/STOLLER_CUP_HOLDER_v2.0.3mf",
     "units": {

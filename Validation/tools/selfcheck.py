@@ -5,7 +5,7 @@ Confirms the meshes are the designer's own bytes (only the object id is rewritte
 the printer and filament are what they should be, every object carries its baked
 settings, and every object is assigned to a plate.
 """
-import json, re, sys, zipfile
+import json, os, re, sys, zipfile
 import xml.etree.ElementTree as ET
 import p3mf, devices, build, objectcfg, report
 
@@ -69,7 +69,11 @@ def check(path, dev, parts_by_name=None):
     if want_fil and want_fil not in cfg.get("filament_settings_id", []):
         problems.append(f"filament is {cfg.get('filament_settings_id')}, expected {want_fil}")
     if str(cfg.get("enable_prime_tower")) not in ("0", "['0']"):
-        problems.append("prime tower is on with a single filament")
+        if dev and dev.get("supplied") and len(cfg.get("filament_settings_id") or []) == 1:
+            # Studio's default, kept as saved: with one filament the slicer never builds one
+            notes.append("prime tower setting left on as saved (one filament, none is printed)")
+        else:
+            problems.append("prime tower is on with a single filament")
     if cfg.get("curr_bed_type") != "Textured PEI Plate":
         problems.append(f"build plate is {cfg.get('curr_bed_type')}")
 
@@ -81,16 +85,26 @@ def check(path, dev, parts_by_name=None):
     in_plates = [m.get("value") for pl in ms.findall("plate")
                  for mi in pl.findall("model_instance")
                  for m in mi.findall("metadata") if m.get("key") == "object_id"]
-    if not (len(items) == len(objs) == len(ms_objs) == len(in_plates)):
-        problems.append(f"object counts disagree: build {len(items)}, resources {len(objs)}, "
-                        f"settings {len(ms_objs)}, plate instances {len(in_plates)}")
-    for o in ms_objs:
-        keys = {m.get("key") for m in o.findall("metadata")}
-        if "extruder" not in keys:
-            problems.append(f"object {o.get('id')} has no extruder")
-        baked = keys & set(objectcfg.OBJECT_SCOPED)
-        if len(baked) < 20:
-            problems.append(f"object {o.get('id')} only has {len(baked)} baked settings")
+    if dev and dev.get("supplied"):
+        # arranged by hand in Studio (copies share one object, settings are the project's):
+        # what matters is that it is exactly the file that was handed over
+        with open(path, "rb") as a, open(dev["ref"], "rb") as b:
+            if a.read() != b.read():
+                problems.append(f"differs from the supplied file {os.path.basename(dev['ref'])}")
+            else:
+                notes.append("supplied plate, byte-identical to the file handed over")
+    else:
+        if not (len(items) == len(objs) == len(ms_objs) == len(in_plates)):
+            problems.append(f"object counts disagree: build {len(items)}, resources "
+                            f"{len(objs)}, settings {len(ms_objs)}, plate instances "
+                            f"{len(in_plates)}")
+        for o in ms_objs:
+            keys = {m.get("key") for m in o.findall("metadata")}
+            if "extruder" not in keys:
+                problems.append(f"object {o.get('id')} has no extruder")
+            baked = keys & set(objectcfg.OBJECT_SCOPED)
+            if len(baked) < 20:
+                problems.append(f"object {o.get('id')} only has {len(baked)} baked settings")
     for rel in ("_rels/.rels", "3D/_rels/3dmodel.model.rels"):
         for t in re.findall(r'Target="([^"]+)"', z.read(rel).decode()):
             if t.lstrip("/") not in z.namelist():

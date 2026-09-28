@@ -4440,105 +4440,40 @@
   {
     "slug": "pinky-saver",
     "id": 38,
-    "title": "Pinky Saver & Phone Stand (standard holes)",
-    "path": "/Users/justinrui/Documents/GitHub/MakeAble-Device-Catalog/Full Plates/38 Pinky Saver & Phone Stand (standard holes) - PLA x14.3mf",
-    "layout": "single",
-    "file": "38 Pinky Saver & Phone Stand (standard holes) - PLA x14.3mf",
+    "title": "Pinky Saver 3 & Phone Stand",
+    "path": "/Users/justinrui/Documents/GitHub/MakeAble-Device-Catalog/Full Plates/38 Pinky Saver 3 & Phone Stand - PLA x18.3mf",
+    "layout": "supplied plate, kept as arranged",
+    "file": "38 Pinky Saver 3 & Phone Stand - PLA x18.3mf",
     "material": "PLA",
-    "count": 14,
+    "count": 18,
     "unit": "copies",
-    "objects": 14,
+    "objects": 18,
     "issues": [],
     "bbox": {
       "1": {
-        "count": 14,
+        "count": 18,
         "bbox": [
-          5.0,
-          5.0,
-          244.2,
-          226.8
+          20.8,
+          2.7,
+          235.6,
+          211.0
         ]
       }
     },
-    "gap": 5.0,
+    "gap": null,
+    "supplied": true,
+    "spacing": {
+      "gap": 3.25,
+      "edge": 3.0,
+      "corner": 3.0
+    },
     "info": {
       "target_preset": "0.20mm Standard @BBL X1C",
-      "base_preset": "0.20mm Standard @BBL A1M",
+      "base_preset": "0.20mm Standard @BBL X1C",
       "base_note": null,
-      "from_reference": {
-        "overhang_totally_speed": [
-          "10",
-          "19"
-        ],
-        "support_type": [
-          "tree(auto)",
-          "normal(auto)"
-        ],
-        "tree_support_wall_count": [
-          "-1",
-          "0"
-        ]
-      },
-      "kept_p1s": {
-        "default_acceleration": [
-          "6000",
-          "10000"
-        ],
-        "elefant_foot_compensation": [
-          "0",
-          "0.15"
-        ],
-        "flush_multiplier": [
-          "1",
-          "0.75"
-        ],
-        "overhang_threshold_participating_cooling": [
-          "95%",
-          "95%"
-        ],
-        "pressure_advance": [
-          "0.02",
-          "0.02"
-        ],
-        "raft_first_layer_expansion": [
-          "2",
-          "-1"
-        ],
-        "smooth_coefficient": [
-          "80",
-          "150"
-        ],
-        "top_area_threshold": [
-          "100%",
-          "200%"
-        ],
-        "travel_speed": [
-          "700",
-          "500"
-        ]
-      },
-      "ambiguous": {
-        "flush_multiplier": [
-          "1",
-          "0.75"
-        ],
-        "overhang_threshold_participating_cooling": [
-          "95%",
-          "95%"
-        ],
-        "pressure_advance": [
-          "0.02",
-          "0.02"
-        ],
-        "raft_first_layer_expansion": [
-          "2",
-          "-1"
-        ],
-        "top_area_threshold": [
-          "100%",
-          "200%"
-        ]
-      },
+      "from_reference": {},
+      "kept_p1s": {},
+      "ambiguous": {},
       "overrides": {}
     },
     "filaments": [
@@ -4546,7 +4481,7 @@
     ],
     "advisories": [],
     "metrics": {
-      "salva dito v3.stl": {
+      "pinky saver 3.stl": {
         "overhang": {
           "area": 0.0,
           "max_gap": 0.0,
@@ -4554,15 +4489,15 @@
           "worst_z": 8.0
         },
         "footprint": {
-          "contact_mm2": 534.5,
+          "contact_mm2": 739.6,
           "height": 16.0,
-          "min_width": 61.0,
-          "slenderness": 0.26
+          "min_width": 59.1,
+          "slenderness": 0.27
         }
       }
     },
     "parts": [
-      "salva dito v3.stl"
+      "pinky saver 3.stl"
     ],
     "profile": {
       "preset": "0.20mm Standard @BBL X1C",
@@ -4572,7 +4507,7 @@
       "infill": "15%",
       "pattern": "grid",
       "support": "0",
-      "support_type": "normal(auto)",
+      "support_type": "tree(auto)",
       "brim": "auto_brim",
       "top": "5",
       "bottom": "3"

@@ -57,10 +57,20 @@ def fit(out, slugs):
                 s = validate.slice_project(report.plate_path(out, r), d)
             p1 = s["plates"].get(1, {})
             t = hours(p1.get("total_time"))
-            print(f"     {r['count']:3} {r['unit']:6} gap {gap:4.1f} mm -> "
+            print(f"     {r['count']:3} {r['unit']:6} "
+                  + ("as supplied" if dev.get("supplied") else f"gap {gap:4.1f} mm") + " -> "
                   + (f"{p1.get('total_time')}, {p1.get('used_g', 0):.0f} g" if s["ok"]
                      else "FAILED" + (" (gcode path conflict)" if s.get("conflict")
                                       else f": {s['warnings'][:2]}")), flush=True)
+            if dev.get("supplied"):
+                # delivered as arranged: report a problem, never re-space or trim it
+                if not s["ok"]:
+                    print("     supplied plate does not slice - fix it in Bambu Studio",
+                          flush=True)
+                elif t > devices.MAX_HOURS:
+                    print(f"     supplied plate runs over {devices.MAX_HOURS:.0f} h - fix it in "
+                          "Bambu Studio", flush=True)
+                break
             if not s["ok"]:
                 wider = [g for g in LADDER if g > gap]
                 if not s.get("conflict") or not wider:
@@ -75,7 +85,7 @@ def fit(out, slugs):
                 os.remove(report.plate_path(out, r))
             r = new
         save(js, sjs, r, s)
-        summary[slug] = dict(ok=s["ok"], count=r["count"], gap=gap,
+        summary[slug] = dict(ok=s["ok"] and t <= devices.MAX_HOURS, count=r["count"], gap=gap,
                              cap=r["count"] if r.get("capped_from") else None,
                              time=(s["plates"].get(1) or {}).get("total_time"))
     print("\nfor devices.py:")

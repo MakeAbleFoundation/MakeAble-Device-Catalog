@@ -177,7 +177,10 @@
   },
   "pinky-saver": {
     "problems": [],
-    "notes": []
+    "notes": [
+      "prime tower setting left on as saved (one filament, none is printed)",
+      "supplied plate, byte-identical to the file handed over"
+    ]
   },
   "cup-holder": {
     "problems": [],
