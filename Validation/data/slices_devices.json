@@ -246,18 +246,19 @@
     },
     "plates": {
       "1": {
-        "model_time": "10h 21m 39s",
-        "total_time": "10h 27m 58s",
+        "model_time": "8h 31m 31s",
+        "total_time": "8h 37m 51s",
         "layers": "120",
         "density": "1.25",
         "max_z": "24.00",
-        "used_mm": 83523.75,
-        "used_cm3": 200.9,
-        "used_g": 251.12
+        "used_mm": 78886.69,
+        "used_cm3": 189.74,
+        "used_g": 237.18
       }
     },
     "warnings": [],
-    "log": ""
+    "log": "",
+    "conflict": false
   },
   "pill-popper": {
     "ok": true,
@@ -1237,6 +1238,10 @@
     "ok": true,
     "returncode": 0,
     "clamped": {
+      "tree_support_wall_count": [
+        "-1",
+        "0"
+      ],
       "raft_first_layer_expansion": [
         "-1",
         "2"
@@ -1244,18 +1249,19 @@
     },
     "plates": {
       "1": {
-        "model_time": "9h 18m 50s",
-        "total_time": "9h 25m 5s",
+        "model_time": "9h 13m 46s",
+        "total_time": "9h 20m 1s",
         "layers": "127",
-        "density": "1.26",
+        "density": "1.26,1.26,1.26,1.26",
         "max_z": "24.80",
-        "used_mm": 85239.92,
-        "used_cm3": 205.03,
-        "used_g": 258.33
+        "used_mm": 84890.04,
+        "used_cm3": 204.18,
+        "used_g": 257.27
       }
     },
     "warnings": [],
-    "log": ""
+    "log": "",
+    "conflict": false
   },
   "hand-press-light": {
     "ok": true,

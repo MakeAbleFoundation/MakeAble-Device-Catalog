@@ -36,8 +36,8 @@ EXCLUDED_2 = [
     ("Full Size Playing Card Holder - 2863434/files/holder-4rows.stl",
      "same shape as holder-4row.stl"),
     ("adaptive-pencil-grip-model_files/Test print.stl", "a small pencil-fit test piece"),
-    ("PRJ___YOUNGER+GRIP_Glue-in+Magnets_.3mf, plate 1",
-     "the painted four-colour version; the single-colour plate is used"),
+    ("PRJ___YOUNGER+GRIP_Glue-in+Magnets_.3mf",
+     "the earlier glue-in-magnets profile, replaced by the no-magnets plate"),
     ("ToothSqeez_ExterGear_SeigaihaPattern.3mf, plates 4-6",
      "the 1.0, 1.3 and 1.6 mm key shafts for thicker tube ends; the kit uses the 0.7 mm "
      "standard shaft"),

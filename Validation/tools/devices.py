@@ -69,11 +69,15 @@ DEVICES = [
       kit=[1, 1, 1], material="PLA",
       notes=["One kit = left + right + centre plate, as the maker guide specifies "
              "(plus 3x M3x20 screws, not printed)."]),
+ # a plate arranged by hand in Bambu Studio: delivered byte for byte (build.supplied_device)
  dict(id=10, slug="blister-pack-opener", title="Blister Pack Opener", designer="MakeAble",
       link="https://makerworld.com/en/models/1791626-blister-pack-opener#profileId-1909450",
-      ref=M+"Pill Popper (PETG)/Pill+Opener.3mf", names=["Blister Pack Opener.step"],
-      material="PETG",
-      notes=["Tree supports and an outer brim are part of the designer's profile."]),
+      ref=N+"BlisterPackOpener_x8.3mf", names=["Blister Pack Opener.step"], indices=[0],
+      supplied=True, material="PETG",
+      notes=["Tree supports and an outer brim are part of the designer's profile.",
+             "Adjusted by hand in Bambu Studio from the earlier built plate "
+             "(designer file `Pill Popper (PETG)/Pill+Opener.3mf`): all eight copies turned "
+             "over onto their opposite face; mesh, settings and copy count unchanged."]),
  dict(id=11, slug="pill-popper", title="Pill Popper", designer="AlbertMakes",
       link="https://makerworld.com/en/models/1440419-pill-popper#profileId-1499190",
       ref=M+"Pill Popper (PETG)/Pill+Popper+Bambu+Studio.3mf", names=["Body_08*2"],
@@ -211,14 +215,16 @@ DEVICES += [
              "Profile was an A1 mini 0.24 mm Draft profile; rebased onto the P1S 0.24 mm Draft.",
              "The page text suggests 0.2 mm, 6 walls, 60% infill; the downloaded profile uses "
              "0.24 mm, 2 walls, 10% gyroid. The profile wins, as agreed."]),
- dict(id=36, slug="younger-grip", title="Younger Grip Lid Wrench (glue-in magnets)",
+ # a plate arranged by hand in Bambu Studio: delivered byte for byte (build.supplied_device)
+ dict(id=36, slug="younger-grip", title="Younger Grip Lid Wrench (no magnets)",
       designer="SFYoung",
-      link="https://makerworld.com/en/models/1493731-younger-grip-lid-wrench-arthritis-aid#profileId-1572541",
-      ref=N+"PRJ___YOUNGER+GRIP_Glue-in+Magnets_.3mf", objects=[4], material="PLA",
-      license=MW_STD,
-      hardware="optional: 2 x 8x2 mm (or 8x3 mm) round magnets per grip, glued in after printing",
-      notes=["The designer's single-colour 'glue-in magnets' plate: no pause, the magnet "
-             "pockets stay open.",
+      link="https://makerworld.com/en/models/1493731-younger-grip-lid-wrench-arthritis-aid#profileId-1572614",
+      ref=N+"PRJ___YOUNGER_GRIP_NO_Magnets_.3mf", names=["YOUNGER__GRIP_NO Magnets_.stl"],
+      indices=[0], supplied=True, material="PLA", license=MW_STD,
+      notes=["Replaces the earlier glue-in-magnets plate with the designer's 'NO MAGNETS' "
+             "profile: the magnet cavities are filled in, so there is nothing to glue.",
+             "The designer's single-colour plate, 8 copies; their profile (0.2 mm, 3 walls, "
+             "10% gyroid) on the P1S presets.",
              "Their height-range layer settings are kept: 0.12 mm layers over the finger-well "
              "overhang, 0.24 mm for the bridge above it, 0.2 mm elsewhere."]),
  dict(id=37, slug="plug-puller", title="Plug Puller (WATAP)", designer="WATAP_3D",

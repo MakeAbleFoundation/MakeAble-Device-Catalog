@@ -39,7 +39,10 @@
   },
   "blister-pack-opener": {
     "problems": [],
-    "notes": []
+    "notes": [
+      "prime tower setting left on as saved (one filament, none is printed)",
+      "supplied plate, byte-identical to the file handed over"
+    ]
   },
   "pill-popper": {
     "problems": [],
@@ -168,6 +171,8 @@
   "younger-grip": {
     "problems": [],
     "notes": [
+      "prime tower setting left on as saved (one filament, none is printed)",
+      "supplied plate, byte-identical to the file handed over",
       "painted seam/support data preserved"
     ]
   },

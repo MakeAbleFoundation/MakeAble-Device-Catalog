@@ -34,7 +34,7 @@ These files are **not** for the A1, A1 mini, X1C, P2S or H2 series without re-ch
 | 07 | 07 OPENSESAME3000 Jar Tool - PETG x2.3mf | PETG | 2 copies | 5h 57m 26s | 147.0 g | 0.12 mm | 3 | 15% | no | 100% |
 | 08 | 08 KeyWings - PETG x76.3mf | PETG | 76 copies | 13h 56m 36s | 237.0 g | 0.2 mm | 3 | 20% | no | 95% |
 | 09 | 09 DRAG Assistive Writer (kit of 3) - PLA x2.3mf | PLA | 2 kits | 3h 39m 32s | 146.0 g | 0.2 mm | 2 | 15% | no | 100% |
-| 10 | 10 Blister Pack Opener - PETG x8.3mf | PETG | 8 copies | 10h 27m 58s | 251.0 g | 0.2 mm | 5 | 17% | yes | 96% |
+| 10 | 10 Blister Pack Opener - PETG x8.3mf | PETG | 8 copies | 8h 37m 51s | 237.0 g | 0.2 mm | 5 | 17% | yes | - |
 | 11 | 11 Pill Popper - PETG x21.3mf | PETG | 21 copies | 8h 22m 50s | 166.0 g | 0.2 mm | 6 | 25% | no | 100% |
 | 12 | 12 Clothes Button & Zipper Hook (hook, PETG) - PETG x9.3mf | PETG | 9 copies | 1h 43m 51s | 38.0 g | 0.2 mm | 6 | 25% | no | 96% |
 | 13 | 13 Clothes Button & Zipper Hook (handle kit, PLA) - PLA x8.3mf | PLA | 8 kits | 4h 3m 50s | 99.0 g | 0.2 mm | 3/6 | 25% | no | 100% |
@@ -60,7 +60,7 @@ These files are **not** for the A1, A1 mini, X1C, P2S or H2 series without re-ch
 | 33 | 33 Chopstick Helper (small) - PLA x48.3mf | PLA | 48 copies | 6h 18m 45s | 149.0 g | 0.2 mm | 6 | 100% | no | 99% |
 | 34 | 34 Soup Can Opener (no magnets) - PETG x12.3mf | PETG | 12 copies | 6h 12m 36s | 144.0 g | 0.2 mm | 4 | 30% | no | 98% |
 | 35 | 35 Jar Opener - Vacuum Releaser - PLA x8.3mf | PLA | 8 copies | 6h 20m 5s | 161.0 g | 0.24 mm | 2 | 10% | no | - |
-| 36 | 36 Younger Grip Lid Wrench (glue-in magnets) - PLA x8.3mf | PLA | 8 copies | 9h 25m 5s | 258.0 g | 0.2 mm | 3 | 10% | no | 99% |
+| 36 | 36 Younger Grip Lid Wrench (no magnets) - PLA x8.3mf | PLA | 8 copies | 9h 20m 1s | 257.0 g | 0.2 mm | 3 | 10% | no | - |
 | 37 | 37 Plug Puller (WATAP) - PLA x9.3mf | PLA | 9 copies | 2h 59m 51s | 84.0 g | 0.2 mm | 3 | 25% | no | 98% |
 | 38 | 38 Pinky Saver 3 & Phone Stand - PLA x18.3mf | PLA | 18 copies | 5h 8m 33s | 159.0 g | 0.2 mm | 2 | 15% | no | - |
 | 39 | 39 Universal Cup Holder (kit) - PLA x1.3mf | PLA | 1 kit | 5h 7m 16s | 202.0 g | 0.2 mm | 6 | 15% | yes | 98% |
@@ -124,6 +124,10 @@ Parts sit at least 5 mm apart, measured on their real outlines rather than bound
 - **Universal Cup Holder (kit)**: 8 mm apart - its tree supports flare out well past the part.
 - **Universal Travel Coffee Gimbal (kit)**: 8 mm apart - its tree supports flare out well past the part.
 
+**Blister Pack Opener** is a supplied plate, arranged by hand in Bambu Studio and kept exactly as it is: its parts are 5.75 mm apart, 5.2 mm from the plate edge and 16.6 mm from the excluded corner. It slices with no conflicting toolpaths.
+
+**Younger Grip Lid Wrench (no magnets)** is a supplied plate, arranged by hand in Bambu Studio and kept exactly as it is: its parts are 5 mm apart, 0.7 mm from the plate edge and 20.5 mm from the excluded corner. It slices with no conflicting toolpaths.
+
 **Pinky Saver 3 & Phone Stand** is a supplied plate, arranged by hand in Bambu Studio and kept exactly as it is: its parts are 3.25 mm apart, 3 mm from the plate edge and 3 mm from the excluded corner. It slices with no conflicting toolpaths.
 
 The P1S cannot print in an 18 x 28 mm patch at the front-left corner (Bambu calls it the bed exclusion area). Parts are kept 8 mm clear of it, and any part whose convex hull would still reach into it is dropped - the slicer refuses the whole plate over a single one.
@@ -138,7 +142,7 @@ For each device, in order:
 4. **Everything else** - walls, infill, shells, supports, brim, seams, line widths, variable layer heights - is the designer's own value from their 3mf.
 5. **Loose STLs** have no designer profile: they get the P1S 0.20 mm Standard profile plus only the settings the designer states on the model page.
 6. Anything changed on purpose beyond that is listed per file in `Validation/per file/`.
-7. **Supplied plates**, arranged by hand in Bambu Studio (Pinky Saver 3 & Phone Stand), are delivered exactly as saved, settings included.
+7. **Supplied plates**, arranged by hand in Bambu Studio (Blister Pack Opener, Younger Grip Lid Wrench (no magnets), Pinky Saver 3 & Phone Stand), are delivered exactly as saved, settings included.
 
 ## How they were checked
 
@@ -155,7 +159,6 @@ Structural checks: 50 files, 0 problems. All clean.
 
 ## Also needed (not printed)
 
-- **Younger Grip Lid Wrench (glue-in magnets)**: optional: 2 x 8x2 mm (or 8x3 mm) round magnets per grip, glued in after printing
 - **Plug Puller (WATAP)**: 2 small zip ties (about 15 cm / 6 in) per puller
 - **Pen Ball (kit)**: 5 x #6-32 x 3/4 in round-head screws + 5 x #6-32 hex nuts per ball
 
@@ -182,7 +185,7 @@ Structural checks: 50 files, 0 problems. All clean.
 - **Chopstick Helper (small)**: chopstick_helper_smooth.stl: 115 mm2 of steep overhang with air under it (max drop 6.1 mm at z=8 mm) while supports are off in the designer's profile - worth a look at the preview
 - **Soup Can Opener (no magnets)**: Soup Can Opener v5.stl: 235 mm2 of steep overhang with air under it (max drop 3.7 mm at z=5 mm) while supports are off in the designer's profile - worth a look at the preview
 - **Jar Opener / Vacuum Releaser**: Body_03: 359 mm2 of steep overhang with air under it (max drop 14.3 mm at z=20 mm) while supports are off in the designer's profile - worth a look at the preview
-- **Younger Grip Lid Wrench (glue-in magnets)**: YOUNGER__GRIP_Glue In Magnets_.stl: 346 mm2 of steep overhang with air under it (max drop 15.4 mm at z=15 mm) while supports are off in the designer's profile - worth a look at the preview
+- **Younger Grip Lid Wrench (no magnets)**: YOUNGER__GRIP_NO Magnets_.stl: 240 mm2 of steep overhang with air under it (max drop 15.4 mm at z=15 mm) while supports are off in the designer's profile - worth a look at the preview
 - **Plug Puller (WATAP)**: Plug Puller WATAP.stl: 156 mm2 of steep overhang with air under it (max drop 0.8 mm at z=1 mm) while supports are off in the designer's profile - worth a look at the preview
 - **Hand Press / Grip Strengthener (Light)**: Fingergrip Press Light.stl: 67 mm2 of steep overhang with air under it (max drop 4.0 mm at z=10 mm) while supports are off in the designer's profile - worth a look at the preview
 - **Hand Press / Grip Strengthener (Medium)**: Fingergrip Press Medium.stl: 67 mm2 of steep overhang with air under it (max drop 4.0 mm at z=10 mm) while supports are off in the designer's profile - worth a look at the preview
@@ -204,7 +207,7 @@ Structural checks: 50 files, 0 problems. All clean.
 | 07 | OPENSESAME3000 Jar Tool | `Jar Opener (PETG)/opensesame.3mf` | [page](https://makerworld.com/en/models/90424-opensesame3000-jar-tool#profileId-96804) |
 | 08 | KeyWings | `Key Holder (PETG)/KeyWings+v6+Bambu.3mf` | [page](https://makerworld.com/en/models/1688156-keywings-for-mobility-needs#profileId-1789186) |
 | 09 | DRAG Assistive Writer (kit of 3) | `DRAG Assistive Writer (PLA)/DRAG+v2 (1).3mf` | [page](https://makerworld.com/en/models/869468-drag-assistive-writing-and-drawing-device#profileId-821115) |
-| 10 | Blister Pack Opener | `Pill Popper (PETG)/Pill+Opener.3mf` | [page](https://makerworld.com/en/models/1791626-blister-pack-opener#profileId-1909450) |
+| 10 | Blister Pack Opener | `New Devices/BlisterPackOpener_x8.3mf` | [page](https://makerworld.com/en/models/1791626-blister-pack-opener#profileId-1909450) |
 | 11 | Pill Popper | `Pill Popper (PETG)/Pill+Popper+Bambu+Studio.3mf` | [page](https://makerworld.com/en/models/1440419-pill-popper#profileId-1499190) |
 | 12 | Clothes Button & Zipper Hook (hook, PETG) | `Clothes Button and Zipper Aid (PETG + PLA)/central-loop-and-hook-button-and-zipper-hook.3mf` | [page](https://makerworld.com/en/models/423231-clothes-button-and-zipper-hook-helper) |
 | 13 | Clothes Button & Zipper Hook (handle kit, PLA) | `Clothes Button and Zipper Aid (PETG + PLA)/central-loop-and-hook-button-and-zipper-hook.3mf` | [page](https://makerworld.com/en/models/423231-clothes-button-and-zipper-hook-helper) |
@@ -230,7 +233,7 @@ Structural checks: 50 files, 0 problems. All clean.
 | 33 | Chopstick Helper (small) | `New Devices/chopstick_helper_new_design_PLA_Small.3mf` | [page](https://makerworld.com/en/models/1088273-chopstick-helper-refreshed-design#profileId-1082781) |
 | 34 | Soup Can Opener (no magnets) | `New Devices/Soup+Can+Opener+-+no+pause+for+magnets.3mf` | [page](https://makerworld.com/en/models/1030162-soup-can-opener-for-poor-grip-strength#profileId-1012846) |
 | 35 | Jar Opener / Vacuum Releaser | `New Devices/Jar+Opener+Bambu+ULTRA+FAST.3mf` | [page](https://makerworld.com/en/models/1642031-jar-opener-tuned-for-all-bambu-printers#profileId-1735123) |
-| 36 | Younger Grip Lid Wrench (glue-in magnets) | `New Devices/PRJ___YOUNGER+GRIP_Glue-in+Magnets_.3mf` | [page](https://makerworld.com/en/models/1493731-younger-grip-lid-wrench-arthritis-aid#profileId-1572541) |
+| 36 | Younger Grip Lid Wrench (no magnets) | `New Devices/PRJ___YOUNGER_GRIP_NO_Magnets_.3mf` | [page](https://makerworld.com/en/models/1493731-younger-grip-lid-wrench-arthritis-aid#profileId-1572614) |
 | 37 | Plug Puller (WATAP) | `New Devices/Plug+Puller+by+WATAP.3mf` | [page](https://makerworld.com/en/models/421822-plug-puller-assistive-technology-by-watap#profileId-324742) |
 | 38 | Pinky Saver 3 & Phone Stand | `New Devices/PinkySaver3_x19.3mf` | [page](https://makerworld.com/en/models/1842862-pinky-saver-3#profileId-1969044) |
 | 39 | Universal Cup Holder (kit) | `New Devices/STOLLER_CUP_HOLDER_v2.0.3mf` | [page](https://makerworld.com/en/models/1969980-universal-cup-holder#profileId-2118034) |
@@ -267,7 +270,7 @@ From the second batch (`New Devices/`):
 - `Full Size Playing Card Holder - 2863434/files/holder.stl, case-*.stl` - the original 3-row holder and the storage cases; the 4-row holder is the one on the list
 - `Full Size Playing Card Holder - 2863434/files/holder-4rows.stl` - same shape as holder-4row.stl
 - `adaptive-pencil-grip-model_files/Test print.stl` - a small pencil-fit test piece
-- `PRJ___YOUNGER+GRIP_Glue-in+Magnets_.3mf, plate 1` - the painted four-colour version; the single-colour plate is used
+- `PRJ___YOUNGER+GRIP_Glue-in+Magnets_.3mf` - the earlier glue-in-magnets profile, replaced by the no-magnets plate
 - `ToothSqeez_ExterGear_SeigaihaPattern.3mf, plates 4-6` - the 1.0, 1.3 and 1.6 mm key shafts for thicker tube ends; the kit uses the 0.7 mm standard shaft
 - `Fingergrip+Press (1).3mf` - one file, three devices: each strength gets its own plate
 

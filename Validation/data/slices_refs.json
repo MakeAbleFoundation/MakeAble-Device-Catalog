@@ -189,28 +189,6 @@
       }
     }
   },
-  "blister-pack-opener": {
-    "ref": "/Users/justinrui/Desktop/M/Pill Popper (PETG)/Pill+Opener.3mf",
-    "units": {
-      "1": 1
-    },
-    "per_unit_cm3": {
-      "1": 26.09
-    },
-    "ok": true,
-    "plates": {
-      "1": {
-        "model_time": "1h 4m 8s",
-        "total_time": "1h 10m 25s",
-        "layers": "120",
-        "density": "1.24,1.24,1.25,1.22",
-        "max_z": "24.00",
-        "used_mm": 10848.83,
-        "used_cm3": 26.09,
-        "used_g": 32.36
-      }
-    }
-  },
   "pill-popper": {
     "ref": "/Users/justinrui/Desktop/M/Pill Popper (PETG)/Pill+Popper+Bambu+Studio.3mf",
     "units": {
@@ -562,28 +540,6 @@
     "per_unit_cm3": {},
     "ok": false,
     "plates": {}
-  },
-  "younger-grip": {
-    "ref": "/Users/justinrui/Documents/GitHub/MakeAble-Device-Catalog/New Devices/PRJ___YOUNGER+GRIP_Glue-in+Magnets_.3mf",
-    "units": {
-      "2": 1
-    },
-    "per_unit_cm3": {
-      "2": 25.87
-    },
-    "ok": true,
-    "plates": {
-      "2": {
-        "model_time": "1h 10m 4s",
-        "total_time": "1h 17m 25s",
-        "layers": "127",
-        "density": "1.26,1.26,1.26,1.26",
-        "max_z": "24.80",
-        "used_mm": 10757.04,
-        "used_cm3": 25.87,
-        "used_g": 32.6
-      }
-    }
   },
   "plug-puller": {
     "ref": "/Users/justinrui/Documents/GitHub/MakeAble-Device-Catalog/New Devices/Plug+Puller+by+WATAP.3mf",

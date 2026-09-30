@@ -91,14 +91,14 @@
       "used_g": 73.12
     },
     "10": {
-      "model_time": "1h 18m 51s",
-      "total_time": "1h 25m 11s",
+      "model_time": "1h 5m 31s",
+      "total_time": "1h 11m 51s",
       "layers": "120",
       "density": "1.26,1.25",
       "max_z": "24.00",
-      "used_mm": 10454.54,
-      "used_cm3": 25.15,
-      "used_g": 31.43
+      "used_mm": 9885.25,
+      "used_cm3": 23.78,
+      "used_g": 29.72
     },
     "11": {
       "model_time": "28m 13s",

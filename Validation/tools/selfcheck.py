@@ -69,7 +69,12 @@ def check(path, dev, parts_by_name=None):
     if want_fil and want_fil not in cfg.get("filament_settings_id", []):
         problems.append(f"filament is {cfg.get('filament_settings_id')}, expected {want_fil}")
     if str(cfg.get("enable_prime_tower")) not in ("0", "['0']"):
-        if dev and dev.get("supplied") and len(cfg.get("filament_settings_id") or []) == 1:
+        # a supplied plate may keep Studio's spare filament slots; what counts is how many
+        # its objects and parts actually print with
+        used = {m.get("value") for m in
+                ET.fromstring(z.read("Metadata/model_settings.config")).iter("metadata")
+                if m.get("key") == "extruder"}
+        if dev and dev.get("supplied") and len(used) == 1:
             # Studio's default, kept as saved: with one filament the slicer never builds one
             notes.append("prime tower setting left on as saved (one filament, none is printed)")
         else:
@@ -144,7 +149,8 @@ def check(path, dev, parts_by_name=None):
         _ref, parts = build.load_parts(dev)
         src = {norm_id(p.mesh_bytes) for p in parts}
         for n, b in mesh_bodies(z).items():
-            if b not in src:
+            # Studio saves an empty placeholder per copy when copies share one mesh
+            if b not in src and b"<mesh>" in b:
                 problems.append(f"{n} does not match the designer's mesh bytes")
         painted_src = any(b"paint_" in p.mesh_bytes for p in parts)
         painted_out = any(b"paint_" in b for b in mesh_bodies(z).values())

@@ -1242,8 +1242,8 @@
     "slug": "blister-pack-opener",
     "id": 10,
     "title": "Blister Pack Opener",
-    "path": "/Users/justinrui/Documents/GitHub/MakeAble-Device-Catalog/Full Plates/10 Blister Pack Opener - PETG x8.3mf",
-    "layout": "pairs at 0deg",
+    "path": "../../Full Plates/10 Blister Pack Opener - PETG x8.3mf",
+    "layout": "supplied plate, kept as arranged",
     "file": "10 Blister Pack Opener - PETG x8.3mf",
     "material": "PETG",
     "count": 8,
@@ -1255,79 +1255,26 @@
         "count": 8,
         "bbox": [
           5.0,
-          42.8,
+          42.7,
           230.0,
           241.6
         ]
       }
     },
-    "gap": 5.0,
+    "gap": null,
+    "supplied": true,
+    "spacing": {
+      "gap": 5.75,
+      "edge": 5.2,
+      "corner": 16.6
+    },
     "info": {
       "target_preset": "0.20mm Standard @BBL X1C",
       "base_preset": "0.20mm Standard @BBL X1C",
       "base_note": null,
-      "from_reference": {
-        "bottom_shell_layers": [
-          "3",
-          "6"
-        ],
-        "brim_type": [
-          "auto_brim",
-          "outer_only"
-        ],
-        "enable_support": [
-          "0",
-          "1"
-        ],
-        "sparse_infill_density": [
-          "15%",
-          "17%"
-        ],
-        "sparse_infill_pattern": [
-          "grid",
-          "crosshatch"
-        ],
-        "support_remove_small_overhang": [
-          "1",
-          "0"
-        ],
-        "top_shell_layers": [
-          "5",
-          "6"
-        ],
-        "wall_loops": [
-          "2",
-          "5"
-        ]
-      },
-      "kept_p1s": {
-        "flush_multiplier": [
-          "1",
-          "0.75"
-        ],
-        "overhang_threshold_participating_cooling": [
-          "95%",
-          "95%"
-        ],
-        "pressure_advance": [
-          "0.02",
-          "0.02"
-        ]
-      },
-      "ambiguous": {
-        "flush_multiplier": [
-          "1",
-          "0.75"
-        ],
-        "overhang_threshold_participating_cooling": [
-          "95%",
-          "95%"
-        ],
-        "pressure_advance": [
-          "0.02",
-          "0.02"
-        ]
-      },
+      "from_reference": {},
+      "kept_p1s": {},
+      "ambiguous": {},
       "overrides": {}
     },
     "filaments": [
@@ -1337,13 +1284,13 @@
     "metrics": {
       "Blister Pack Opener.step": {
         "overhang": {
-          "area": 537.3,
-          "max_gap": 22.5,
-          "faces": 1385,
-          "worst_z": 22.5
+          "area": 44.7,
+          "max_gap": 10.0,
+          "faces": 509,
+          "worst_z": 16.5
         },
         "footprint": {
-          "contact_mm2": 474.6,
+          "contact_mm2": 1417.9,
           "height": 24.0,
           "min_width": 65.3,
           "slenderness": 0.37
@@ -4166,10 +4113,10 @@
   {
     "slug": "younger-grip",
     "id": 36,
-    "title": "Younger Grip Lid Wrench (glue-in magnets)",
-    "path": "/Users/justinrui/Documents/GitHub/MakeAble-Device-Catalog/Full Plates/36 Younger Grip Lid Wrench (glue-in magnets) - PLA x8.3mf",
-    "layout": "pairs at 0deg",
-    "file": "36 Younger Grip Lid Wrench (glue-in magnets) - PLA x8.3mf",
+    "title": "Younger Grip Lid Wrench (no magnets)",
+    "path": "../../Full Plates/36 Younger Grip Lid Wrench (no magnets) - PLA x8.3mf",
+    "layout": "supplied plate, kept as arranged",
+    "file": "36 Younger Grip Lid Wrench (no magnets) - PLA x8.3mf",
     "material": "PLA",
     "count": 8,
     "unit": "copies",
@@ -4179,106 +4126,45 @@
       "1": {
         "count": 8,
         "bbox": [
-          30.5,
-          5.0,
-          246.7,
-          234.7
+          32.2,
+          14.6,
+          255.8,
+          249.4
         ]
       }
     },
-    "gap": 5.0,
+    "gap": null,
+    "supplied": true,
+    "spacing": {
+      "gap": 5.0,
+      "edge": 0.7,
+      "corner": 20.5
+    },
     "info": {
       "target_preset": "0.20mm Standard @BBL X1C",
       "base_preset": "0.20mm Standard @BBL X1C",
       "base_note": null,
-      "from_reference": {
-        "skeleton_infill_density": [
-          "15%",
-          "10%"
-        ],
-        "skin_infill_density": [
-          "15%",
-          "10%"
-        ],
-        "sparse_infill_density": [
-          "15%",
-          "10%"
-        ],
-        "sparse_infill_pattern": [
-          "grid",
-          "gyroid"
-        ],
-        "top_surface_pattern": [
-          "monotonicline",
-          "monotonic"
-        ],
-        "tree_support_wall_count": [
-          "-1",
-          "0"
-        ],
-        "wall_generator": [
-          "classic",
-          "arachne"
-        ],
-        "wall_loops": [
-          "2",
-          "3"
-        ]
-      },
-      "kept_p1s": {
-        "flush_multiplier": [
-          "1",
-          "0.75"
-        ],
-        "overhang_threshold_participating_cooling": [
-          "95%",
-          "95%"
-        ],
-        "pressure_advance": [
-          "0.02",
-          "0.02"
-        ],
-        "raft_first_layer_expansion": [
-          "2",
-          "-1"
-        ]
-      },
-      "ambiguous": {
-        "flush_multiplier": [
-          "1",
-          "0.75"
-        ],
-        "overhang_threshold_participating_cooling": [
-          "95%",
-          "95%"
-        ],
-        "pressure_advance": [
-          "0.02",
-          "0.02"
-        ],
-        "raft_first_layer_expansion": [
-          "2",
-          "-1"
-        ]
-      },
+      "from_reference": {},
+      "kept_p1s": {},
+      "ambiguous": {},
       "overrides": {}
     },
     "filaments": [
       "Bambu PLA Basic @BBL X1C"
     ],
     "advisories": [
-      "YOUNGER__GRIP_Glue In Magnets_.stl: 346 mm2 of steep overhang with air under it (max drop 15.4 mm at z=15 mm) while supports are off in the designer's profile - worth a look at the preview"
+      "YOUNGER__GRIP_NO Magnets_.stl: 240 mm2 of steep overhang with air under it (max drop 15.4 mm at z=15 mm) while supports are off in the designer's profile - worth a look at the preview"
     ],
     "metrics": {
-      "YOUNGER__GRIP_Glue In Magnets_.stl": {
+      "YOUNGER__GRIP_NO Magnets_.stl": {
         "overhang": {
-          "area": 345.8,
+          "area": 240.4,
           "max_gap": 15.4,
-          "faces": 1555,
+          "faces": 1455,
           "worst_z": 15.4
         },
         "footprint": {
-          "contact_mm2": 729.4,
+          "contact_mm2": 856.7,
           "height": 24.8,
           "min_width": 62.3,
           "slenderness": 0.4
@@ -4286,7 +4172,7 @@
       }
     },
     "parts": [
-      "YOUNGER__GRIP_Glue In Magnets_.stl"
+      "YOUNGER__GRIP_NO Magnets_.stl"
     ],
     "profile": {
       "preset": "0.20mm Standard @BBL X1C",
